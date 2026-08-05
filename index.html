@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Advanced sentence transformation practice for CAE, CPE and ECPE.">
+  <title>Cambridge Transformation Master</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard" aria-label="Cambridge Transformation Master home">
+        <span class="brand-mark">CT</span><span><strong>Transformation</strong><small>Master</small></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav-item active" data-view="dashboard"><span>⌂</span> Dashboard</button>
+        <button class="nav-item" data-view="practice"><span>▶</span> Practice</button>
+        <button class="nav-item" data-view="mock"><span>◷</span> Mock Exam</button>
+        <button class="nav-item" data-view="statistics"><span>⌁</span> Statistics</button>
+        <button class="nav-item" data-view="library"><span>▤</span> Grammar Library</button>
+      </nav>
+      <div class="sidebar-footer">
+        <button class="icon-button" id="themeToggle" aria-label="Toggle dark mode">☾ <span>Dark mode</span></button>
+        <button class="icon-button" id="soundToggle" aria-label="Toggle sound">♫ <span>Sound on</span></button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="menu-button" id="menuButton" aria-label="Open navigation">☰</button>
+        <div><p class="eyebrow">Advanced English Training</p><h1 id="pageTitle">Dashboard</h1></div>
+        <div class="top-stats"><span class="streak">🔥 <b id="headerStreak">0</b> day streak</span><span class="avatar">LV</span></div>
+      </header>
+
+      <section class="view active" id="dashboardView">
+        <article class="hero-card">
+          <div><span class="pill">C1 → C2 MASTERY</span><h2>Turn advanced grammar<br>into instinct.</h2><p>Short, focused transformations. No long typing. Immediate feedback.</p>
+            <div class="hero-actions"><button class="button primary" data-action="continue">Continue Learning →</button><button class="button ghost" data-action="mock">Start Mock Exam</button></div>
+          </div>
+          <div class="level-ring" aria-label="Current level progress"><div><small>LEVEL</small><strong id="heroLevel">1</strong><span id="levelXp">0 / 500 XP</span></div></div>
+        </article>
+
+        <div class="metric-grid">
+          <article class="metric"><span class="metric-icon blue">✓</span><div><small>ACCURACY</small><strong id="accuracyMetric">0%</strong><em>overall performance</em></div></article>
+          <article class="metric"><span class="metric-icon purple">✦</span><div><small>TOTAL XP</small><strong id="xpMetric">0</strong><em>keep building momentum</em></div></article>
+          <article class="metric"><span class="metric-icon orange">◷</span><div><small>STUDY TIME</small><strong id="timeMetric">0m</strong><em>focused learning</em></div></article>
+          <article class="metric"><span class="metric-icon green">↗</span><div><small>COMPLETED</small><strong id="completedMetric">0</strong><em><span id="remainingMetric">12</span> remaining in this phase</em></div></article>
+        </div>
+
+        <div class="dashboard-grid">
+          <article class="panel continue-panel"><div class="panel-heading"><div><p class="eyebrow">RECOMMENDED NEXT</p><h3 id="recommendedTitle">Inversion</h3></div><span class="exam-badge">CAE</span></div><p id="recommendedDescription">Practise negative adverbial inversion through sentence building.</p><div class="progress-track"><span id="categoryProgress"></span></div><div class="progress-label"><span id="progressText">0 of 4 completed</span><b id="progressPercent">0%</b></div><button class="button primary wide" data-action="continue">Continue session</button></article>
+          <article class="panel strength-panel"><div class="panel-heading"><h3>Your performance</h3><button class="text-button" data-action="statistics">View details</button></div><div class="performance-row"><span class="status-dot strong"></span><div><small>STRONGEST</small><b id="strongestCategory">Not enough data</b></div><strong id="strongestScore">—</strong></div><div class="performance-row"><span class="status-dot weak"></span><div><small>NEEDS WORK</small><b id="weakestCategory">Start practising</b></div><strong id="weakestScore">—</strong></div></article>
+        </div>
+      </section>
+
+      <section class="view" id="practiceView">
+        <div class="practice-toolbar"><button class="text-button" id="exitPractice">← Exit practice</button><span id="questionCounter">Question 1 of 12</span><div class="practice-progress"><span id="practiceProgress"></span></div><span class="xp-chip">+10 XP</span></div>
+        <article class="question-card">
+          <div class="question-meta"><span class="exam-badge" id="examBadge">CAE</span><span id="cefrBadge">C1</span><span id="modeBadge">BUILD THE SENTENCE</span></div>
+          <p class="instruction" id="instruction">Build a sentence with the same meaning.</p>
+          <blockquote id="sourceSentence">I had never seen such an impressive performance before.</blockquote>
+          <div class="keyword-line">KEY WORD: <b id="keyword">NEVER</b></div>
+          <div id="interactionArea" class="interaction-area"></div>
+          <div id="feedback" class="feedback" hidden></div>
+          <div class="question-actions"><button class="button ghost" id="resetQuestion">Reset</button><button class="button primary" id="checkAnswer">Check answer</button><button class="button primary" id="nextQuestion" hidden>Next question →</button></div>
+        </article>
+      </section>
+
+      <section class="view empty-view" id="mockView"><span>◷</span><h2>Mock Exam</h2><p>The timed exam engine is scheduled for Phase 5.</p><button class="button primary" data-action="practice">Practise first</button></section>
+      <section class="view" id="statisticsView"><div class="section-heading"><div><p class="eyebrow">YOUR LEARNING DATA</p><h2>Statistics</h2></div><button class="button ghost" id="resetProgress">Reset progress</button></div><div class="metric-grid" id="statisticsMetrics"></div><article class="panel"><h3>Category accuracy</h3><div id="categoryChart" class="bar-chart"></div></article></section>
+      <section class="view" id="libraryView"><div class="section-heading"><div><p class="eyebrow">REFERENCE</p><h2>Grammar Library</h2></div></div><div class="library-grid" id="libraryGrid"></div></section>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
