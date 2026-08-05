@@ -2,12 +2,14 @@
 
 Offline-first advanced English transformation trainer for CAE, CPE and ECPE.
 
-## Phase 1 status
+## Phase 2 status
 
 - Responsive dashboard and navigation
 - Dark/light mode and sound preference
-- 12 original seed exercises (sentence building and multiple choice)
+- Complete bank of 300 original exercises: 100 CAE, 100 CPE and 100 ECPE
+- 25 advanced grammar and vocabulary categories
+- Filters by exam, category and interaction mode
 - Immediate feedback, XP, streaks and Local Storage persistence
 - Statistics and grammar-library previews
 
-Open `index.html` through a local static server. The complete 300-question bank and remaining practice modes will be added in later phases.
+Open `index.html` through a local static server. On GitHub Pages, all modules and JSON question banks load automatically.

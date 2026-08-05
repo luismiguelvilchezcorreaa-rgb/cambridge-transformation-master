@@ -1,27 +1,38 @@
-// Phase 1 seed bank. Later phases will load the complete 300-item JSON bank.
-export const questions = [
-  {id:'cae-001',exam:'CAE',cefr:'C1',category:'Inversion',mode:'build',source:'I had never seen such an impressive performance before.',keyword:'NEVER',answer:'Never before had I seen such an impressive performance',tokens:['such','before','performance','I','Never','seen','had','an','impressive'],rule:'Negative adverbial inversion',explanation:'When “never before” begins the sentence, the auxiliary comes before the subject.'},
-  {id:'cae-002',exam:'CAE',cefr:'C1',category:'Verb Patterns',mode:'choice',source:'He managed to finish the report despite the interruptions.',keyword:'SUCCEEDED',answer:'He succeeded in finishing the report despite the interruptions.',choices:['He succeeded to finish the report despite the interruptions.','He succeeded in finishing the report despite the interruptions.','He was succeeded in finishing the report despite the interruptions.','He succeeded finishing the report despite the interruptions.'],rule:'succeed in + -ing',explanation:'The verb “succeed” is followed by “in” and a gerund.'},
-  {id:'cae-003',exam:'CAE',cefr:'C1',category:'Passive Voice',mode:'choice',source:'People believe that the painting was stolen during the war.',keyword:'BELIEVED',answer:'The painting is believed to have been stolen during the war.',choices:['The painting believes to be stolen during the war.','The painting is believed to steal during the war.','The painting is believed to have been stolen during the war.','The painting was believed being stolen during the war.'],rule:'Impersonal passive',explanation:'Use subject + passive reporting verb + perfect infinitive for an earlier action.'},
-  {id:'cae-004',exam:'CAE',cefr:'C1',category:'Conditionals',mode:'build',source:'I did not know about the delay, so I did not call you.',keyword:'HAD',answer:'Had I known about the delay I would have called you',tokens:['about','would','Had','you','delay','I','have','the','known','called','I'],rule:'Inverted third conditional',explanation:'“Had + subject + past participle” can replace “If + past perfect”.'},
-  {id:'cpe-001',exam:'CPE',cefr:'C2',category:'Cleft Sentences',mode:'choice',source:'I particularly disliked his arrogant attitude.',keyword:'WHAT',answer:'What I particularly disliked was his arrogant attitude.',choices:['What I particularly disliked was his arrogant attitude.','What was disliked by me his arrogant attitude.','What I did particularly dislike his arrogant attitude.','What particularly I disliked it was his arrogant attitude.'],rule:'What-cleft sentence',explanation:'A what-cleft foregrounds the element after “was”.'},
-  {id:'cpe-002',exam:'CPE',cefr:'C2',category:'Modal Verbs',mode:'build',source:'It was unnecessary for Marta to attend the entire meeting.',keyword:'NEED',answer:'Marta need not have attended the entire meeting',tokens:['entire','attended','need','meeting','Marta','the','not','have'],rule:'need not have + past participle',explanation:'This structure describes a completed action that was unnecessary.'},
-  {id:'cpe-003',exam:'CPE',cefr:'C2',category:'Nominalisation',mode:'choice',source:'The committee refused to disclose the figures, which surprised everyone.',keyword:'REFUSAL',answer:'The committee’s refusal to disclose the figures surprised everyone.',choices:['The committee refusal of disclosing the figures surprised everyone.','The committee’s refusal to disclose the figures surprised everyone.','The committee’s refusing disclose the figures surprised everyone.','The refusal that the committee disclose figures surprised everyone.'],rule:'Verb-to-noun transformation',explanation:'“Refuse to do” becomes “refusal to do”.'},
-  {id:'cpe-004',exam:'CPE',cefr:'C2',category:'Fixed Expressions',mode:'build',source:'The minister’s explanation was completely irrelevant to the issue.',keyword:'BEARING',answer:'The minister’s explanation had no bearing on the issue',tokens:['no','issue','bearing','explanation','the','on','had','minister’s'],rule:'have no bearing on',explanation:'The fixed expression means “be irrelevant to”.'},
-  {id:'ecpe-001',exam:'ECPE',cefr:'C2',category:'Phrasal Verbs',mode:'choice',source:'The meeting was postponed because the director was ill.',keyword:'PUT',answer:'The meeting was put off because the director was ill.',choices:['The meeting was put out because the director was ill.','The meeting was put down because the director was ill.','The meeting was put off because the director was ill.','The meeting was put through because the director was ill.'],rule:'put off = postpone',explanation:'“Put off” is a separable phrasal verb meaning postpone.'},
-  {id:'ecpe-002',exam:'ECPE',cefr:'C2',category:'Idioms',mode:'build',source:'His name sounds familiar, but I cannot remember where we met.',keyword:'BELL',answer:'His name rings a bell but I cannot remember where we met',tokens:['I','bell','cannot','remember','His','rings','we','but','met','where','a','name'],rule:'ring a bell',explanation:'If something “rings a bell”, it seems familiar.'},
-  {id:'ecpe-003',exam:'ECPE',cefr:'C2',category:'Reported Speech',mode:'choice',source:'“You should have informed me earlier,” Nina told Max.',keyword:'CRITICISED',answer:'Nina criticised Max for not informing her earlier.',choices:['Nina criticised Max to not inform her earlier.','Nina criticised Max of not informing her earlier.','Nina criticised Max for not informing her earlier.','Nina criticised that Max had not informed earlier.'],rule:'criticise someone for + -ing',explanation:'Use “for + gerund” after criticise to report disapproval.'},
-  {id:'ecpe-004',exam:'ECPE',cefr:'C2',category:'Comparatives',mode:'choice',source:'The second proposal is considerably better than the first.',keyword:'NEARLY',answer:'The first proposal is not nearly as good as the second.',choices:['The first proposal is nearly not as good as the second.','The first proposal is not nearly as good as the second.','The first proposal is not as nearly good as the second.','The first proposal is nowhere nearly good than the second.'],rule:'not nearly as ... as',explanation:'“Not nearly as” emphasizes a large difference between two things.'}
-];
+// Load the three independent exam banks. Keeping them separate makes expansion simple.
+export async function loadQuestions(){
+  const files=['data/cae.json','data/cpe.json','data/ecpe.json'];
+  const banks=await Promise.all(files.map(async file=>{
+    const response=await fetch(file);
+    if(!response.ok) throw new Error(`Could not load ${file}`);
+    return response.json();
+  }));
+  return banks.flat();
+}
 
-export const grammarTopics = [
-  ['Inversion','Auxiliary–subject inversion after negative and restrictive adverbials.','C1–C2'],
-  ['Verb Patterns','Advanced verb + infinitive, gerund and preposition patterns.','C1–C2'],
+export const grammarTopics=[
+  ['Comparatives','Precise similarity and difference with advanced comparative patterns.','C1–C2'],
   ['Passive Voice','Impersonal and reporting passives used in formal English.','C1–C2'],
+  ['Reported Speech','Reporting verbs and the patterns that follow them.','C1–C2'],
+  ['Inversion','Auxiliary–subject inversion after negative and restrictive adverbials.','C1–C2'],
   ['Conditionals','Mixed, inverted and implied conditional structures.','C1–C2'],
-  ['Cleft Sentences','What-clefts and it-clefts for emphasis and focus.','C2'],
-  ['Nominalisation','Transform clauses and verbs into concise noun phrases.','C2'],
   ['Modal Verbs','Past deduction, criticism, necessity and unreal meaning.','C1–C2'],
+  ['Gerunds','Advanced verbs and expressions followed by -ing forms.','C1–C2'],
+  ['Infinitives','Advanced infinitive patterns and meaning contrasts.','C1–C2'],
+  ['Relative Clauses','Defining, non-defining and possessive relative structures.','C1–C2'],
+  ['Phrasal Verbs','High-level multi-word verbs in formal and informal contexts.','C1–C2'],
+  ['Articles','Advanced use and omission of a, an and the.','C2'],
+  ['Quantifiers','Precise quantity with hardly any, little, few and related forms.','C2'],
+  ['Idioms','High-level idiomatic transformations used in ECPE and CPE.','C1–C2'],
   ['Fixed Expressions','Exam-relevant chunks whose wording cannot be freely changed.','C1–C2'],
-  ['Phrasal Verbs','High-level multi-word verbs in formal and informal contexts.','C1–C2']
+  ['Collocations','Natural combinations used in formal and academic English.','C1–C2'],
+  ['Nominalisation','Transform clauses and verbs into concise noun phrases.','C2'],
+  ['Cleft Sentences','What-clefts and it-clefts for emphasis and focus.','C2'],
+  ['Discourse Markers','Concession, contrast, result and cohesive relationships.','C2'],
+  ['Formal English','Formal verb-to-noun and phrase transformations.','C2'],
+  ['Advanced Structures','Complex emphasis, inversion and clause patterns.','C2'],
+  ['Academic English','Concise, formal structures for academic contexts.','C2'],
+  ['Vocabulary Transformations','Precise lexical changes that preserve meaning.','C1–C2'],
+  ['Verb Patterns','Advanced verb + infinitive, gerund and preposition patterns.','C1–C2'],
+  ['Prepositions','Fixed advanced prepositional patterns.','C1–C2'],
+  ['Mixed Review','Integrated review of advanced transformation skills.','C1–C2']
 ];

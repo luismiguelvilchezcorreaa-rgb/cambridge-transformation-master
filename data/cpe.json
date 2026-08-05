@@ -1,1 +1,3562 @@
-{"phase":1,"exam":"CPE","count":4,"note":"Seed data is currently exported from js/questions.js. Full bank arrives in Phase 7."}
+[
+  {
+    "id": "cpe-001",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "build",
+    "source": "Maya was appointed director of the city library last month.",
+    "keyword": "THE",
+    "answer": "Maya was appointed the director of the city library last month",
+    "tokens": [
+      "Maya",
+      "the",
+      "was",
+      "city",
+      "appointed",
+      "library",
+      "the",
+      "last",
+      "director",
+      "month",
+      "of"
+    ],
+    "choices": [
+      "Maya was appointed the director  the city library last month",
+      "Maya was appointed the director of the city library last month",
+      "Maya did appointed the director of the city library last month",
+      "Maya was the appointed director of the city library last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya was appointed the director of the city library last month"
+    ]
+  },
+  {
+    "id": "cpe-002",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "choice",
+    "source": "Daniel was appointed director of the science museum last month.",
+    "keyword": "THE",
+    "answer": "Daniel was appointed the director of the science museum last month",
+    "tokens": [
+      "of",
+      "Daniel",
+      "the",
+      "was",
+      "science",
+      "appointed",
+      "museum",
+      "the",
+      "last",
+      "director",
+      "month"
+    ],
+    "choices": [
+      "Daniel was appointed the director  the science museum last month",
+      "Daniel was appointed the director of the science museum last month",
+      "Daniel did appointed the director of the science museum last month",
+      "Daniel was the appointed director of the science museum last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel was appointed the director of the science museum last month"
+    ]
+  },
+  {
+    "id": "cpe-003",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "build",
+    "source": "Sofia was appointed director of the regional office last month.",
+    "keyword": "THE",
+    "answer": "Sofia was appointed the director of the regional office last month",
+    "tokens": [
+      "month",
+      "of",
+      "Sofia",
+      "the",
+      "was",
+      "regional",
+      "appointed",
+      "office",
+      "the",
+      "last",
+      "director"
+    ],
+    "choices": [
+      "Sofia was appointed the director  the regional office last month",
+      "Sofia was appointed the director of the regional office last month",
+      "Sofia did appointed the director of the regional office last month",
+      "Sofia was the appointed director of the regional office last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia was appointed the director of the regional office last month"
+    ]
+  },
+  {
+    "id": "cpe-004",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "choice",
+    "source": "Leo was appointed director of the university campus last month.",
+    "keyword": "THE",
+    "answer": "Leo was appointed the director of the university campus last month",
+    "tokens": [
+      "director",
+      "month",
+      "of",
+      "Leo",
+      "the",
+      "was",
+      "university",
+      "appointed",
+      "campus",
+      "the",
+      "last"
+    ],
+    "choices": [
+      "Leo was appointed the director  the university campus last month",
+      "Leo was appointed the director of the university campus last month",
+      "Leo did appointed the director of the university campus last month",
+      "Leo was the appointed director of the university campus last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo was appointed the director of the university campus last month"
+    ]
+  },
+  {
+    "id": "cpe-005",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "build",
+    "source": "Nina was appointed director of the research centre last month.",
+    "keyword": "THE",
+    "answer": "Nina was appointed the director of the research centre last month",
+    "tokens": [
+      "the",
+      "last",
+      "director",
+      "month",
+      "of",
+      "Nina",
+      "the",
+      "was",
+      "research",
+      "appointed",
+      "centre"
+    ],
+    "choices": [
+      "Nina was appointed the director  the research centre last month",
+      "Nina was appointed the director of the research centre last month",
+      "Nina did appointed the director of the research centre last month",
+      "Nina was the appointed director of the research centre last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina was appointed the director of the research centre last month"
+    ]
+  },
+  {
+    "id": "cpe-006",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "choice",
+    "source": "Omar was appointed director of the community hall last month.",
+    "keyword": "THE",
+    "answer": "Omar was appointed the director of the community hall last month",
+    "tokens": [
+      "appointed",
+      "hall",
+      "the",
+      "last",
+      "director",
+      "month",
+      "of",
+      "Omar",
+      "the",
+      "was",
+      "community"
+    ],
+    "choices": [
+      "Omar was appointed the director  the community hall last month",
+      "Omar was appointed the director of the community hall last month",
+      "Omar did appointed the director of the community hall last month",
+      "Omar was the appointed director of the community hall last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar was appointed the director of the community hall last month"
+    ]
+  },
+  {
+    "id": "cpe-007",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "build",
+    "source": "Chloe was appointed director of the main laboratory last month.",
+    "keyword": "THE",
+    "answer": "Chloe was appointed the director of the main laboratory last month",
+    "tokens": [
+      "main",
+      "appointed",
+      "laboratory",
+      "the",
+      "last",
+      "director",
+      "month",
+      "of",
+      "Chloe",
+      "the",
+      "was"
+    ],
+    "choices": [
+      "Chloe was appointed the director  the main laboratory last month",
+      "Chloe was appointed the director of the main laboratory last month",
+      "Chloe did appointed the director of the main laboratory last month",
+      "Chloe was the appointed director of the main laboratory last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe was appointed the director of the main laboratory last month"
+    ]
+  },
+  {
+    "id": "cpe-008",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "choice",
+    "source": "Ethan was appointed director of the local archive last month.",
+    "keyword": "THE",
+    "answer": "Ethan was appointed the director of the local archive last month",
+    "tokens": [
+      "was",
+      "local",
+      "appointed",
+      "archive",
+      "the",
+      "last",
+      "director",
+      "month",
+      "of",
+      "Ethan",
+      "the"
+    ],
+    "choices": [
+      "Ethan was appointed the director  the local archive last month",
+      "Ethan was appointed the director of the local archive last month",
+      "Ethan did appointed the director of the local archive last month",
+      "Ethan was the appointed director of the local archive last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan was appointed the director of the local archive last month"
+    ]
+  },
+  {
+    "id": "cpe-009",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "build",
+    "source": "Priya was appointed director of the training centre last month.",
+    "keyword": "THE",
+    "answer": "Priya was appointed the director of the training centre last month",
+    "tokens": [
+      "Priya",
+      "the",
+      "was",
+      "training",
+      "appointed",
+      "centre",
+      "the",
+      "last",
+      "director",
+      "month",
+      "of"
+    ],
+    "choices": [
+      "Priya was appointed the director  the training centre last month",
+      "Priya was appointed the director of the training centre last month",
+      "Priya did appointed the director of the training centre last month",
+      "Priya was the appointed director of the training centre last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya was appointed the director of the training centre last month"
+    ]
+  },
+  {
+    "id": "cpe-010",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Articles",
+    "mode": "choice",
+    "source": "Lucas was appointed director of the council building last month.",
+    "keyword": "THE",
+    "answer": "Lucas was appointed the director of the council building last month",
+    "tokens": [
+      "of",
+      "Lucas",
+      "the",
+      "was",
+      "council",
+      "appointed",
+      "building",
+      "the",
+      "last",
+      "director",
+      "month"
+    ],
+    "choices": [
+      "Lucas was appointed the director  the council building last month",
+      "Lucas was appointed the director of the council building last month",
+      "Lucas did appointed the director of the council building last month",
+      "Lucas was the appointed director of the council building last month"
+    ],
+    "rule": "the + specific role + of",
+    "explanation": "Use “the” when a role is specified by an of-phrase.",
+    "commonError": "Do not alter the fixed pattern: the + specific role + of.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas was appointed the director of the council building last month"
+    ]
+  },
+  {
+    "id": "cpe-011",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "build",
+    "source": "Very few participants understood the implications of the research paper.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the research paper",
+    "tokens": [
+      "the",
+      "implications",
+      "Hardly",
+      "of",
+      "any",
+      "the",
+      "participants",
+      "research",
+      "understood",
+      "paper"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the research paper",
+      "Hardly any participants understood the implications of the research paper",
+      "Hardly any understood participants the implications of the research paper",
+      "Hardly any participants understood the implications of the research paper incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the research paper"
+    ]
+  },
+  {
+    "id": "cpe-012",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "choice",
+    "source": "Very few participants understood the implications of the funding proposal.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the funding proposal",
+    "tokens": [
+      "understood",
+      "proposal",
+      "the",
+      "implications",
+      "Hardly",
+      "of",
+      "any",
+      "the",
+      "participants",
+      "funding"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the funding proposal",
+      "Hardly any participants understood the implications of the funding proposal",
+      "Hardly any understood participants the implications of the funding proposal",
+      "Hardly any participants understood the implications of the funding proposal incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the funding proposal"
+    ]
+  },
+  {
+    "id": "cpe-013",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "build",
+    "source": "Very few participants understood the implications of the final report.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the final report",
+    "tokens": [
+      "final",
+      "understood",
+      "report",
+      "the",
+      "implications",
+      "Hardly",
+      "of",
+      "any",
+      "the",
+      "participants"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the final report",
+      "Hardly any participants understood the implications of the final report",
+      "Hardly any understood participants the implications of the final report",
+      "Hardly any participants understood the implications of the final report incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the final report"
+    ]
+  },
+  {
+    "id": "cpe-014",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "choice",
+    "source": "Very few participants understood the implications of the safety review.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the safety review",
+    "tokens": [
+      "participants",
+      "safety",
+      "understood",
+      "review",
+      "the",
+      "implications",
+      "Hardly",
+      "of",
+      "any",
+      "the"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the safety review",
+      "Hardly any participants understood the implications of the safety review",
+      "Hardly any understood participants the implications of the safety review",
+      "Hardly any participants understood the implications of the safety review incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the safety review"
+    ]
+  },
+  {
+    "id": "cpe-015",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "build",
+    "source": "Very few participants understood the implications of the training course.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the training course",
+    "tokens": [
+      "any",
+      "the",
+      "participants",
+      "training",
+      "understood",
+      "course",
+      "the",
+      "implications",
+      "Hardly",
+      "of"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the training course",
+      "Hardly any participants understood the implications of the training course",
+      "Hardly any understood participants the implications of the training course",
+      "Hardly any participants understood the implications of the training course incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the training course"
+    ]
+  },
+  {
+    "id": "cpe-016",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "choice",
+    "source": "Very few participants understood the implications of the policy document.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the policy document",
+    "tokens": [
+      "Hardly",
+      "of",
+      "any",
+      "the",
+      "participants",
+      "policy",
+      "understood",
+      "document",
+      "the",
+      "implications"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the policy document",
+      "Hardly any participants understood the implications of the policy document",
+      "Hardly any understood participants the implications of the policy document",
+      "Hardly any participants understood the implications of the policy document incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the policy document"
+    ]
+  },
+  {
+    "id": "cpe-017",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "build",
+    "source": "Very few participants understood the implications of the design brief.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the design brief",
+    "tokens": [
+      "implications",
+      "Hardly",
+      "of",
+      "any",
+      "the",
+      "participants",
+      "design",
+      "understood",
+      "brief",
+      "the"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the design brief",
+      "Hardly any participants understood the implications of the design brief",
+      "Hardly any understood participants the implications of the design brief",
+      "Hardly any participants understood the implications of the design brief incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the design brief"
+    ]
+  },
+  {
+    "id": "cpe-018",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "choice",
+    "source": "Very few participants understood the implications of the case study.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the case study",
+    "tokens": [
+      "implications",
+      "Hardly",
+      "of",
+      "any",
+      "the",
+      "participants",
+      "case",
+      "understood",
+      "study",
+      "the"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the case study",
+      "Hardly any participants understood the implications of the case study",
+      "Hardly any understood participants the implications of the case study",
+      "Hardly any participants understood the implications of the case study incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the case study"
+    ]
+  },
+  {
+    "id": "cpe-019",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "build",
+    "source": "Very few participants understood the implications of the conference plan.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the conference plan",
+    "tokens": [
+      "the",
+      "implications",
+      "Hardly",
+      "of",
+      "any",
+      "the",
+      "participants",
+      "conference",
+      "understood",
+      "plan"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the conference plan",
+      "Hardly any participants understood the implications of the conference plan",
+      "Hardly any understood participants the implications of the conference plan",
+      "Hardly any participants understood the implications of the conference plan incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the conference plan"
+    ]
+  },
+  {
+    "id": "cpe-020",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Quantifiers",
+    "mode": "choice",
+    "source": "Very few participants understood the implications of the budget forecast.",
+    "keyword": "HARDLY",
+    "answer": "Hardly any participants understood the implications of the budget forecast",
+    "tokens": [
+      "understood",
+      "forecast",
+      "the",
+      "implications",
+      "Hardly",
+      "of",
+      "any",
+      "the",
+      "participants",
+      "budget"
+    ],
+    "choices": [
+      "Hardly any participants understood the implications  the budget forecast",
+      "Hardly any participants understood the implications of the budget forecast",
+      "Hardly any understood participants the implications of the budget forecast",
+      "Hardly any participants understood the implications of the budget forecast incorrectly"
+    ],
+    "rule": "hardly any + plural noun",
+    "explanation": "“Hardly any” means almost none.",
+    "commonError": "Do not alter the fixed pattern: hardly any + plural noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Hardly any participants understood the implications of the budget forecast"
+    ]
+  },
+  {
+    "id": "cpe-021",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "renewable energy seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "renewable energy rings a bell although I cannot remember why",
+    "tokens": [
+      "rings",
+      "remember",
+      "a",
+      "why",
+      "bell",
+      "although",
+      "renewable",
+      "I",
+      "energy",
+      "cannot"
+    ],
+    "choices": [
+      "renewable energy a rings bell although I cannot remember why",
+      "renewable energy rings a bell although I cannot remember why",
+      "renewable energy rings a bell although I cannot remember why incorrectly",
+      "renewable energy rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "renewable energy rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-022",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "digital privacy seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "digital privacy rings a bell although I cannot remember why",
+    "tokens": [
+      "cannot",
+      "rings",
+      "remember",
+      "a",
+      "why",
+      "bell",
+      "although",
+      "digital",
+      "I",
+      "privacy"
+    ],
+    "choices": [
+      "digital privacy a rings bell although I cannot remember why",
+      "digital privacy rings a bell although I cannot remember why",
+      "digital privacy rings a bell although I cannot remember why incorrectly",
+      "digital privacy rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "digital privacy rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-023",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "urban development seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "urban development rings a bell although I cannot remember why",
+    "tokens": [
+      "I",
+      "development",
+      "cannot",
+      "rings",
+      "remember",
+      "a",
+      "why",
+      "bell",
+      "although",
+      "urban"
+    ],
+    "choices": [
+      "urban development a rings bell although I cannot remember why",
+      "urban development rings a bell although I cannot remember why",
+      "urban development rings a bell although I cannot remember why incorrectly",
+      "urban development rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "urban development rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-024",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "public health seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "public health rings a bell although I cannot remember why",
+    "tokens": [
+      "public",
+      "I",
+      "health",
+      "cannot",
+      "rings",
+      "remember",
+      "a",
+      "why",
+      "bell",
+      "although"
+    ],
+    "choices": [
+      "public health a rings bell although I cannot remember why",
+      "public health rings a bell although I cannot remember why",
+      "public health rings a bell although I cannot remember why incorrectly",
+      "public health rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "public health rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-025",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "language learning seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "language learning rings a bell although I cannot remember why",
+    "tokens": [
+      "although",
+      "language",
+      "I",
+      "learning",
+      "cannot",
+      "rings",
+      "remember",
+      "a",
+      "why",
+      "bell"
+    ],
+    "choices": [
+      "language learning a rings bell although I cannot remember why",
+      "language learning rings a bell although I cannot remember why",
+      "language learning rings a bell although I cannot remember why incorrectly",
+      "language learning rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "language learning rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-026",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "climate policy seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "climate policy rings a bell although I cannot remember why",
+    "tokens": [
+      "bell",
+      "although",
+      "climate",
+      "I",
+      "policy",
+      "cannot",
+      "rings",
+      "remember",
+      "a",
+      "why"
+    ],
+    "choices": [
+      "climate policy a rings bell although I cannot remember why",
+      "climate policy rings a bell although I cannot remember why",
+      "climate policy rings a bell although I cannot remember why incorrectly",
+      "climate policy rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "climate policy rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-027",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "artificial intelligence seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "artificial intelligence rings a bell although I cannot remember why",
+    "tokens": [
+      "a",
+      "why",
+      "bell",
+      "although",
+      "artificial",
+      "I",
+      "intelligence",
+      "cannot",
+      "rings",
+      "remember"
+    ],
+    "choices": [
+      "artificial intelligence a rings bell although I cannot remember why",
+      "artificial intelligence rings a bell although I cannot remember why",
+      "artificial intelligence rings a bell although I cannot remember why incorrectly",
+      "artificial intelligence rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "artificial intelligence rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-028",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "remote work seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "remote work rings a bell although I cannot remember why",
+    "tokens": [
+      "remember",
+      "a",
+      "why",
+      "bell",
+      "although",
+      "remote",
+      "I",
+      "work",
+      "cannot",
+      "rings"
+    ],
+    "choices": [
+      "remote work a rings bell although I cannot remember why",
+      "remote work rings a bell although I cannot remember why",
+      "remote work rings a bell although I cannot remember why incorrectly",
+      "remote work rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "remote work rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-029",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "scientific literacy seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "scientific literacy rings a bell although I cannot remember why",
+    "tokens": [
+      "rings",
+      "remember",
+      "a",
+      "why",
+      "bell",
+      "although",
+      "scientific",
+      "I",
+      "literacy",
+      "cannot"
+    ],
+    "choices": [
+      "scientific literacy a rings bell although I cannot remember why",
+      "scientific literacy rings a bell although I cannot remember why",
+      "scientific literacy rings a bell although I cannot remember why incorrectly",
+      "scientific literacy rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "scientific literacy rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-030",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "cultural heritage seems familiar, although I cannot remember why.",
+    "keyword": "BELL",
+    "answer": "cultural heritage rings a bell although I cannot remember why",
+    "tokens": [
+      "heritage",
+      "cannot",
+      "rings",
+      "remember",
+      "a",
+      "why",
+      "bell",
+      "although",
+      "cultural",
+      "I"
+    ],
+    "choices": [
+      "cultural heritage a rings bell although I cannot remember why",
+      "cultural heritage rings a bell although I cannot remember why",
+      "cultural heritage rings a bell although I cannot remember why incorrectly",
+      "cultural heritage rings a bell although I cannot remember why incorrectly"
+    ],
+    "rule": "ring a bell",
+    "explanation": "This idiom means to seem familiar.",
+    "commonError": "Do not alter the fixed pattern: ring a bell.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "cultural heritage rings a bell although I cannot remember why"
+    ]
+  },
+  {
+    "id": "cpe-031",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "build",
+    "source": "the research paper is completely irrelevant to renewable energy.",
+    "keyword": "BEARING",
+    "answer": "the research paper has no bearing on renewable energy",
+    "tokens": [
+      "the",
+      "on",
+      "research",
+      "renewable",
+      "paper",
+      "energy",
+      "has",
+      "no",
+      "bearing"
+    ],
+    "choices": [
+      "the research paper has no bearing  renewable energy",
+      "the research paper has no bearing on renewable energy",
+      "the research paper did no bearing on renewable energy",
+      "the research has paper no bearing on renewable energy"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the research paper has no bearing on renewable energy"
+    ]
+  },
+  {
+    "id": "cpe-032",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "choice",
+    "source": "the funding proposal is completely irrelevant to digital privacy.",
+    "keyword": "BEARING",
+    "answer": "the funding proposal has no bearing on digital privacy",
+    "tokens": [
+      "bearing",
+      "the",
+      "on",
+      "funding",
+      "digital",
+      "proposal",
+      "privacy",
+      "has",
+      "no"
+    ],
+    "choices": [
+      "the funding proposal has no bearing  digital privacy",
+      "the funding proposal has no bearing on digital privacy",
+      "the funding proposal did no bearing on digital privacy",
+      "the funding has proposal no bearing on digital privacy"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the funding proposal has no bearing on digital privacy"
+    ]
+  },
+  {
+    "id": "cpe-033",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "build",
+    "source": "the final report is completely irrelevant to urban development.",
+    "keyword": "BEARING",
+    "answer": "the final report has no bearing on urban development",
+    "tokens": [
+      "bearing",
+      "the",
+      "on",
+      "final",
+      "urban",
+      "report",
+      "development",
+      "has",
+      "no"
+    ],
+    "choices": [
+      "the final report has no bearing  urban development",
+      "the final report has no bearing on urban development",
+      "the final report did no bearing on urban development",
+      "the final has report no bearing on urban development"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the final report has no bearing on urban development"
+    ]
+  },
+  {
+    "id": "cpe-034",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "choice",
+    "source": "the safety review is completely irrelevant to public health.",
+    "keyword": "BEARING",
+    "answer": "the safety review has no bearing on public health",
+    "tokens": [
+      "no",
+      "bearing",
+      "the",
+      "on",
+      "safety",
+      "public",
+      "review",
+      "health",
+      "has"
+    ],
+    "choices": [
+      "the safety review has no bearing  public health",
+      "the safety review has no bearing on public health",
+      "the safety review did no bearing on public health",
+      "the safety has review no bearing on public health"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the safety review has no bearing on public health"
+    ]
+  },
+  {
+    "id": "cpe-035",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "build",
+    "source": "the training course is completely irrelevant to language learning.",
+    "keyword": "BEARING",
+    "answer": "the training course has no bearing on language learning",
+    "tokens": [
+      "has",
+      "no",
+      "bearing",
+      "the",
+      "on",
+      "training",
+      "language",
+      "course",
+      "learning"
+    ],
+    "choices": [
+      "the training course has no bearing  language learning",
+      "the training course has no bearing on language learning",
+      "the training course did no bearing on language learning",
+      "the training has course no bearing on language learning"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the training course has no bearing on language learning"
+    ]
+  },
+  {
+    "id": "cpe-036",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "choice",
+    "source": "the policy document is completely irrelevant to climate policy.",
+    "keyword": "BEARING",
+    "answer": "the policy document has no bearing on climate policy",
+    "tokens": [
+      "document",
+      "policy",
+      "has",
+      "no",
+      "bearing",
+      "the",
+      "on",
+      "policy",
+      "climate"
+    ],
+    "choices": [
+      "the policy document has no bearing  climate policy",
+      "the policy document has no bearing on climate policy",
+      "the policy document did no bearing on climate policy",
+      "the policy has document no bearing on climate policy"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the policy document has no bearing on climate policy"
+    ]
+  },
+  {
+    "id": "cpe-037",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "build",
+    "source": "the design brief is completely irrelevant to artificial intelligence.",
+    "keyword": "BEARING",
+    "answer": "the design brief has no bearing on artificial intelligence",
+    "tokens": [
+      "design",
+      "artificial",
+      "brief",
+      "intelligence",
+      "has",
+      "no",
+      "bearing",
+      "the",
+      "on"
+    ],
+    "choices": [
+      "the design brief has no bearing  artificial intelligence",
+      "the design brief has no bearing on artificial intelligence",
+      "the design brief did no bearing on artificial intelligence",
+      "the design has brief no bearing on artificial intelligence"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the design brief has no bearing on artificial intelligence"
+    ]
+  },
+  {
+    "id": "cpe-038",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "choice",
+    "source": "the case study is completely irrelevant to remote work.",
+    "keyword": "BEARING",
+    "answer": "the case study has no bearing on remote work",
+    "tokens": [
+      "on",
+      "case",
+      "remote",
+      "study",
+      "work",
+      "has",
+      "no",
+      "bearing",
+      "the"
+    ],
+    "choices": [
+      "the case study has no bearing  remote work",
+      "the case study has no bearing on remote work",
+      "the case study did no bearing on remote work",
+      "the case has study no bearing on remote work"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the case study has no bearing on remote work"
+    ]
+  },
+  {
+    "id": "cpe-039",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "build",
+    "source": "the conference plan is completely irrelevant to scientific literacy.",
+    "keyword": "BEARING",
+    "answer": "the conference plan has no bearing on scientific literacy",
+    "tokens": [
+      "the",
+      "on",
+      "conference",
+      "scientific",
+      "plan",
+      "literacy",
+      "has",
+      "no",
+      "bearing"
+    ],
+    "choices": [
+      "the conference plan has no bearing  scientific literacy",
+      "the conference plan has no bearing on scientific literacy",
+      "the conference plan did no bearing on scientific literacy",
+      "the conference has plan no bearing on scientific literacy"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the conference plan has no bearing on scientific literacy"
+    ]
+  },
+  {
+    "id": "cpe-040",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Fixed Expressions",
+    "mode": "choice",
+    "source": "the budget forecast is completely irrelevant to cultural heritage.",
+    "keyword": "BEARING",
+    "answer": "the budget forecast has no bearing on cultural heritage",
+    "tokens": [
+      "bearing",
+      "the",
+      "on",
+      "budget",
+      "cultural",
+      "forecast",
+      "heritage",
+      "has",
+      "no"
+    ],
+    "choices": [
+      "the budget forecast has no bearing  cultural heritage",
+      "the budget forecast has no bearing on cultural heritage",
+      "the budget forecast did no bearing on cultural heritage",
+      "the budget has forecast no bearing on cultural heritage"
+    ],
+    "rule": "have no bearing on",
+    "explanation": "This fixed expression means to be irrelevant.",
+    "commonError": "Do not alter the fixed pattern: have no bearing on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the budget forecast has no bearing on cultural heritage"
+    ]
+  },
+  {
+    "id": "cpe-041",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "Maya strongly criticised the decision about the city library.",
+    "keyword": "CRITICISM",
+    "answer": "Maya levelled strong criticism at the decision about the city library",
+    "tokens": [
+      "at",
+      "library",
+      "the",
+      "Maya",
+      "decision",
+      "levelled",
+      "about",
+      "strong",
+      "the",
+      "criticism",
+      "city"
+    ],
+    "choices": [
+      "Maya levelled strong criticism  the decision about the city library",
+      "Maya levelled strong criticism at the decision about the city library",
+      "Maya levelled criticism strong at the decision about the city library",
+      "Maya levelled strong criticism at the decision about the city library incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya levelled strong criticism at the decision about the city library"
+    ]
+  },
+  {
+    "id": "cpe-042",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "Daniel strongly criticised the decision about the science museum.",
+    "keyword": "CRITICISM",
+    "answer": "Daniel levelled strong criticism at the decision about the science museum",
+    "tokens": [
+      "criticism",
+      "science",
+      "at",
+      "museum",
+      "the",
+      "Daniel",
+      "decision",
+      "levelled",
+      "about",
+      "strong",
+      "the"
+    ],
+    "choices": [
+      "Daniel levelled strong criticism  the decision about the science museum",
+      "Daniel levelled strong criticism at the decision about the science museum",
+      "Daniel levelled criticism strong at the decision about the science museum",
+      "Daniel levelled strong criticism at the decision about the science museum incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel levelled strong criticism at the decision about the science museum"
+    ]
+  },
+  {
+    "id": "cpe-043",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "Sofia strongly criticised the decision about the regional office.",
+    "keyword": "CRITICISM",
+    "answer": "Sofia levelled strong criticism at the decision about the regional office",
+    "tokens": [
+      "the",
+      "criticism",
+      "regional",
+      "at",
+      "office",
+      "the",
+      "Sofia",
+      "decision",
+      "levelled",
+      "about",
+      "strong"
+    ],
+    "choices": [
+      "Sofia levelled strong criticism  the decision about the regional office",
+      "Sofia levelled strong criticism at the decision about the regional office",
+      "Sofia levelled criticism strong at the decision about the regional office",
+      "Sofia levelled strong criticism at the decision about the regional office incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia levelled strong criticism at the decision about the regional office"
+    ]
+  },
+  {
+    "id": "cpe-044",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "Leo strongly criticised the decision about the university campus.",
+    "keyword": "CRITICISM",
+    "answer": "Leo levelled strong criticism at the decision about the university campus",
+    "tokens": [
+      "strong",
+      "the",
+      "criticism",
+      "university",
+      "at",
+      "campus",
+      "the",
+      "Leo",
+      "decision",
+      "levelled",
+      "about"
+    ],
+    "choices": [
+      "Leo levelled strong criticism  the decision about the university campus",
+      "Leo levelled strong criticism at the decision about the university campus",
+      "Leo levelled criticism strong at the decision about the university campus",
+      "Leo levelled strong criticism at the decision about the university campus incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo levelled strong criticism at the decision about the university campus"
+    ]
+  },
+  {
+    "id": "cpe-045",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "Nina strongly criticised the decision about the research centre.",
+    "keyword": "CRITICISM",
+    "answer": "Nina levelled strong criticism at the decision about the research centre",
+    "tokens": [
+      "levelled",
+      "about",
+      "strong",
+      "the",
+      "criticism",
+      "research",
+      "at",
+      "centre",
+      "the",
+      "Nina",
+      "decision"
+    ],
+    "choices": [
+      "Nina levelled strong criticism  the decision about the research centre",
+      "Nina levelled strong criticism at the decision about the research centre",
+      "Nina levelled criticism strong at the decision about the research centre",
+      "Nina levelled strong criticism at the decision about the research centre incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina levelled strong criticism at the decision about the research centre"
+    ]
+  },
+  {
+    "id": "cpe-046",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "Omar strongly criticised the decision about the community hall.",
+    "keyword": "CRITICISM",
+    "answer": "Omar levelled strong criticism at the decision about the community hall",
+    "tokens": [
+      "Omar",
+      "decision",
+      "levelled",
+      "about",
+      "strong",
+      "the",
+      "criticism",
+      "community",
+      "at",
+      "hall",
+      "the"
+    ],
+    "choices": [
+      "Omar levelled strong criticism  the decision about the community hall",
+      "Omar levelled strong criticism at the decision about the community hall",
+      "Omar levelled criticism strong at the decision about the community hall",
+      "Omar levelled strong criticism at the decision about the community hall incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar levelled strong criticism at the decision about the community hall"
+    ]
+  },
+  {
+    "id": "cpe-047",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "Chloe strongly criticised the decision about the main laboratory.",
+    "keyword": "CRITICISM",
+    "answer": "Chloe levelled strong criticism at the decision about the main laboratory",
+    "tokens": [
+      "the",
+      "Chloe",
+      "decision",
+      "levelled",
+      "about",
+      "strong",
+      "the",
+      "criticism",
+      "main",
+      "at",
+      "laboratory"
+    ],
+    "choices": [
+      "Chloe levelled strong criticism  the decision about the main laboratory",
+      "Chloe levelled strong criticism at the decision about the main laboratory",
+      "Chloe levelled criticism strong at the decision about the main laboratory",
+      "Chloe levelled strong criticism at the decision about the main laboratory incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe levelled strong criticism at the decision about the main laboratory"
+    ]
+  },
+  {
+    "id": "cpe-048",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "Ethan strongly criticised the decision about the local archive.",
+    "keyword": "CRITICISM",
+    "answer": "Ethan levelled strong criticism at the decision about the local archive",
+    "tokens": [
+      "at",
+      "archive",
+      "the",
+      "Ethan",
+      "decision",
+      "levelled",
+      "about",
+      "strong",
+      "the",
+      "criticism",
+      "local"
+    ],
+    "choices": [
+      "Ethan levelled strong criticism  the decision about the local archive",
+      "Ethan levelled strong criticism at the decision about the local archive",
+      "Ethan levelled criticism strong at the decision about the local archive",
+      "Ethan levelled strong criticism at the decision about the local archive incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan levelled strong criticism at the decision about the local archive"
+    ]
+  },
+  {
+    "id": "cpe-049",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "Priya strongly criticised the decision about the training centre.",
+    "keyword": "CRITICISM",
+    "answer": "Priya levelled strong criticism at the decision about the training centre",
+    "tokens": [
+      "training",
+      "at",
+      "centre",
+      "the",
+      "Priya",
+      "decision",
+      "levelled",
+      "about",
+      "strong",
+      "the",
+      "criticism"
+    ],
+    "choices": [
+      "Priya levelled strong criticism  the decision about the training centre",
+      "Priya levelled strong criticism at the decision about the training centre",
+      "Priya levelled criticism strong at the decision about the training centre",
+      "Priya levelled strong criticism at the decision about the training centre incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya levelled strong criticism at the decision about the training centre"
+    ]
+  },
+  {
+    "id": "cpe-050",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "Lucas strongly criticised the decision about the council building.",
+    "keyword": "CRITICISM",
+    "answer": "Lucas levelled strong criticism at the decision about the council building",
+    "tokens": [
+      "criticism",
+      "council",
+      "at",
+      "building",
+      "the",
+      "Lucas",
+      "decision",
+      "levelled",
+      "about",
+      "strong",
+      "the"
+    ],
+    "choices": [
+      "Lucas levelled strong criticism  the decision about the council building",
+      "Lucas levelled strong criticism at the decision about the council building",
+      "Lucas levelled criticism strong at the decision about the council building",
+      "Lucas levelled strong criticism at the decision about the council building incorrectly"
+    ],
+    "rule": "level criticism at",
+    "explanation": "This is a formal collocation.",
+    "commonError": "Do not alter the fixed pattern: level criticism at.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas levelled strong criticism at the decision about the council building"
+    ]
+  },
+  {
+    "id": "cpe-051",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "build",
+    "source": "The committee refused to release the research paper, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the research paper surprised everyone",
+    "tokens": [
+      "refusal",
+      "surprised",
+      "to",
+      "everyone",
+      "release",
+      "the",
+      "The",
+      "research",
+      "committee’s",
+      "paper"
+    ],
+    "choices": [
+      "The committee’s refusal  release the research paper surprised everyone",
+      "The committee’s refusal to release the research paper surprised everyone",
+      "The committee’s to refusal release the research paper surprised everyone",
+      "The committee’s refusal to release the research paper surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the research paper surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-052",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "choice",
+    "source": "The committee refused to release the funding proposal, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the funding proposal surprised everyone",
+    "tokens": [
+      "committee’s",
+      "proposal",
+      "refusal",
+      "surprised",
+      "to",
+      "everyone",
+      "release",
+      "the",
+      "The",
+      "funding"
+    ],
+    "choices": [
+      "The committee’s refusal  release the funding proposal surprised everyone",
+      "The committee’s refusal to release the funding proposal surprised everyone",
+      "The committee’s to refusal release the funding proposal surprised everyone",
+      "The committee’s refusal to release the funding proposal surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the funding proposal surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-053",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "build",
+    "source": "The committee refused to release the final report, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the final report surprised everyone",
+    "tokens": [
+      "final",
+      "committee’s",
+      "report",
+      "refusal",
+      "surprised",
+      "to",
+      "everyone",
+      "release",
+      "the",
+      "The"
+    ],
+    "choices": [
+      "The committee’s refusal  release the final report surprised everyone",
+      "The committee’s refusal to release the final report surprised everyone",
+      "The committee’s to refusal release the final report surprised everyone",
+      "The committee’s refusal to release the final report surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the final report surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-054",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "choice",
+    "source": "The committee refused to release the safety review, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the safety review surprised everyone",
+    "tokens": [
+      "The",
+      "safety",
+      "committee’s",
+      "review",
+      "refusal",
+      "surprised",
+      "to",
+      "everyone",
+      "release",
+      "the"
+    ],
+    "choices": [
+      "The committee’s refusal  release the safety review surprised everyone",
+      "The committee’s refusal to release the safety review surprised everyone",
+      "The committee’s to refusal release the safety review surprised everyone",
+      "The committee’s refusal to release the safety review surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the safety review surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-055",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "build",
+    "source": "The committee refused to release the training course, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the training course surprised everyone",
+    "tokens": [
+      "the",
+      "The",
+      "training",
+      "committee’s",
+      "course",
+      "refusal",
+      "surprised",
+      "to",
+      "everyone",
+      "release"
+    ],
+    "choices": [
+      "The committee’s refusal  release the training course surprised everyone",
+      "The committee’s refusal to release the training course surprised everyone",
+      "The committee’s to refusal release the training course surprised everyone",
+      "The committee’s refusal to release the training course surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the training course surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-056",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "choice",
+    "source": "The committee refused to release the policy document, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the policy document surprised everyone",
+    "tokens": [
+      "release",
+      "the",
+      "The",
+      "policy",
+      "committee’s",
+      "document",
+      "refusal",
+      "surprised",
+      "to",
+      "everyone"
+    ],
+    "choices": [
+      "The committee’s refusal  release the policy document surprised everyone",
+      "The committee’s refusal to release the policy document surprised everyone",
+      "The committee’s to refusal release the policy document surprised everyone",
+      "The committee’s refusal to release the policy document surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the policy document surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-057",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "build",
+    "source": "The committee refused to release the design brief, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the design brief surprised everyone",
+    "tokens": [
+      "to",
+      "everyone",
+      "release",
+      "the",
+      "The",
+      "design",
+      "committee’s",
+      "brief",
+      "refusal",
+      "surprised"
+    ],
+    "choices": [
+      "The committee’s refusal  release the design brief surprised everyone",
+      "The committee’s refusal to release the design brief surprised everyone",
+      "The committee’s to refusal release the design brief surprised everyone",
+      "The committee’s refusal to release the design brief surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the design brief surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-058",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "choice",
+    "source": "The committee refused to release the case study, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the case study surprised everyone",
+    "tokens": [
+      "surprised",
+      "to",
+      "everyone",
+      "release",
+      "the",
+      "The",
+      "case",
+      "committee’s",
+      "study",
+      "refusal"
+    ],
+    "choices": [
+      "The committee’s refusal  release the case study surprised everyone",
+      "The committee’s refusal to release the case study surprised everyone",
+      "The committee’s to refusal release the case study surprised everyone",
+      "The committee’s refusal to release the case study surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the case study surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-059",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "build",
+    "source": "The committee refused to release the conference plan, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the conference plan surprised everyone",
+    "tokens": [
+      "plan",
+      "refusal",
+      "surprised",
+      "to",
+      "everyone",
+      "release",
+      "the",
+      "The",
+      "conference",
+      "committee’s"
+    ],
+    "choices": [
+      "The committee’s refusal  release the conference plan surprised everyone",
+      "The committee’s refusal to release the conference plan surprised everyone",
+      "The committee’s to refusal release the conference plan surprised everyone",
+      "The committee’s refusal to release the conference plan surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the conference plan surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-060",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Nominalisation",
+    "mode": "choice",
+    "source": "The committee refused to release the budget forecast, which surprised everyone.",
+    "keyword": "REFUSAL",
+    "answer": "The committee’s refusal to release the budget forecast surprised everyone",
+    "tokens": [
+      "committee’s",
+      "forecast",
+      "refusal",
+      "surprised",
+      "to",
+      "everyone",
+      "release",
+      "the",
+      "The",
+      "budget"
+    ],
+    "choices": [
+      "The committee’s refusal  release the budget forecast surprised everyone",
+      "The committee’s refusal to release the budget forecast surprised everyone",
+      "The committee’s to refusal release the budget forecast surprised everyone",
+      "The committee’s refusal to release the budget forecast surprised everyone incorrectly"
+    ],
+    "rule": "refusal + to-infinitive",
+    "explanation": "Nominalisation turns “refused” into “refusal”.",
+    "commonError": "Do not alter the fixed pattern: refusal + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The committee’s refusal to release the budget forecast surprised everyone"
+    ]
+  },
+  {
+    "id": "cpe-061",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "build",
+    "source": "I particularly admired Maya’s analysis of renewable energy.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Maya’s analysis of renewable energy",
+    "tokens": [
+      "What",
+      "analysis",
+      "I",
+      "of",
+      "particularly",
+      "renewable",
+      "admired",
+      "energy",
+      "was",
+      "Maya’s"
+    ],
+    "choices": [
+      "What I particularly admired was Maya’s analysis  renewable energy",
+      "What I particularly admired was Maya’s analysis of renewable energy",
+      "What I particularly admired did Maya’s analysis of renewable energy",
+      "What I admired particularly was Maya’s analysis of renewable energy"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Maya’s analysis of renewable energy"
+    ]
+  },
+  {
+    "id": "cpe-062",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "choice",
+    "source": "I particularly admired Daniel’s analysis of digital privacy.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Daniel’s analysis of digital privacy",
+    "tokens": [
+      "Daniel’s",
+      "What",
+      "analysis",
+      "I",
+      "of",
+      "particularly",
+      "digital",
+      "admired",
+      "privacy",
+      "was"
+    ],
+    "choices": [
+      "What I particularly admired was Daniel’s analysis  digital privacy",
+      "What I particularly admired was Daniel’s analysis of digital privacy",
+      "What I particularly admired did Daniel’s analysis of digital privacy",
+      "What I admired particularly was Daniel’s analysis of digital privacy"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Daniel’s analysis of digital privacy"
+    ]
+  },
+  {
+    "id": "cpe-063",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "build",
+    "source": "I particularly admired Sofia’s analysis of urban development.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Sofia’s analysis of urban development",
+    "tokens": [
+      "was",
+      "Sofia’s",
+      "What",
+      "analysis",
+      "I",
+      "of",
+      "particularly",
+      "urban",
+      "admired",
+      "development"
+    ],
+    "choices": [
+      "What I particularly admired was Sofia’s analysis  urban development",
+      "What I particularly admired was Sofia’s analysis of urban development",
+      "What I particularly admired did Sofia’s analysis of urban development",
+      "What I admired particularly was Sofia’s analysis of urban development"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Sofia’s analysis of urban development"
+    ]
+  },
+  {
+    "id": "cpe-064",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "choice",
+    "source": "I particularly admired Leo’s analysis of public health.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Leo’s analysis of public health",
+    "tokens": [
+      "health",
+      "was",
+      "Leo’s",
+      "What",
+      "analysis",
+      "I",
+      "of",
+      "particularly",
+      "public",
+      "admired"
+    ],
+    "choices": [
+      "What I particularly admired was Leo’s analysis  public health",
+      "What I particularly admired was Leo’s analysis of public health",
+      "What I particularly admired did Leo’s analysis of public health",
+      "What I admired particularly was Leo’s analysis of public health"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Leo’s analysis of public health"
+    ]
+  },
+  {
+    "id": "cpe-065",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "build",
+    "source": "I particularly admired Nina’s analysis of language learning.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Nina’s analysis of language learning",
+    "tokens": [
+      "admired",
+      "learning",
+      "was",
+      "Nina’s",
+      "What",
+      "analysis",
+      "I",
+      "of",
+      "particularly",
+      "language"
+    ],
+    "choices": [
+      "What I particularly admired was Nina’s analysis  language learning",
+      "What I particularly admired was Nina’s analysis of language learning",
+      "What I particularly admired did Nina’s analysis of language learning",
+      "What I admired particularly was Nina’s analysis of language learning"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Nina’s analysis of language learning"
+    ]
+  },
+  {
+    "id": "cpe-066",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "choice",
+    "source": "I particularly admired Omar’s analysis of climate policy.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Omar’s analysis of climate policy",
+    "tokens": [
+      "particularly",
+      "climate",
+      "admired",
+      "policy",
+      "was",
+      "Omar’s",
+      "What",
+      "analysis",
+      "I",
+      "of"
+    ],
+    "choices": [
+      "What I particularly admired was Omar’s analysis  climate policy",
+      "What I particularly admired was Omar’s analysis of climate policy",
+      "What I particularly admired did Omar’s analysis of climate policy",
+      "What I admired particularly was Omar’s analysis of climate policy"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Omar’s analysis of climate policy"
+    ]
+  },
+  {
+    "id": "cpe-067",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "build",
+    "source": "I particularly admired Chloe’s analysis of artificial intelligence.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Chloe’s analysis of artificial intelligence",
+    "tokens": [
+      "I",
+      "of",
+      "particularly",
+      "artificial",
+      "admired",
+      "intelligence",
+      "was",
+      "Chloe’s",
+      "What",
+      "analysis"
+    ],
+    "choices": [
+      "What I particularly admired was Chloe’s analysis  artificial intelligence",
+      "What I particularly admired was Chloe’s analysis of artificial intelligence",
+      "What I particularly admired did Chloe’s analysis of artificial intelligence",
+      "What I admired particularly was Chloe’s analysis of artificial intelligence"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Chloe’s analysis of artificial intelligence"
+    ]
+  },
+  {
+    "id": "cpe-068",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "choice",
+    "source": "I particularly admired Ethan’s analysis of remote work.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Ethan’s analysis of remote work",
+    "tokens": [
+      "analysis",
+      "I",
+      "of",
+      "particularly",
+      "remote",
+      "admired",
+      "work",
+      "was",
+      "Ethan’s",
+      "What"
+    ],
+    "choices": [
+      "What I particularly admired was Ethan’s analysis  remote work",
+      "What I particularly admired was Ethan’s analysis of remote work",
+      "What I particularly admired did Ethan’s analysis of remote work",
+      "What I admired particularly was Ethan’s analysis of remote work"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Ethan’s analysis of remote work"
+    ]
+  },
+  {
+    "id": "cpe-069",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "build",
+    "source": "I particularly admired Priya’s analysis of scientific literacy.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Priya’s analysis of scientific literacy",
+    "tokens": [
+      "What",
+      "analysis",
+      "I",
+      "of",
+      "particularly",
+      "scientific",
+      "admired",
+      "literacy",
+      "was",
+      "Priya’s"
+    ],
+    "choices": [
+      "What I particularly admired was Priya’s analysis  scientific literacy",
+      "What I particularly admired was Priya’s analysis of scientific literacy",
+      "What I particularly admired did Priya’s analysis of scientific literacy",
+      "What I admired particularly was Priya’s analysis of scientific literacy"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Priya’s analysis of scientific literacy"
+    ]
+  },
+  {
+    "id": "cpe-070",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Cleft Sentences",
+    "mode": "choice",
+    "source": "I particularly admired Lucas’s analysis of cultural heritage.",
+    "keyword": "WHAT",
+    "answer": "What I particularly admired was Lucas’s analysis of cultural heritage",
+    "tokens": [
+      "Lucas’s",
+      "What",
+      "analysis",
+      "I",
+      "of",
+      "particularly",
+      "cultural",
+      "admired",
+      "heritage",
+      "was"
+    ],
+    "choices": [
+      "What I particularly admired was Lucas’s analysis  cultural heritage",
+      "What I particularly admired was Lucas’s analysis of cultural heritage",
+      "What I particularly admired did Lucas’s analysis of cultural heritage",
+      "What I admired particularly was Lucas’s analysis of cultural heritage"
+    ],
+    "rule": "What-clause + be + focus",
+    "explanation": "A what-cleft foregrounds important information.",
+    "commonError": "Do not alter the fixed pattern: What-clause + be + focus.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "What I particularly admired was Lucas’s analysis of cultural heritage"
+    ]
+  },
+  {
+    "id": "cpe-071",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "build",
+    "source": "The evidence was limited. Nevertheless, the committee approved the research paper.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the research paper",
+    "tokens": [
+      "limited",
+      "research",
+      "evidence",
+      "paper",
+      "In",
+      "the",
+      "spite",
+      "committee",
+      "of",
+      "approved",
+      "the",
+      "the"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the research paper",
+      "In spite of the limited evidence the committee approved the research paper",
+      "In spite the of limited evidence the committee approved the research paper",
+      "In spite of the limited evidence the committee approved the research paper incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the research paper"
+    ]
+  },
+  {
+    "id": "cpe-072",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "choice",
+    "source": "The evidence was limited. Nevertheless, the committee approved the funding proposal.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the funding proposal",
+    "tokens": [
+      "the",
+      "the",
+      "limited",
+      "funding",
+      "evidence",
+      "proposal",
+      "In",
+      "the",
+      "spite",
+      "committee",
+      "of",
+      "approved"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the funding proposal",
+      "In spite of the limited evidence the committee approved the funding proposal",
+      "In spite the of limited evidence the committee approved the funding proposal",
+      "In spite of the limited evidence the committee approved the funding proposal incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the funding proposal"
+    ]
+  },
+  {
+    "id": "cpe-073",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "build",
+    "source": "The evidence was limited. Nevertheless, the committee approved the final report.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the final report",
+    "tokens": [
+      "of",
+      "approved",
+      "the",
+      "the",
+      "limited",
+      "final",
+      "evidence",
+      "report",
+      "In",
+      "the",
+      "spite",
+      "committee"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the final report",
+      "In spite of the limited evidence the committee approved the final report",
+      "In spite the of limited evidence the committee approved the final report",
+      "In spite of the limited evidence the committee approved the final report incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the final report"
+    ]
+  },
+  {
+    "id": "cpe-074",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "choice",
+    "source": "The evidence was limited. Nevertheless, the committee approved the safety review.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the safety review",
+    "tokens": [
+      "committee",
+      "of",
+      "approved",
+      "the",
+      "the",
+      "limited",
+      "safety",
+      "evidence",
+      "review",
+      "In",
+      "the",
+      "spite"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the safety review",
+      "In spite of the limited evidence the committee approved the safety review",
+      "In spite the of limited evidence the committee approved the safety review",
+      "In spite of the limited evidence the committee approved the safety review incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the safety review"
+    ]
+  },
+  {
+    "id": "cpe-075",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "build",
+    "source": "The evidence was limited. Nevertheless, the committee approved the training course.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the training course",
+    "tokens": [
+      "spite",
+      "committee",
+      "of",
+      "approved",
+      "the",
+      "the",
+      "limited",
+      "training",
+      "evidence",
+      "course",
+      "In",
+      "the"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the training course",
+      "In spite of the limited evidence the committee approved the training course",
+      "In spite the of limited evidence the committee approved the training course",
+      "In spite of the limited evidence the committee approved the training course incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the training course"
+    ]
+  },
+  {
+    "id": "cpe-076",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "choice",
+    "source": "The evidence was limited. Nevertheless, the committee approved the policy document.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the policy document",
+    "tokens": [
+      "In",
+      "the",
+      "spite",
+      "committee",
+      "of",
+      "approved",
+      "the",
+      "the",
+      "limited",
+      "policy",
+      "evidence",
+      "document"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the policy document",
+      "In spite of the limited evidence the committee approved the policy document",
+      "In spite the of limited evidence the committee approved the policy document",
+      "In spite of the limited evidence the committee approved the policy document incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the policy document"
+    ]
+  },
+  {
+    "id": "cpe-077",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "build",
+    "source": "The evidence was limited. Nevertheless, the committee approved the design brief.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the design brief",
+    "tokens": [
+      "evidence",
+      "brief",
+      "In",
+      "the",
+      "spite",
+      "committee",
+      "of",
+      "approved",
+      "the",
+      "the",
+      "limited",
+      "design"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the design brief",
+      "In spite of the limited evidence the committee approved the design brief",
+      "In spite the of limited evidence the committee approved the design brief",
+      "In spite of the limited evidence the committee approved the design brief incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the design brief"
+    ]
+  },
+  {
+    "id": "cpe-078",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "choice",
+    "source": "The evidence was limited. Nevertheless, the committee approved the case study.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the case study",
+    "tokens": [
+      "limited",
+      "case",
+      "evidence",
+      "study",
+      "In",
+      "the",
+      "spite",
+      "committee",
+      "of",
+      "approved",
+      "the",
+      "the"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the case study",
+      "In spite of the limited evidence the committee approved the case study",
+      "In spite the of limited evidence the committee approved the case study",
+      "In spite of the limited evidence the committee approved the case study incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the case study"
+    ]
+  },
+  {
+    "id": "cpe-079",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "build",
+    "source": "The evidence was limited. Nevertheless, the committee approved the conference plan.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the conference plan",
+    "tokens": [
+      "the",
+      "limited",
+      "conference",
+      "evidence",
+      "plan",
+      "In",
+      "the",
+      "spite",
+      "committee",
+      "of",
+      "approved",
+      "the"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the conference plan",
+      "In spite of the limited evidence the committee approved the conference plan",
+      "In spite the of limited evidence the committee approved the conference plan",
+      "In spite of the limited evidence the committee approved the conference plan incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the conference plan"
+    ]
+  },
+  {
+    "id": "cpe-080",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Discourse Markers",
+    "mode": "choice",
+    "source": "The evidence was limited. Nevertheless, the committee approved the budget forecast.",
+    "keyword": "SPITE",
+    "answer": "In spite of the limited evidence the committee approved the budget forecast",
+    "tokens": [
+      "the",
+      "the",
+      "limited",
+      "budget",
+      "evidence",
+      "forecast",
+      "In",
+      "the",
+      "spite",
+      "committee",
+      "of",
+      "approved"
+    ],
+    "choices": [
+      " spite of the limited evidence the committee approved the budget forecast",
+      "In spite of the limited evidence the committee approved the budget forecast",
+      "In spite the of limited evidence the committee approved the budget forecast",
+      "In spite of the limited evidence the committee approved the budget forecast incorrectly"
+    ],
+    "rule": "in spite of + noun phrase",
+    "explanation": "This structure expresses concession.",
+    "commonError": "Do not alter the fixed pattern: in spite of + noun phrase.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "In spite of the limited evidence the committee approved the budget forecast"
+    ]
+  },
+  {
+    "id": "cpe-081",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "build",
+    "source": "Maya will consider the research paper carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Maya will give careful consideration to the research paper before responding",
+    "tokens": [
+      "give",
+      "paper",
+      "careful",
+      "before",
+      "consideration",
+      "responding",
+      "to",
+      "Maya",
+      "the",
+      "will",
+      "research"
+    ],
+    "choices": [
+      "Maya will give careful consideration  the research paper before responding",
+      "Maya will give careful consideration to the research paper before responding",
+      "Maya will careful give consideration to the research paper before responding",
+      "Maya will give careful consideration to the research paper before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya will give careful consideration to the research paper before responding"
+    ]
+  },
+  {
+    "id": "cpe-082",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "choice",
+    "source": "Daniel will consider the funding proposal carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Daniel will give careful consideration to the funding proposal before responding",
+    "tokens": [
+      "will",
+      "funding",
+      "give",
+      "proposal",
+      "careful",
+      "before",
+      "consideration",
+      "responding",
+      "to",
+      "Daniel",
+      "the"
+    ],
+    "choices": [
+      "Daniel will give careful consideration  the funding proposal before responding",
+      "Daniel will give careful consideration to the funding proposal before responding",
+      "Daniel will careful give consideration to the funding proposal before responding",
+      "Daniel will give careful consideration to the funding proposal before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel will give careful consideration to the funding proposal before responding"
+    ]
+  },
+  {
+    "id": "cpe-083",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "build",
+    "source": "Sofia will consider the final report carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Sofia will give careful consideration to the final report before responding",
+    "tokens": [
+      "the",
+      "will",
+      "final",
+      "give",
+      "report",
+      "careful",
+      "before",
+      "consideration",
+      "responding",
+      "to",
+      "Sofia"
+    ],
+    "choices": [
+      "Sofia will give careful consideration  the final report before responding",
+      "Sofia will give careful consideration to the final report before responding",
+      "Sofia will careful give consideration to the final report before responding",
+      "Sofia will give careful consideration to the final report before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia will give careful consideration to the final report before responding"
+    ]
+  },
+  {
+    "id": "cpe-084",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "choice",
+    "source": "Leo will consider the safety review carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Leo will give careful consideration to the safety review before responding",
+    "tokens": [
+      "to",
+      "Leo",
+      "the",
+      "will",
+      "safety",
+      "give",
+      "review",
+      "careful",
+      "before",
+      "consideration",
+      "responding"
+    ],
+    "choices": [
+      "Leo will give careful consideration  the safety review before responding",
+      "Leo will give careful consideration to the safety review before responding",
+      "Leo will careful give consideration to the safety review before responding",
+      "Leo will give careful consideration to the safety review before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo will give careful consideration to the safety review before responding"
+    ]
+  },
+  {
+    "id": "cpe-085",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "build",
+    "source": "Nina will consider the training course carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Nina will give careful consideration to the training course before responding",
+    "tokens": [
+      "responding",
+      "to",
+      "Nina",
+      "the",
+      "will",
+      "training",
+      "give",
+      "course",
+      "careful",
+      "before",
+      "consideration"
+    ],
+    "choices": [
+      "Nina will give careful consideration  the training course before responding",
+      "Nina will give careful consideration to the training course before responding",
+      "Nina will careful give consideration to the training course before responding",
+      "Nina will give careful consideration to the training course before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina will give careful consideration to the training course before responding"
+    ]
+  },
+  {
+    "id": "cpe-086",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "choice",
+    "source": "Omar will consider the policy document carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Omar will give careful consideration to the policy document before responding",
+    "tokens": [
+      "consideration",
+      "responding",
+      "to",
+      "Omar",
+      "the",
+      "will",
+      "policy",
+      "give",
+      "document",
+      "careful",
+      "before"
+    ],
+    "choices": [
+      "Omar will give careful consideration  the policy document before responding",
+      "Omar will give careful consideration to the policy document before responding",
+      "Omar will careful give consideration to the policy document before responding",
+      "Omar will give careful consideration to the policy document before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar will give careful consideration to the policy document before responding"
+    ]
+  },
+  {
+    "id": "cpe-087",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "build",
+    "source": "Chloe will consider the design brief carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Chloe will give careful consideration to the design brief before responding",
+    "tokens": [
+      "careful",
+      "before",
+      "consideration",
+      "responding",
+      "to",
+      "Chloe",
+      "the",
+      "will",
+      "design",
+      "give",
+      "brief"
+    ],
+    "choices": [
+      "Chloe will give careful consideration  the design brief before responding",
+      "Chloe will give careful consideration to the design brief before responding",
+      "Chloe will careful give consideration to the design brief before responding",
+      "Chloe will give careful consideration to the design brief before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe will give careful consideration to the design brief before responding"
+    ]
+  },
+  {
+    "id": "cpe-088",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "choice",
+    "source": "Ethan will consider the case study carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Ethan will give careful consideration to the case study before responding",
+    "tokens": [
+      "give",
+      "study",
+      "careful",
+      "before",
+      "consideration",
+      "responding",
+      "to",
+      "Ethan",
+      "the",
+      "will",
+      "case"
+    ],
+    "choices": [
+      "Ethan will give careful consideration  the case study before responding",
+      "Ethan will give careful consideration to the case study before responding",
+      "Ethan will careful give consideration to the case study before responding",
+      "Ethan will give careful consideration to the case study before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan will give careful consideration to the case study before responding"
+    ]
+  },
+  {
+    "id": "cpe-089",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "build",
+    "source": "Priya will consider the conference plan carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Priya will give careful consideration to the conference plan before responding",
+    "tokens": [
+      "conference",
+      "give",
+      "plan",
+      "careful",
+      "before",
+      "consideration",
+      "responding",
+      "to",
+      "Priya",
+      "the",
+      "will"
+    ],
+    "choices": [
+      "Priya will give careful consideration  the conference plan before responding",
+      "Priya will give careful consideration to the conference plan before responding",
+      "Priya will careful give consideration to the conference plan before responding",
+      "Priya will give careful consideration to the conference plan before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya will give careful consideration to the conference plan before responding"
+    ]
+  },
+  {
+    "id": "cpe-090",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Formal English",
+    "mode": "choice",
+    "source": "Lucas will consider the budget forecast carefully before responding.",
+    "keyword": "CONSIDERATION",
+    "answer": "Lucas will give careful consideration to the budget forecast before responding",
+    "tokens": [
+      "will",
+      "budget",
+      "give",
+      "forecast",
+      "careful",
+      "before",
+      "consideration",
+      "responding",
+      "to",
+      "Lucas",
+      "the"
+    ],
+    "choices": [
+      "Lucas will give careful consideration  the budget forecast before responding",
+      "Lucas will give careful consideration to the budget forecast before responding",
+      "Lucas will careful give consideration to the budget forecast before responding",
+      "Lucas will give careful consideration to the budget forecast before responding incorrectly"
+    ],
+    "rule": "give consideration to",
+    "explanation": "This formal noun phrase replaces “consider”.",
+    "commonError": "Do not alter the fixed pattern: give consideration to.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas will give careful consideration to the budget forecast before responding"
+    ]
+  },
+  {
+    "id": "cpe-091",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "build",
+    "source": "Maya realised the importance of renewable energy only after the workshop.",
+    "keyword": "DID",
+    "answer": "Only after the workshop did Maya realise the importance of renewable energy",
+    "tokens": [
+      "Only",
+      "realise",
+      "after",
+      "the",
+      "the",
+      "importance",
+      "workshop",
+      "of",
+      "did",
+      "renewable",
+      "Maya",
+      "energy"
+    ],
+    "choices": [
+      "Only after the workshop did Maya realise the importance  renewable energy",
+      "Only after the workshop did Maya realise the importance of renewable energy",
+      "Only after workshop the did Maya realise the importance of renewable energy",
+      "Only after the workshop did Maya realise the importance of renewable energy incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the workshop did Maya realise the importance of renewable energy"
+    ]
+  },
+  {
+    "id": "cpe-092",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "choice",
+    "source": "Daniel realised the importance of digital privacy only after the ceremony.",
+    "keyword": "DID",
+    "answer": "Only after the ceremony did Daniel realise the importance of digital privacy",
+    "tokens": [
+      "Daniel",
+      "privacy",
+      "Only",
+      "realise",
+      "after",
+      "the",
+      "the",
+      "importance",
+      "ceremony",
+      "of",
+      "did",
+      "digital"
+    ],
+    "choices": [
+      "Only after the ceremony did Daniel realise the importance  digital privacy",
+      "Only after the ceremony did Daniel realise the importance of digital privacy",
+      "Only after ceremony the did Daniel realise the importance of digital privacy",
+      "Only after the ceremony did Daniel realise the importance of digital privacy incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the ceremony did Daniel realise the importance of digital privacy"
+    ]
+  },
+  {
+    "id": "cpe-093",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "build",
+    "source": "Sofia realised the importance of urban development only after the interview.",
+    "keyword": "DID",
+    "answer": "Only after the interview did Sofia realise the importance of urban development",
+    "tokens": [
+      "did",
+      "urban",
+      "Sofia",
+      "development",
+      "Only",
+      "realise",
+      "after",
+      "the",
+      "the",
+      "importance",
+      "interview",
+      "of"
+    ],
+    "choices": [
+      "Only after the interview did Sofia realise the importance  urban development",
+      "Only after the interview did Sofia realise the importance of urban development",
+      "Only after interview the did Sofia realise the importance of urban development",
+      "Only after the interview did Sofia realise the importance of urban development incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the interview did Sofia realise the importance of urban development"
+    ]
+  },
+  {
+    "id": "cpe-094",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "choice",
+    "source": "Leo realised the importance of public health only after the presentation.",
+    "keyword": "DID",
+    "answer": "Only after the presentation did Leo realise the importance of public health",
+    "tokens": [
+      "of",
+      "did",
+      "public",
+      "Leo",
+      "health",
+      "Only",
+      "realise",
+      "after",
+      "the",
+      "the",
+      "importance",
+      "presentation"
+    ],
+    "choices": [
+      "Only after the presentation did Leo realise the importance  public health",
+      "Only after the presentation did Leo realise the importance of public health",
+      "Only after presentation the did Leo realise the importance of public health",
+      "Only after the presentation did Leo realise the importance of public health incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the presentation did Leo realise the importance of public health"
+    ]
+  },
+  {
+    "id": "cpe-095",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "build",
+    "source": "Nina realised the importance of language learning only after the inspection.",
+    "keyword": "DID",
+    "answer": "Only after the inspection did Nina realise the importance of language learning",
+    "tokens": [
+      "importance",
+      "inspection",
+      "of",
+      "did",
+      "language",
+      "Nina",
+      "learning",
+      "Only",
+      "realise",
+      "after",
+      "the",
+      "the"
+    ],
+    "choices": [
+      "Only after the inspection did Nina realise the importance  language learning",
+      "Only after the inspection did Nina realise the importance of language learning",
+      "Only after inspection the did Nina realise the importance of language learning",
+      "Only after the inspection did Nina realise the importance of language learning incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the inspection did Nina realise the importance of language learning"
+    ]
+  },
+  {
+    "id": "cpe-096",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "choice",
+    "source": "Omar realised the importance of climate policy only after the conference.",
+    "keyword": "DID",
+    "answer": "Only after the conference did Omar realise the importance of climate policy",
+    "tokens": [
+      "the",
+      "importance",
+      "conference",
+      "of",
+      "did",
+      "climate",
+      "Omar",
+      "policy",
+      "Only",
+      "realise",
+      "after",
+      "the"
+    ],
+    "choices": [
+      "Only after the conference did Omar realise the importance  climate policy",
+      "Only after the conference did Omar realise the importance of climate policy",
+      "Only after conference the did Omar realise the importance of climate policy",
+      "Only after the conference did Omar realise the importance of climate policy incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the conference did Omar realise the importance of climate policy"
+    ]
+  },
+  {
+    "id": "cpe-097",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "build",
+    "source": "Chloe realised the importance of artificial intelligence only after the consultation.",
+    "keyword": "DID",
+    "answer": "Only after the consultation did Chloe realise the importance of artificial intelligence",
+    "tokens": [
+      "after",
+      "the",
+      "the",
+      "importance",
+      "consultation",
+      "of",
+      "did",
+      "artificial",
+      "Chloe",
+      "intelligence",
+      "Only",
+      "realise"
+    ],
+    "choices": [
+      "Only after the consultation did Chloe realise the importance  artificial intelligence",
+      "Only after the consultation did Chloe realise the importance of artificial intelligence",
+      "Only after consultation the did Chloe realise the importance of artificial intelligence",
+      "Only after the consultation did Chloe realise the importance of artificial intelligence incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the consultation did Chloe realise the importance of artificial intelligence"
+    ]
+  },
+  {
+    "id": "cpe-098",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "choice",
+    "source": "Ethan realised the importance of remote work only after the debate.",
+    "keyword": "DID",
+    "answer": "Only after the debate did Ethan realise the importance of remote work",
+    "tokens": [
+      "Only",
+      "realise",
+      "after",
+      "the",
+      "the",
+      "importance",
+      "debate",
+      "of",
+      "did",
+      "remote",
+      "Ethan",
+      "work"
+    ],
+    "choices": [
+      "Only after the debate did Ethan realise the importance  remote work",
+      "Only after the debate did Ethan realise the importance of remote work",
+      "Only after debate the did Ethan realise the importance of remote work",
+      "Only after the debate did Ethan realise the importance of remote work incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the debate did Ethan realise the importance of remote work"
+    ]
+  },
+  {
+    "id": "cpe-099",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "build",
+    "source": "Priya realised the importance of scientific literacy only after the exhibition.",
+    "keyword": "DID",
+    "answer": "Only after the exhibition did Priya realise the importance of scientific literacy",
+    "tokens": [
+      "Priya",
+      "literacy",
+      "Only",
+      "realise",
+      "after",
+      "the",
+      "the",
+      "importance",
+      "exhibition",
+      "of",
+      "did",
+      "scientific"
+    ],
+    "choices": [
+      "Only after the exhibition did Priya realise the importance  scientific literacy",
+      "Only after the exhibition did Priya realise the importance of scientific literacy",
+      "Only after exhibition the did Priya realise the importance of scientific literacy",
+      "Only after the exhibition did Priya realise the importance of scientific literacy incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the exhibition did Priya realise the importance of scientific literacy"
+    ]
+  },
+  {
+    "id": "cpe-100",
+    "exam": "CPE",
+    "cefr": "C2",
+    "category": "Advanced Structures",
+    "mode": "choice",
+    "source": "Lucas realised the importance of cultural heritage only after the assessment.",
+    "keyword": "DID",
+    "answer": "Only after the assessment did Lucas realise the importance of cultural heritage",
+    "tokens": [
+      "cultural",
+      "Lucas",
+      "heritage",
+      "Only",
+      "realise",
+      "after",
+      "the",
+      "the",
+      "importance",
+      "assessment",
+      "of",
+      "did"
+    ],
+    "choices": [
+      "Only after the assessment did Lucas realise the importance  cultural heritage",
+      "Only after the assessment did Lucas realise the importance of cultural heritage",
+      "Only after assessment the did Lucas realise the importance of cultural heritage",
+      "Only after the assessment did Lucas realise the importance of cultural heritage incorrectly"
+    ],
+    "rule": "Only after + auxiliary inversion",
+    "explanation": "Fronted “only after” requires inversion.",
+    "commonError": "Do not alter the fixed pattern: Only after + auxiliary inversion.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Only after the assessment did Lucas realise the importance of cultural heritage"
+    ]
+  }
+]

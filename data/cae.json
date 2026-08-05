@@ -1,1 +1,3442 @@
-{"phase":1,"exam":"CAE","count":4,"note":"Seed data is currently exported from js/questions.js. Full bank arrives in Phase 7."}
+[
+  {
+    "id": "cae-001",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "build",
+    "source": "the research paper is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the research paper",
+    "tokens": [
+      "The",
+      "as",
+      "earlier",
+      "clear",
+      "version",
+      "as",
+      "is",
+      "the",
+      "not",
+      "research",
+      "nearly",
+      "paper"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the research paper",
+      "The earlier version is not nearly as clear as the research paper",
+      "The earlier version did not nearly as clear as the research paper",
+      "The earlier version is  nearly as clear as the research paper"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the research paper"
+    ]
+  },
+  {
+    "id": "cae-002",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "choice",
+    "source": "the funding proposal is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the funding proposal",
+    "tokens": [
+      "nearly",
+      "proposal",
+      "The",
+      "as",
+      "earlier",
+      "clear",
+      "version",
+      "as",
+      "is",
+      "the",
+      "not",
+      "funding"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the funding proposal",
+      "The earlier version is not nearly as clear as the funding proposal",
+      "The earlier version did not nearly as clear as the funding proposal",
+      "The earlier version is  nearly as clear as the funding proposal"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the funding proposal"
+    ]
+  },
+  {
+    "id": "cae-003",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "build",
+    "source": "the final report is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the final report",
+    "tokens": [
+      "final",
+      "nearly",
+      "report",
+      "The",
+      "as",
+      "earlier",
+      "clear",
+      "version",
+      "as",
+      "is",
+      "the",
+      "not"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the final report",
+      "The earlier version is not nearly as clear as the final report",
+      "The earlier version did not nearly as clear as the final report",
+      "The earlier version is  nearly as clear as the final report"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the final report"
+    ]
+  },
+  {
+    "id": "cae-004",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "choice",
+    "source": "the safety review is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the safety review",
+    "tokens": [
+      "not",
+      "safety",
+      "nearly",
+      "review",
+      "The",
+      "as",
+      "earlier",
+      "clear",
+      "version",
+      "as",
+      "is",
+      "the"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the safety review",
+      "The earlier version is not nearly as clear as the safety review",
+      "The earlier version did not nearly as clear as the safety review",
+      "The earlier version is  nearly as clear as the safety review"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the safety review"
+    ]
+  },
+  {
+    "id": "cae-005",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "build",
+    "source": "the training course is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the training course",
+    "tokens": [
+      "is",
+      "the",
+      "not",
+      "training",
+      "nearly",
+      "course",
+      "The",
+      "as",
+      "earlier",
+      "clear",
+      "version",
+      "as"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the training course",
+      "The earlier version is not nearly as clear as the training course",
+      "The earlier version did not nearly as clear as the training course",
+      "The earlier version is  nearly as clear as the training course"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the training course"
+    ]
+  },
+  {
+    "id": "cae-006",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "choice",
+    "source": "the policy document is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the policy document",
+    "tokens": [
+      "version",
+      "as",
+      "is",
+      "the",
+      "not",
+      "policy",
+      "nearly",
+      "document",
+      "The",
+      "as",
+      "earlier",
+      "clear"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the policy document",
+      "The earlier version is not nearly as clear as the policy document",
+      "The earlier version did not nearly as clear as the policy document",
+      "The earlier version is  nearly as clear as the policy document"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the policy document"
+    ]
+  },
+  {
+    "id": "cae-007",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "build",
+    "source": "the design brief is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the design brief",
+    "tokens": [
+      "clear",
+      "version",
+      "as",
+      "is",
+      "the",
+      "not",
+      "design",
+      "nearly",
+      "brief",
+      "The",
+      "as",
+      "earlier"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the design brief",
+      "The earlier version is not nearly as clear as the design brief",
+      "The earlier version did not nearly as clear as the design brief",
+      "The earlier version is  nearly as clear as the design brief"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the design brief"
+    ]
+  },
+  {
+    "id": "cae-008",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "choice",
+    "source": "the case study is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the case study",
+    "tokens": [
+      "earlier",
+      "clear",
+      "version",
+      "as",
+      "is",
+      "the",
+      "not",
+      "case",
+      "nearly",
+      "study",
+      "The",
+      "as"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the case study",
+      "The earlier version is not nearly as clear as the case study",
+      "The earlier version did not nearly as clear as the case study",
+      "The earlier version is  nearly as clear as the case study"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the case study"
+    ]
+  },
+  {
+    "id": "cae-009",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "build",
+    "source": "the conference plan is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the conference plan",
+    "tokens": [
+      "plan",
+      "The",
+      "as",
+      "earlier",
+      "clear",
+      "version",
+      "as",
+      "is",
+      "the",
+      "not",
+      "conference",
+      "nearly"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the conference plan",
+      "The earlier version is not nearly as clear as the conference plan",
+      "The earlier version did not nearly as clear as the conference plan",
+      "The earlier version is  nearly as clear as the conference plan"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the conference plan"
+    ]
+  },
+  {
+    "id": "cae-010",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Comparatives",
+    "mode": "choice",
+    "source": "the budget forecast is much clearer than the earlier version.",
+    "keyword": "NEARLY",
+    "answer": "The earlier version is not nearly as clear as the budget forecast",
+    "tokens": [
+      "nearly",
+      "forecast",
+      "The",
+      "as",
+      "earlier",
+      "clear",
+      "version",
+      "as",
+      "is",
+      "the",
+      "not",
+      "budget"
+    ],
+    "choices": [
+      "The earlier version is not nearly  clear as the budget forecast",
+      "The earlier version is not nearly as clear as the budget forecast",
+      "The earlier version did not nearly as clear as the budget forecast",
+      "The earlier version is  nearly as clear as the budget forecast"
+    ],
+    "rule": "not nearly as + adjective + as",
+    "explanation": "This pattern emphasizes a substantial difference.",
+    "commonError": "Do not alter the fixed pattern: not nearly as + adjective + as.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "The earlier version is not nearly as clear as the budget forecast"
+    ]
+  },
+  {
+    "id": "cae-011",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "People expect Maya to complete the research paper this week.",
+    "keyword": "EXPECTED",
+    "answer": "Maya is expected to complete the research paper this week",
+    "tokens": [
+      "complete",
+      "the",
+      "Maya",
+      "research",
+      "is",
+      "paper",
+      "expected",
+      "this",
+      "to",
+      "week"
+    ],
+    "choices": [
+      "Maya is expected  complete the research paper this week",
+      "Maya is expected to complete the research paper this week",
+      "Maya did expected to complete the research paper this week",
+      "Maya is to expected complete the research paper this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya is expected to complete the research paper this week"
+    ]
+  },
+  {
+    "id": "cae-012",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "People expect Daniel to complete the funding proposal this week.",
+    "keyword": "EXPECTED",
+    "answer": "Daniel is expected to complete the funding proposal this week",
+    "tokens": [
+      "to",
+      "week",
+      "complete",
+      "the",
+      "Daniel",
+      "funding",
+      "is",
+      "proposal",
+      "expected",
+      "this"
+    ],
+    "choices": [
+      "Daniel is expected  complete the funding proposal this week",
+      "Daniel is expected to complete the funding proposal this week",
+      "Daniel did expected to complete the funding proposal this week",
+      "Daniel is to expected complete the funding proposal this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel is expected to complete the funding proposal this week"
+    ]
+  },
+  {
+    "id": "cae-013",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "People expect Sofia to complete the final report this week.",
+    "keyword": "EXPECTED",
+    "answer": "Sofia is expected to complete the final report this week",
+    "tokens": [
+      "this",
+      "to",
+      "week",
+      "complete",
+      "the",
+      "Sofia",
+      "final",
+      "is",
+      "report",
+      "expected"
+    ],
+    "choices": [
+      "Sofia is expected  complete the final report this week",
+      "Sofia is expected to complete the final report this week",
+      "Sofia did expected to complete the final report this week",
+      "Sofia is to expected complete the final report this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia is expected to complete the final report this week"
+    ]
+  },
+  {
+    "id": "cae-014",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "People expect Leo to complete the safety review this week.",
+    "keyword": "EXPECTED",
+    "answer": "Leo is expected to complete the safety review this week",
+    "tokens": [
+      "expected",
+      "this",
+      "to",
+      "week",
+      "complete",
+      "the",
+      "Leo",
+      "safety",
+      "is",
+      "review"
+    ],
+    "choices": [
+      "Leo is expected  complete the safety review this week",
+      "Leo is expected to complete the safety review this week",
+      "Leo did expected to complete the safety review this week",
+      "Leo is to expected complete the safety review this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo is expected to complete the safety review this week"
+    ]
+  },
+  {
+    "id": "cae-015",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "People expect Nina to complete the training course this week.",
+    "keyword": "EXPECTED",
+    "answer": "Nina is expected to complete the training course this week",
+    "tokens": [
+      "is",
+      "course",
+      "expected",
+      "this",
+      "to",
+      "week",
+      "complete",
+      "the",
+      "Nina",
+      "training"
+    ],
+    "choices": [
+      "Nina is expected  complete the training course this week",
+      "Nina is expected to complete the training course this week",
+      "Nina did expected to complete the training course this week",
+      "Nina is to expected complete the training course this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina is expected to complete the training course this week"
+    ]
+  },
+  {
+    "id": "cae-016",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "People expect Omar to complete the policy document this week.",
+    "keyword": "EXPECTED",
+    "answer": "Omar is expected to complete the policy document this week",
+    "tokens": [
+      "Omar",
+      "policy",
+      "is",
+      "document",
+      "expected",
+      "this",
+      "to",
+      "week",
+      "complete",
+      "the"
+    ],
+    "choices": [
+      "Omar is expected  complete the policy document this week",
+      "Omar is expected to complete the policy document this week",
+      "Omar did expected to complete the policy document this week",
+      "Omar is to expected complete the policy document this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar is expected to complete the policy document this week"
+    ]
+  },
+  {
+    "id": "cae-017",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "People expect Chloe to complete the design brief this week.",
+    "keyword": "EXPECTED",
+    "answer": "Chloe is expected to complete the design brief this week",
+    "tokens": [
+      "the",
+      "Chloe",
+      "design",
+      "is",
+      "brief",
+      "expected",
+      "this",
+      "to",
+      "week",
+      "complete"
+    ],
+    "choices": [
+      "Chloe is expected  complete the design brief this week",
+      "Chloe is expected to complete the design brief this week",
+      "Chloe did expected to complete the design brief this week",
+      "Chloe is to expected complete the design brief this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe is expected to complete the design brief this week"
+    ]
+  },
+  {
+    "id": "cae-018",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "People expect Ethan to complete the case study this week.",
+    "keyword": "EXPECTED",
+    "answer": "Ethan is expected to complete the case study this week",
+    "tokens": [
+      "the",
+      "Ethan",
+      "case",
+      "is",
+      "study",
+      "expected",
+      "this",
+      "to",
+      "week",
+      "complete"
+    ],
+    "choices": [
+      "Ethan is expected  complete the case study this week",
+      "Ethan is expected to complete the case study this week",
+      "Ethan did expected to complete the case study this week",
+      "Ethan is to expected complete the case study this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan is expected to complete the case study this week"
+    ]
+  },
+  {
+    "id": "cae-019",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "People expect Priya to complete the conference plan this week.",
+    "keyword": "EXPECTED",
+    "answer": "Priya is expected to complete the conference plan this week",
+    "tokens": [
+      "complete",
+      "the",
+      "Priya",
+      "conference",
+      "is",
+      "plan",
+      "expected",
+      "this",
+      "to",
+      "week"
+    ],
+    "choices": [
+      "Priya is expected  complete the conference plan this week",
+      "Priya is expected to complete the conference plan this week",
+      "Priya did expected to complete the conference plan this week",
+      "Priya is to expected complete the conference plan this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya is expected to complete the conference plan this week"
+    ]
+  },
+  {
+    "id": "cae-020",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "People expect Lucas to complete the budget forecast this week.",
+    "keyword": "EXPECTED",
+    "answer": "Lucas is expected to complete the budget forecast this week",
+    "tokens": [
+      "to",
+      "week",
+      "complete",
+      "the",
+      "Lucas",
+      "budget",
+      "is",
+      "forecast",
+      "expected",
+      "this"
+    ],
+    "choices": [
+      "Lucas is expected  complete the budget forecast this week",
+      "Lucas is expected to complete the budget forecast this week",
+      "Lucas did expected to complete the budget forecast this week",
+      "Lucas is to expected complete the budget forecast this week"
+    ],
+    "rule": "subject + is expected + to-infinitive",
+    "explanation": "A personal passive places the reported subject first.",
+    "commonError": "Do not alter the fixed pattern: subject + is expected + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas is expected to complete the budget forecast this week"
+    ]
+  },
+  {
+    "id": "cae-021",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "build",
+    "source": "“I am sorry I forgot the workshop,” Maya said.",
+    "keyword": "APOLOGISED",
+    "answer": "Maya apologised for forgetting the workshop",
+    "tokens": [
+      "for",
+      "forgetting",
+      "the",
+      "workshop",
+      "Maya",
+      "apologised"
+    ],
+    "choices": [
+      "Maya apologised  forgetting the workshop",
+      "Maya apologised for forgetting the workshop",
+      "Maya apologised forgetting for the workshop",
+      "Maya apologised for forgetting the workshop incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya apologised for forgetting the workshop"
+    ]
+  },
+  {
+    "id": "cae-022",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "choice",
+    "source": "“I am sorry I forgot the ceremony,” Daniel said.",
+    "keyword": "APOLOGISED",
+    "answer": "Daniel apologised for forgetting the ceremony",
+    "tokens": [
+      "for",
+      "forgetting",
+      "the",
+      "ceremony",
+      "Daniel",
+      "apologised"
+    ],
+    "choices": [
+      "Daniel apologised  forgetting the ceremony",
+      "Daniel apologised for forgetting the ceremony",
+      "Daniel apologised forgetting for the ceremony",
+      "Daniel apologised for forgetting the ceremony incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel apologised for forgetting the ceremony"
+    ]
+  },
+  {
+    "id": "cae-023",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "build",
+    "source": "“I am sorry I forgot the interview,” Sofia said.",
+    "keyword": "APOLOGISED",
+    "answer": "Sofia apologised for forgetting the interview",
+    "tokens": [
+      "apologised",
+      "for",
+      "forgetting",
+      "the",
+      "interview",
+      "Sofia"
+    ],
+    "choices": [
+      "Sofia apologised  forgetting the interview",
+      "Sofia apologised for forgetting the interview",
+      "Sofia apologised forgetting for the interview",
+      "Sofia apologised for forgetting the interview incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia apologised for forgetting the interview"
+    ]
+  },
+  {
+    "id": "cae-024",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "choice",
+    "source": "“I am sorry I forgot the presentation,” Leo said.",
+    "keyword": "APOLOGISED",
+    "answer": "Leo apologised for forgetting the presentation",
+    "tokens": [
+      "Leo",
+      "apologised",
+      "for",
+      "forgetting",
+      "the",
+      "presentation"
+    ],
+    "choices": [
+      "Leo apologised  forgetting the presentation",
+      "Leo apologised for forgetting the presentation",
+      "Leo apologised forgetting for the presentation",
+      "Leo apologised for forgetting the presentation incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo apologised for forgetting the presentation"
+    ]
+  },
+  {
+    "id": "cae-025",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "build",
+    "source": "“I am sorry I forgot the inspection,” Nina said.",
+    "keyword": "APOLOGISED",
+    "answer": "Nina apologised for forgetting the inspection",
+    "tokens": [
+      "inspection",
+      "Nina",
+      "apologised",
+      "for",
+      "forgetting",
+      "the"
+    ],
+    "choices": [
+      "Nina apologised  forgetting the inspection",
+      "Nina apologised for forgetting the inspection",
+      "Nina apologised forgetting for the inspection",
+      "Nina apologised for forgetting the inspection incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina apologised for forgetting the inspection"
+    ]
+  },
+  {
+    "id": "cae-026",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "choice",
+    "source": "“I am sorry I forgot the conference,” Omar said.",
+    "keyword": "APOLOGISED",
+    "answer": "Omar apologised for forgetting the conference",
+    "tokens": [
+      "the",
+      "conference",
+      "Omar",
+      "apologised",
+      "for",
+      "forgetting"
+    ],
+    "choices": [
+      "Omar apologised  forgetting the conference",
+      "Omar apologised for forgetting the conference",
+      "Omar apologised forgetting for the conference",
+      "Omar apologised for forgetting the conference incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar apologised for forgetting the conference"
+    ]
+  },
+  {
+    "id": "cae-027",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "build",
+    "source": "“I am sorry I forgot the consultation,” Chloe said.",
+    "keyword": "APOLOGISED",
+    "answer": "Chloe apologised for forgetting the consultation",
+    "tokens": [
+      "forgetting",
+      "the",
+      "consultation",
+      "Chloe",
+      "apologised",
+      "for"
+    ],
+    "choices": [
+      "Chloe apologised  forgetting the consultation",
+      "Chloe apologised for forgetting the consultation",
+      "Chloe apologised forgetting for the consultation",
+      "Chloe apologised for forgetting the consultation incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe apologised for forgetting the consultation"
+    ]
+  },
+  {
+    "id": "cae-028",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "choice",
+    "source": "“I am sorry I forgot the debate,” Ethan said.",
+    "keyword": "APOLOGISED",
+    "answer": "Ethan apologised for forgetting the debate",
+    "tokens": [
+      "forgetting",
+      "the",
+      "debate",
+      "Ethan",
+      "apologised",
+      "for"
+    ],
+    "choices": [
+      "Ethan apologised  forgetting the debate",
+      "Ethan apologised for forgetting the debate",
+      "Ethan apologised forgetting for the debate",
+      "Ethan apologised for forgetting the debate incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan apologised for forgetting the debate"
+    ]
+  },
+  {
+    "id": "cae-029",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "build",
+    "source": "“I am sorry I forgot the exhibition,” Priya said.",
+    "keyword": "APOLOGISED",
+    "answer": "Priya apologised for forgetting the exhibition",
+    "tokens": [
+      "for",
+      "forgetting",
+      "the",
+      "exhibition",
+      "Priya",
+      "apologised"
+    ],
+    "choices": [
+      "Priya apologised  forgetting the exhibition",
+      "Priya apologised for forgetting the exhibition",
+      "Priya apologised forgetting for the exhibition",
+      "Priya apologised for forgetting the exhibition incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya apologised for forgetting the exhibition"
+    ]
+  },
+  {
+    "id": "cae-030",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Reported Speech",
+    "mode": "choice",
+    "source": "“I am sorry I forgot the assessment,” Lucas said.",
+    "keyword": "APOLOGISED",
+    "answer": "Lucas apologised for forgetting the assessment",
+    "tokens": [
+      "apologised",
+      "for",
+      "forgetting",
+      "the",
+      "assessment",
+      "Lucas"
+    ],
+    "choices": [
+      "Lucas apologised  forgetting the assessment",
+      "Lucas apologised for forgetting the assessment",
+      "Lucas apologised forgetting for the assessment",
+      "Lucas apologised for forgetting the assessment incorrectly"
+    ],
+    "rule": "apologise for + gerund",
+    "explanation": "After “apologise for”, use an -ing form.",
+    "commonError": "Do not alter the fixed pattern: apologise for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas apologised for forgetting the assessment"
+    ]
+  },
+  {
+    "id": "cae-031",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Maya had never visited the city library before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Maya visited the city library",
+    "tokens": [
+      "Never",
+      "city",
+      "before",
+      "library",
+      "had",
+      "Maya",
+      "visited",
+      "the"
+    ],
+    "choices": [
+      "Never before did Maya visited the city library",
+      "Never before had Maya visited the city library",
+      "Never before Maya had visited the city library",
+      "Never before had Maya visited the city library incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Maya visited the city library"
+    ]
+  },
+  {
+    "id": "cae-032",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Daniel had never visited the science museum before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Daniel visited the science museum",
+    "tokens": [
+      "the",
+      "Never",
+      "science",
+      "before",
+      "museum",
+      "had",
+      "Daniel",
+      "visited"
+    ],
+    "choices": [
+      "Never before did Daniel visited the science museum",
+      "Never before had Daniel visited the science museum",
+      "Never before Daniel had visited the science museum",
+      "Never before had Daniel visited the science museum incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Daniel visited the science museum"
+    ]
+  },
+  {
+    "id": "cae-033",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Sofia had never visited the regional office before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Sofia visited the regional office",
+    "tokens": [
+      "the",
+      "Never",
+      "regional",
+      "before",
+      "office",
+      "had",
+      "Sofia",
+      "visited"
+    ],
+    "choices": [
+      "Never before did Sofia visited the regional office",
+      "Never before had Sofia visited the regional office",
+      "Never before Sofia had visited the regional office",
+      "Never before had Sofia visited the regional office incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Sofia visited the regional office"
+    ]
+  },
+  {
+    "id": "cae-034",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Leo had never visited the university campus before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Leo visited the university campus",
+    "tokens": [
+      "visited",
+      "the",
+      "Never",
+      "university",
+      "before",
+      "campus",
+      "had",
+      "Leo"
+    ],
+    "choices": [
+      "Never before did Leo visited the university campus",
+      "Never before had Leo visited the university campus",
+      "Never before Leo had visited the university campus",
+      "Never before had Leo visited the university campus incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Leo visited the university campus"
+    ]
+  },
+  {
+    "id": "cae-035",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Nina had never visited the research centre before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Nina visited the research centre",
+    "tokens": [
+      "Nina",
+      "visited",
+      "the",
+      "Never",
+      "research",
+      "before",
+      "centre",
+      "had"
+    ],
+    "choices": [
+      "Never before did Nina visited the research centre",
+      "Never before had Nina visited the research centre",
+      "Never before Nina had visited the research centre",
+      "Never before had Nina visited the research centre incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Nina visited the research centre"
+    ]
+  },
+  {
+    "id": "cae-036",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Omar had never visited the community hall before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Omar visited the community hall",
+    "tokens": [
+      "had",
+      "Omar",
+      "visited",
+      "the",
+      "Never",
+      "community",
+      "before",
+      "hall"
+    ],
+    "choices": [
+      "Never before did Omar visited the community hall",
+      "Never before had Omar visited the community hall",
+      "Never before Omar had visited the community hall",
+      "Never before had Omar visited the community hall incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Omar visited the community hall"
+    ]
+  },
+  {
+    "id": "cae-037",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Chloe had never visited the main laboratory before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Chloe visited the main laboratory",
+    "tokens": [
+      "before",
+      "laboratory",
+      "had",
+      "Chloe",
+      "visited",
+      "the",
+      "Never",
+      "main"
+    ],
+    "choices": [
+      "Never before did Chloe visited the main laboratory",
+      "Never before had Chloe visited the main laboratory",
+      "Never before Chloe had visited the main laboratory",
+      "Never before had Chloe visited the main laboratory incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Chloe visited the main laboratory"
+    ]
+  },
+  {
+    "id": "cae-038",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Ethan had never visited the local archive before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Ethan visited the local archive",
+    "tokens": [
+      "local",
+      "before",
+      "archive",
+      "had",
+      "Ethan",
+      "visited",
+      "the",
+      "Never"
+    ],
+    "choices": [
+      "Never before did Ethan visited the local archive",
+      "Never before had Ethan visited the local archive",
+      "Never before Ethan had visited the local archive",
+      "Never before had Ethan visited the local archive incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Ethan visited the local archive"
+    ]
+  },
+  {
+    "id": "cae-039",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Priya had never visited the training centre before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Priya visited the training centre",
+    "tokens": [
+      "Never",
+      "training",
+      "before",
+      "centre",
+      "had",
+      "Priya",
+      "visited",
+      "the"
+    ],
+    "choices": [
+      "Never before did Priya visited the training centre",
+      "Never before had Priya visited the training centre",
+      "Never before Priya had visited the training centre",
+      "Never before had Priya visited the training centre incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Priya visited the training centre"
+    ]
+  },
+  {
+    "id": "cae-040",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Lucas had never visited the council building before.",
+    "keyword": "NEVER",
+    "answer": "Never before had Lucas visited the council building",
+    "tokens": [
+      "the",
+      "Never",
+      "council",
+      "before",
+      "building",
+      "had",
+      "Lucas",
+      "visited"
+    ],
+    "choices": [
+      "Never before did Lucas visited the council building",
+      "Never before had Lucas visited the council building",
+      "Never before Lucas had visited the council building",
+      "Never before had Lucas visited the council building incorrectly"
+    ],
+    "rule": "Never before + auxiliary + subject",
+    "explanation": "A fronted negative adverbial triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Never before + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Never before had Lucas visited the council building"
+    ]
+  },
+  {
+    "id": "cae-041",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Maya did not read the research paper, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Maya read the research paper the mistake would have been noticed",
+    "tokens": [
+      "research",
+      "been",
+      "paper",
+      "noticed",
+      "Had",
+      "the",
+      "Maya",
+      "mistake",
+      "read",
+      "would",
+      "the",
+      "have"
+    ],
+    "choices": [
+      "did Maya read the research paper the mistake would have been noticed",
+      "Had Maya read the research paper the mistake would have been noticed",
+      "Had Maya the read research paper the mistake would have been noticed",
+      "Had Maya read the research paper the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Maya read the research paper the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-042",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Daniel did not read the funding proposal, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Daniel read the funding proposal the mistake would have been noticed",
+    "tokens": [
+      "the",
+      "have",
+      "funding",
+      "been",
+      "proposal",
+      "noticed",
+      "Had",
+      "the",
+      "Daniel",
+      "mistake",
+      "read",
+      "would"
+    ],
+    "choices": [
+      "did Daniel read the funding proposal the mistake would have been noticed",
+      "Had Daniel read the funding proposal the mistake would have been noticed",
+      "Had Daniel the read funding proposal the mistake would have been noticed",
+      "Had Daniel read the funding proposal the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Daniel read the funding proposal the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-043",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Sofia did not read the final report, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Sofia read the final report the mistake would have been noticed",
+    "tokens": [
+      "would",
+      "the",
+      "have",
+      "final",
+      "been",
+      "report",
+      "noticed",
+      "Had",
+      "the",
+      "Sofia",
+      "mistake",
+      "read"
+    ],
+    "choices": [
+      "did Sofia read the final report the mistake would have been noticed",
+      "Had Sofia read the final report the mistake would have been noticed",
+      "Had Sofia the read final report the mistake would have been noticed",
+      "Had Sofia read the final report the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Sofia read the final report the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-044",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Leo did not read the safety review, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Leo read the safety review the mistake would have been noticed",
+    "tokens": [
+      "read",
+      "would",
+      "the",
+      "have",
+      "safety",
+      "been",
+      "review",
+      "noticed",
+      "Had",
+      "the",
+      "Leo",
+      "mistake"
+    ],
+    "choices": [
+      "did Leo read the safety review the mistake would have been noticed",
+      "Had Leo read the safety review the mistake would have been noticed",
+      "Had Leo the read safety review the mistake would have been noticed",
+      "Had Leo read the safety review the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Leo read the safety review the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-045",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Nina did not read the training course, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Nina read the training course the mistake would have been noticed",
+    "tokens": [
+      "Nina",
+      "mistake",
+      "read",
+      "would",
+      "the",
+      "have",
+      "training",
+      "been",
+      "course",
+      "noticed",
+      "Had",
+      "the"
+    ],
+    "choices": [
+      "did Nina read the training course the mistake would have been noticed",
+      "Had Nina read the training course the mistake would have been noticed",
+      "Had Nina the read training course the mistake would have been noticed",
+      "Had Nina read the training course the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Nina read the training course the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-046",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Omar did not read the policy document, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Omar read the policy document the mistake would have been noticed",
+    "tokens": [
+      "Had",
+      "the",
+      "Omar",
+      "mistake",
+      "read",
+      "would",
+      "the",
+      "have",
+      "policy",
+      "been",
+      "document",
+      "noticed"
+    ],
+    "choices": [
+      "did Omar read the policy document the mistake would have been noticed",
+      "Had Omar read the policy document the mistake would have been noticed",
+      "Had Omar the read policy document the mistake would have been noticed",
+      "Had Omar read the policy document the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Omar read the policy document the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-047",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Chloe did not read the design brief, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Chloe read the design brief the mistake would have been noticed",
+    "tokens": [
+      "brief",
+      "noticed",
+      "Had",
+      "the",
+      "Chloe",
+      "mistake",
+      "read",
+      "would",
+      "the",
+      "have",
+      "design",
+      "been"
+    ],
+    "choices": [
+      "did Chloe read the design brief the mistake would have been noticed",
+      "Had Chloe read the design brief the mistake would have been noticed",
+      "Had Chloe the read design brief the mistake would have been noticed",
+      "Had Chloe read the design brief the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Chloe read the design brief the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-048",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Ethan did not read the case study, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Ethan read the case study the mistake would have been noticed",
+    "tokens": [
+      "case",
+      "been",
+      "study",
+      "noticed",
+      "Had",
+      "the",
+      "Ethan",
+      "mistake",
+      "read",
+      "would",
+      "the",
+      "have"
+    ],
+    "choices": [
+      "did Ethan read the case study the mistake would have been noticed",
+      "Had Ethan read the case study the mistake would have been noticed",
+      "Had Ethan the read case study the mistake would have been noticed",
+      "Had Ethan read the case study the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Ethan read the case study the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-049",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Priya did not read the conference plan, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Priya read the conference plan the mistake would have been noticed",
+    "tokens": [
+      "have",
+      "conference",
+      "been",
+      "plan",
+      "noticed",
+      "Had",
+      "the",
+      "Priya",
+      "mistake",
+      "read",
+      "would",
+      "the"
+    ],
+    "choices": [
+      "did Priya read the conference plan the mistake would have been noticed",
+      "Had Priya read the conference plan the mistake would have been noticed",
+      "Had Priya the read conference plan the mistake would have been noticed",
+      "Had Priya read the conference plan the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Priya read the conference plan the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-050",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Lucas did not read the budget forecast, so the mistake went unnoticed.",
+    "keyword": "HAD",
+    "answer": "Had Lucas read the budget forecast the mistake would have been noticed",
+    "tokens": [
+      "the",
+      "have",
+      "budget",
+      "been",
+      "forecast",
+      "noticed",
+      "Had",
+      "the",
+      "Lucas",
+      "mistake",
+      "read",
+      "would"
+    ],
+    "choices": [
+      "did Lucas read the budget forecast the mistake would have been noticed",
+      "Had Lucas read the budget forecast the mistake would have been noticed",
+      "Had Lucas the read budget forecast the mistake would have been noticed",
+      "Had Lucas read the budget forecast the mistake would have been noticed incorrectly"
+    ],
+    "rule": "Had + subject + past participle",
+    "explanation": "This is an inverted third conditional.",
+    "commonError": "Do not alter the fixed pattern: Had + subject + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had Lucas read the budget forecast the mistake would have been noticed"
+    ]
+  },
+  {
+    "id": "cae-051",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "build",
+    "source": "It was unnecessary for Maya to attend the workshop.",
+    "keyword": "NEED",
+    "answer": "Maya need not have attended the workshop",
+    "tokens": [
+      "not",
+      "have",
+      "attended",
+      "the",
+      "Maya",
+      "workshop",
+      "need"
+    ],
+    "choices": [
+      "Maya need not did attended the workshop",
+      "Maya need not have attended the workshop",
+      "Maya need  have attended the workshop",
+      "Maya need have not attended the workshop"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya need not have attended the workshop"
+    ]
+  },
+  {
+    "id": "cae-052",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "choice",
+    "source": "It was unnecessary for Daniel to attend the ceremony.",
+    "keyword": "NEED",
+    "answer": "Daniel need not have attended the ceremony",
+    "tokens": [
+      "need",
+      "not",
+      "have",
+      "attended",
+      "the",
+      "Daniel",
+      "ceremony"
+    ],
+    "choices": [
+      "Daniel need not did attended the ceremony",
+      "Daniel need not have attended the ceremony",
+      "Daniel need  have attended the ceremony",
+      "Daniel need have not attended the ceremony"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel need not have attended the ceremony"
+    ]
+  },
+  {
+    "id": "cae-053",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "build",
+    "source": "It was unnecessary for Sofia to attend the interview.",
+    "keyword": "NEED",
+    "answer": "Sofia need not have attended the interview",
+    "tokens": [
+      "interview",
+      "need",
+      "not",
+      "have",
+      "attended",
+      "the",
+      "Sofia"
+    ],
+    "choices": [
+      "Sofia need not did attended the interview",
+      "Sofia need not have attended the interview",
+      "Sofia need  have attended the interview",
+      "Sofia need have not attended the interview"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia need not have attended the interview"
+    ]
+  },
+  {
+    "id": "cae-054",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "choice",
+    "source": "It was unnecessary for Leo to attend the presentation.",
+    "keyword": "NEED",
+    "answer": "Leo need not have attended the presentation",
+    "tokens": [
+      "Leo",
+      "presentation",
+      "need",
+      "not",
+      "have",
+      "attended",
+      "the"
+    ],
+    "choices": [
+      "Leo need not did attended the presentation",
+      "Leo need not have attended the presentation",
+      "Leo need  have attended the presentation",
+      "Leo need have not attended the presentation"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo need not have attended the presentation"
+    ]
+  },
+  {
+    "id": "cae-055",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "build",
+    "source": "It was unnecessary for Nina to attend the inspection.",
+    "keyword": "NEED",
+    "answer": "Nina need not have attended the inspection",
+    "tokens": [
+      "the",
+      "Nina",
+      "inspection",
+      "need",
+      "not",
+      "have",
+      "attended"
+    ],
+    "choices": [
+      "Nina need not did attended the inspection",
+      "Nina need not have attended the inspection",
+      "Nina need  have attended the inspection",
+      "Nina need have not attended the inspection"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina need not have attended the inspection"
+    ]
+  },
+  {
+    "id": "cae-056",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "choice",
+    "source": "It was unnecessary for Omar to attend the conference.",
+    "keyword": "NEED",
+    "answer": "Omar need not have attended the conference",
+    "tokens": [
+      "attended",
+      "the",
+      "Omar",
+      "conference",
+      "need",
+      "not",
+      "have"
+    ],
+    "choices": [
+      "Omar need not did attended the conference",
+      "Omar need not have attended the conference",
+      "Omar need  have attended the conference",
+      "Omar need have not attended the conference"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar need not have attended the conference"
+    ]
+  },
+  {
+    "id": "cae-057",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "build",
+    "source": "It was unnecessary for Chloe to attend the consultation.",
+    "keyword": "NEED",
+    "answer": "Chloe need not have attended the consultation",
+    "tokens": [
+      "have",
+      "attended",
+      "the",
+      "Chloe",
+      "consultation",
+      "need",
+      "not"
+    ],
+    "choices": [
+      "Chloe need not did attended the consultation",
+      "Chloe need not have attended the consultation",
+      "Chloe need  have attended the consultation",
+      "Chloe need have not attended the consultation"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe need not have attended the consultation"
+    ]
+  },
+  {
+    "id": "cae-058",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "choice",
+    "source": "It was unnecessary for Ethan to attend the debate.",
+    "keyword": "NEED",
+    "answer": "Ethan need not have attended the debate",
+    "tokens": [
+      "have",
+      "attended",
+      "the",
+      "Ethan",
+      "debate",
+      "need",
+      "not"
+    ],
+    "choices": [
+      "Ethan need not did attended the debate",
+      "Ethan need not have attended the debate",
+      "Ethan need  have attended the debate",
+      "Ethan need have not attended the debate"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan need not have attended the debate"
+    ]
+  },
+  {
+    "id": "cae-059",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "build",
+    "source": "It was unnecessary for Priya to attend the exhibition.",
+    "keyword": "NEED",
+    "answer": "Priya need not have attended the exhibition",
+    "tokens": [
+      "not",
+      "have",
+      "attended",
+      "the",
+      "Priya",
+      "exhibition",
+      "need"
+    ],
+    "choices": [
+      "Priya need not did attended the exhibition",
+      "Priya need not have attended the exhibition",
+      "Priya need  have attended the exhibition",
+      "Priya need have not attended the exhibition"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya need not have attended the exhibition"
+    ]
+  },
+  {
+    "id": "cae-060",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Modal Verbs",
+    "mode": "choice",
+    "source": "It was unnecessary for Lucas to attend the assessment.",
+    "keyword": "NEED",
+    "answer": "Lucas need not have attended the assessment",
+    "tokens": [
+      "need",
+      "not",
+      "have",
+      "attended",
+      "the",
+      "Lucas",
+      "assessment"
+    ],
+    "choices": [
+      "Lucas need not did attended the assessment",
+      "Lucas need not have attended the assessment",
+      "Lucas need  have attended the assessment",
+      "Lucas need have not attended the assessment"
+    ],
+    "rule": "need not have + past participle",
+    "explanation": "Use this for a completed action that was unnecessary.",
+    "commonError": "Do not alter the fixed pattern: need not have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas need not have attended the assessment"
+    ]
+  },
+  {
+    "id": "cae-061",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "build",
+    "source": "Maya admitted that they had copied part of the research paper.",
+    "keyword": "ADMITTED",
+    "answer": "Maya admitted copying part of the research paper",
+    "tokens": [
+      "Maya",
+      "research",
+      "admitted",
+      "paper",
+      "copying",
+      "part",
+      "of",
+      "the"
+    ],
+    "choices": [
+      "Maya admitted copying part  the research paper",
+      "Maya admitted copying part of the research paper",
+      "Maya admitted part copying of the research paper",
+      "Maya admitted copying part of the research paper incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya admitted copying part of the research paper"
+    ]
+  },
+  {
+    "id": "cae-062",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "choice",
+    "source": "Daniel admitted that they had copied part of the funding proposal.",
+    "keyword": "ADMITTED",
+    "answer": "Daniel admitted copying part of the funding proposal",
+    "tokens": [
+      "the",
+      "Daniel",
+      "funding",
+      "admitted",
+      "proposal",
+      "copying",
+      "part",
+      "of"
+    ],
+    "choices": [
+      "Daniel admitted copying part  the funding proposal",
+      "Daniel admitted copying part of the funding proposal",
+      "Daniel admitted part copying of the funding proposal",
+      "Daniel admitted copying part of the funding proposal incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel admitted copying part of the funding proposal"
+    ]
+  },
+  {
+    "id": "cae-063",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "build",
+    "source": "Sofia admitted that they had copied part of the final report.",
+    "keyword": "ADMITTED",
+    "answer": "Sofia admitted copying part of the final report",
+    "tokens": [
+      "of",
+      "the",
+      "Sofia",
+      "final",
+      "admitted",
+      "report",
+      "copying",
+      "part"
+    ],
+    "choices": [
+      "Sofia admitted copying part  the final report",
+      "Sofia admitted copying part of the final report",
+      "Sofia admitted part copying of the final report",
+      "Sofia admitted copying part of the final report incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia admitted copying part of the final report"
+    ]
+  },
+  {
+    "id": "cae-064",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "choice",
+    "source": "Leo admitted that they had copied part of the safety review.",
+    "keyword": "ADMITTED",
+    "answer": "Leo admitted copying part of the safety review",
+    "tokens": [
+      "of",
+      "the",
+      "Leo",
+      "safety",
+      "admitted",
+      "review",
+      "copying",
+      "part"
+    ],
+    "choices": [
+      "Leo admitted copying part  the safety review",
+      "Leo admitted copying part of the safety review",
+      "Leo admitted part copying of the safety review",
+      "Leo admitted copying part of the safety review incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo admitted copying part of the safety review"
+    ]
+  },
+  {
+    "id": "cae-065",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "build",
+    "source": "Nina admitted that they had copied part of the training course.",
+    "keyword": "ADMITTED",
+    "answer": "Nina admitted copying part of the training course",
+    "tokens": [
+      "part",
+      "of",
+      "the",
+      "Nina",
+      "training",
+      "admitted",
+      "course",
+      "copying"
+    ],
+    "choices": [
+      "Nina admitted copying part  the training course",
+      "Nina admitted copying part of the training course",
+      "Nina admitted part copying of the training course",
+      "Nina admitted copying part of the training course incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina admitted copying part of the training course"
+    ]
+  },
+  {
+    "id": "cae-066",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "choice",
+    "source": "Omar admitted that they had copied part of the policy document.",
+    "keyword": "ADMITTED",
+    "answer": "Omar admitted copying part of the policy document",
+    "tokens": [
+      "copying",
+      "part",
+      "of",
+      "the",
+      "Omar",
+      "policy",
+      "admitted",
+      "document"
+    ],
+    "choices": [
+      "Omar admitted copying part  the policy document",
+      "Omar admitted copying part of the policy document",
+      "Omar admitted part copying of the policy document",
+      "Omar admitted copying part of the policy document incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar admitted copying part of the policy document"
+    ]
+  },
+  {
+    "id": "cae-067",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "build",
+    "source": "Chloe admitted that they had copied part of the design brief.",
+    "keyword": "ADMITTED",
+    "answer": "Chloe admitted copying part of the design brief",
+    "tokens": [
+      "admitted",
+      "brief",
+      "copying",
+      "part",
+      "of",
+      "the",
+      "Chloe",
+      "design"
+    ],
+    "choices": [
+      "Chloe admitted copying part  the design brief",
+      "Chloe admitted copying part of the design brief",
+      "Chloe admitted part copying of the design brief",
+      "Chloe admitted copying part of the design brief incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe admitted copying part of the design brief"
+    ]
+  },
+  {
+    "id": "cae-068",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "choice",
+    "source": "Ethan admitted that they had copied part of the case study.",
+    "keyword": "ADMITTED",
+    "answer": "Ethan admitted copying part of the case study",
+    "tokens": [
+      "case",
+      "admitted",
+      "study",
+      "copying",
+      "part",
+      "of",
+      "the",
+      "Ethan"
+    ],
+    "choices": [
+      "Ethan admitted copying part  the case study",
+      "Ethan admitted copying part of the case study",
+      "Ethan admitted part copying of the case study",
+      "Ethan admitted copying part of the case study incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan admitted copying part of the case study"
+    ]
+  },
+  {
+    "id": "cae-069",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "build",
+    "source": "Priya admitted that they had copied part of the conference plan.",
+    "keyword": "ADMITTED",
+    "answer": "Priya admitted copying part of the conference plan",
+    "tokens": [
+      "Priya",
+      "conference",
+      "admitted",
+      "plan",
+      "copying",
+      "part",
+      "of",
+      "the"
+    ],
+    "choices": [
+      "Priya admitted copying part  the conference plan",
+      "Priya admitted copying part of the conference plan",
+      "Priya admitted part copying of the conference plan",
+      "Priya admitted copying part of the conference plan incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya admitted copying part of the conference plan"
+    ]
+  },
+  {
+    "id": "cae-070",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Gerunds",
+    "mode": "choice",
+    "source": "Lucas admitted that they had copied part of the budget forecast.",
+    "keyword": "ADMITTED",
+    "answer": "Lucas admitted copying part of the budget forecast",
+    "tokens": [
+      "the",
+      "Lucas",
+      "budget",
+      "admitted",
+      "forecast",
+      "copying",
+      "part",
+      "of"
+    ],
+    "choices": [
+      "Lucas admitted copying part  the budget forecast",
+      "Lucas admitted copying part of the budget forecast",
+      "Lucas admitted part copying of the budget forecast",
+      "Lucas admitted copying part of the budget forecast incorrectly"
+    ],
+    "rule": "admit + gerund",
+    "explanation": "“Admit” takes an -ing form when acknowledging an action.",
+    "commonError": "Do not alter the fixed pattern: admit + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas admitted copying part of the budget forecast"
+    ]
+  },
+  {
+    "id": "cae-071",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "build",
+    "source": "Maya managed to finish the research paper despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Maya succeeded in finishing the research paper despite the delay",
+    "tokens": [
+      "the",
+      "research",
+      "Maya",
+      "paper",
+      "succeeded",
+      "despite",
+      "in",
+      "the",
+      "finishing",
+      "delay"
+    ],
+    "choices": [
+      "Maya succeeded  finishing the research paper despite the delay",
+      "Maya succeeded in finishing the research paper despite the delay",
+      "Maya succeeded finishing in the research paper despite the delay",
+      "Maya succeeded in finishing the research paper despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya succeeded in finishing the research paper despite the delay"
+    ]
+  },
+  {
+    "id": "cae-072",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "choice",
+    "source": "Daniel managed to finish the funding proposal despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Daniel succeeded in finishing the funding proposal despite the delay",
+    "tokens": [
+      "finishing",
+      "delay",
+      "the",
+      "funding",
+      "Daniel",
+      "proposal",
+      "succeeded",
+      "despite",
+      "in",
+      "the"
+    ],
+    "choices": [
+      "Daniel succeeded  finishing the funding proposal despite the delay",
+      "Daniel succeeded in finishing the funding proposal despite the delay",
+      "Daniel succeeded finishing in the funding proposal despite the delay",
+      "Daniel succeeded in finishing the funding proposal despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel succeeded in finishing the funding proposal despite the delay"
+    ]
+  },
+  {
+    "id": "cae-073",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "build",
+    "source": "Sofia managed to finish the final report despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Sofia succeeded in finishing the final report despite the delay",
+    "tokens": [
+      "in",
+      "the",
+      "finishing",
+      "delay",
+      "the",
+      "final",
+      "Sofia",
+      "report",
+      "succeeded",
+      "despite"
+    ],
+    "choices": [
+      "Sofia succeeded  finishing the final report despite the delay",
+      "Sofia succeeded in finishing the final report despite the delay",
+      "Sofia succeeded finishing in the final report despite the delay",
+      "Sofia succeeded in finishing the final report despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia succeeded in finishing the final report despite the delay"
+    ]
+  },
+  {
+    "id": "cae-074",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "choice",
+    "source": "Leo managed to finish the safety review despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Leo succeeded in finishing the safety review despite the delay",
+    "tokens": [
+      "despite",
+      "in",
+      "the",
+      "finishing",
+      "delay",
+      "the",
+      "safety",
+      "Leo",
+      "review",
+      "succeeded"
+    ],
+    "choices": [
+      "Leo succeeded  finishing the safety review despite the delay",
+      "Leo succeeded in finishing the safety review despite the delay",
+      "Leo succeeded finishing in the safety review despite the delay",
+      "Leo succeeded in finishing the safety review despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo succeeded in finishing the safety review despite the delay"
+    ]
+  },
+  {
+    "id": "cae-075",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "build",
+    "source": "Nina managed to finish the training course despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Nina succeeded in finishing the training course despite the delay",
+    "tokens": [
+      "succeeded",
+      "despite",
+      "in",
+      "the",
+      "finishing",
+      "delay",
+      "the",
+      "training",
+      "Nina",
+      "course"
+    ],
+    "choices": [
+      "Nina succeeded  finishing the training course despite the delay",
+      "Nina succeeded in finishing the training course despite the delay",
+      "Nina succeeded finishing in the training course despite the delay",
+      "Nina succeeded in finishing the training course despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina succeeded in finishing the training course despite the delay"
+    ]
+  },
+  {
+    "id": "cae-076",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "choice",
+    "source": "Omar managed to finish the policy document despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Omar succeeded in finishing the policy document despite the delay",
+    "tokens": [
+      "Omar",
+      "document",
+      "succeeded",
+      "despite",
+      "in",
+      "the",
+      "finishing",
+      "delay",
+      "the",
+      "policy"
+    ],
+    "choices": [
+      "Omar succeeded  finishing the policy document despite the delay",
+      "Omar succeeded in finishing the policy document despite the delay",
+      "Omar succeeded finishing in the policy document despite the delay",
+      "Omar succeeded in finishing the policy document despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar succeeded in finishing the policy document despite the delay"
+    ]
+  },
+  {
+    "id": "cae-077",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "build",
+    "source": "Chloe managed to finish the design brief despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Chloe succeeded in finishing the design brief despite the delay",
+    "tokens": [
+      "design",
+      "Chloe",
+      "brief",
+      "succeeded",
+      "despite",
+      "in",
+      "the",
+      "finishing",
+      "delay",
+      "the"
+    ],
+    "choices": [
+      "Chloe succeeded  finishing the design brief despite the delay",
+      "Chloe succeeded in finishing the design brief despite the delay",
+      "Chloe succeeded finishing in the design brief despite the delay",
+      "Chloe succeeded in finishing the design brief despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe succeeded in finishing the design brief despite the delay"
+    ]
+  },
+  {
+    "id": "cae-078",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "choice",
+    "source": "Ethan managed to finish the case study despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Ethan succeeded in finishing the case study despite the delay",
+    "tokens": [
+      "the",
+      "case",
+      "Ethan",
+      "study",
+      "succeeded",
+      "despite",
+      "in",
+      "the",
+      "finishing",
+      "delay"
+    ],
+    "choices": [
+      "Ethan succeeded  finishing the case study despite the delay",
+      "Ethan succeeded in finishing the case study despite the delay",
+      "Ethan succeeded finishing in the case study despite the delay",
+      "Ethan succeeded in finishing the case study despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan succeeded in finishing the case study despite the delay"
+    ]
+  },
+  {
+    "id": "cae-079",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "build",
+    "source": "Priya managed to finish the conference plan despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Priya succeeded in finishing the conference plan despite the delay",
+    "tokens": [
+      "delay",
+      "the",
+      "conference",
+      "Priya",
+      "plan",
+      "succeeded",
+      "despite",
+      "in",
+      "the",
+      "finishing"
+    ],
+    "choices": [
+      "Priya succeeded  finishing the conference plan despite the delay",
+      "Priya succeeded in finishing the conference plan despite the delay",
+      "Priya succeeded finishing in the conference plan despite the delay",
+      "Priya succeeded in finishing the conference plan despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya succeeded in finishing the conference plan despite the delay"
+    ]
+  },
+  {
+    "id": "cae-080",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Infinitives",
+    "mode": "choice",
+    "source": "Lucas managed to finish the budget forecast despite the delay.",
+    "keyword": "SUCCEEDED",
+    "answer": "Lucas succeeded in finishing the budget forecast despite the delay",
+    "tokens": [
+      "finishing",
+      "delay",
+      "the",
+      "budget",
+      "Lucas",
+      "forecast",
+      "succeeded",
+      "despite",
+      "in",
+      "the"
+    ],
+    "choices": [
+      "Lucas succeeded  finishing the budget forecast despite the delay",
+      "Lucas succeeded in finishing the budget forecast despite the delay",
+      "Lucas succeeded finishing in the budget forecast despite the delay",
+      "Lucas succeeded in finishing the budget forecast despite the delay incorrectly"
+    ],
+    "rule": "succeed in + gerund",
+    "explanation": "“Succeed” requires “in” followed by an -ing form.",
+    "commonError": "Do not alter the fixed pattern: succeed in + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas succeeded in finishing the budget forecast despite the delay"
+    ]
+  },
+  {
+    "id": "cae-081",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "build",
+    "source": "the city library has a new director. Her research concerns renewable energy.",
+    "keyword": "WHOSE",
+    "answer": "the city library has a new director whose research concerns renewable energy",
+    "tokens": [
+      "library",
+      "research",
+      "has",
+      "concerns",
+      "a",
+      "renewable",
+      "new",
+      "energy",
+      "the",
+      "director",
+      "city",
+      "whose"
+    ],
+    "choices": [
+      "the city library did a new director whose research concerns renewable energy",
+      "the city library has a new director whose research concerns renewable energy",
+      "the city has library a new director whose research concerns renewable energy",
+      "the city library has a new director whose research concerns renewable energy incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the city library has a new director whose research concerns renewable energy"
+    ]
+  },
+  {
+    "id": "cae-082",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "choice",
+    "source": "the science museum has a new director. Her research concerns digital privacy.",
+    "keyword": "WHOSE",
+    "answer": "the science museum has a new director whose research concerns digital privacy",
+    "tokens": [
+      "science",
+      "whose",
+      "museum",
+      "research",
+      "has",
+      "concerns",
+      "a",
+      "digital",
+      "new",
+      "privacy",
+      "the",
+      "director"
+    ],
+    "choices": [
+      "the science museum did a new director whose research concerns digital privacy",
+      "the science museum has a new director whose research concerns digital privacy",
+      "the science has museum a new director whose research concerns digital privacy",
+      "the science museum has a new director whose research concerns digital privacy incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the science museum has a new director whose research concerns digital privacy"
+    ]
+  },
+  {
+    "id": "cae-083",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "build",
+    "source": "the regional office has a new director. Her research concerns urban development.",
+    "keyword": "WHOSE",
+    "answer": "the regional office has a new director whose research concerns urban development",
+    "tokens": [
+      "director",
+      "regional",
+      "whose",
+      "office",
+      "research",
+      "has",
+      "concerns",
+      "a",
+      "urban",
+      "new",
+      "development",
+      "the"
+    ],
+    "choices": [
+      "the regional office did a new director whose research concerns urban development",
+      "the regional office has a new director whose research concerns urban development",
+      "the regional has office a new director whose research concerns urban development",
+      "the regional office has a new director whose research concerns urban development incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the regional office has a new director whose research concerns urban development"
+    ]
+  },
+  {
+    "id": "cae-084",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "choice",
+    "source": "the university campus has a new director. Her research concerns public health.",
+    "keyword": "WHOSE",
+    "answer": "the university campus has a new director whose research concerns public health",
+    "tokens": [
+      "new",
+      "health",
+      "the",
+      "director",
+      "university",
+      "whose",
+      "campus",
+      "research",
+      "has",
+      "concerns",
+      "a",
+      "public"
+    ],
+    "choices": [
+      "the university campus did a new director whose research concerns public health",
+      "the university campus has a new director whose research concerns public health",
+      "the university has campus a new director whose research concerns public health",
+      "the university campus has a new director whose research concerns public health incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the university campus has a new director whose research concerns public health"
+    ]
+  },
+  {
+    "id": "cae-085",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "build",
+    "source": "the research centre has a new director. Her research concerns language learning.",
+    "keyword": "WHOSE",
+    "answer": "the research centre has a new director whose research concerns language learning",
+    "tokens": [
+      "language",
+      "new",
+      "learning",
+      "the",
+      "director",
+      "research",
+      "whose",
+      "centre",
+      "research",
+      "has",
+      "concerns",
+      "a"
+    ],
+    "choices": [
+      "the research centre did a new director whose research concerns language learning",
+      "the research centre has a new director whose research concerns language learning",
+      "the research has centre a new director whose research concerns language learning",
+      "the research centre has a new director whose research concerns language learning incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the research centre has a new director whose research concerns language learning"
+    ]
+  },
+  {
+    "id": "cae-086",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "choice",
+    "source": "the community hall has a new director. Her research concerns climate policy.",
+    "keyword": "WHOSE",
+    "answer": "the community hall has a new director whose research concerns climate policy",
+    "tokens": [
+      "a",
+      "climate",
+      "new",
+      "policy",
+      "the",
+      "director",
+      "community",
+      "whose",
+      "hall",
+      "research",
+      "has",
+      "concerns"
+    ],
+    "choices": [
+      "the community hall did a new director whose research concerns climate policy",
+      "the community hall has a new director whose research concerns climate policy",
+      "the community has hall a new director whose research concerns climate policy",
+      "the community hall has a new director whose research concerns climate policy incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the community hall has a new director whose research concerns climate policy"
+    ]
+  },
+  {
+    "id": "cae-087",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "build",
+    "source": "the main laboratory has a new director. Her research concerns artificial intelligence.",
+    "keyword": "WHOSE",
+    "answer": "the main laboratory has a new director whose research concerns artificial intelligence",
+    "tokens": [
+      "has",
+      "concerns",
+      "a",
+      "artificial",
+      "new",
+      "intelligence",
+      "the",
+      "director",
+      "main",
+      "whose",
+      "laboratory",
+      "research"
+    ],
+    "choices": [
+      "the main laboratory did a new director whose research concerns artificial intelligence",
+      "the main laboratory has a new director whose research concerns artificial intelligence",
+      "the main has laboratory a new director whose research concerns artificial intelligence",
+      "the main laboratory has a new director whose research concerns artificial intelligence incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the main laboratory has a new director whose research concerns artificial intelligence"
+    ]
+  },
+  {
+    "id": "cae-088",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "choice",
+    "source": "the local archive has a new director. Her research concerns remote work.",
+    "keyword": "WHOSE",
+    "answer": "the local archive has a new director whose research concerns remote work",
+    "tokens": [
+      "archive",
+      "research",
+      "has",
+      "concerns",
+      "a",
+      "remote",
+      "new",
+      "work",
+      "the",
+      "director",
+      "local",
+      "whose"
+    ],
+    "choices": [
+      "the local archive did a new director whose research concerns remote work",
+      "the local archive has a new director whose research concerns remote work",
+      "the local has archive a new director whose research concerns remote work",
+      "the local archive has a new director whose research concerns remote work incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the local archive has a new director whose research concerns remote work"
+    ]
+  },
+  {
+    "id": "cae-089",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "build",
+    "source": "the training centre has a new director. Her research concerns scientific literacy.",
+    "keyword": "WHOSE",
+    "answer": "the training centre has a new director whose research concerns scientific literacy",
+    "tokens": [
+      "whose",
+      "centre",
+      "research",
+      "has",
+      "concerns",
+      "a",
+      "scientific",
+      "new",
+      "literacy",
+      "the",
+      "director",
+      "training"
+    ],
+    "choices": [
+      "the training centre did a new director whose research concerns scientific literacy",
+      "the training centre has a new director whose research concerns scientific literacy",
+      "the training has centre a new director whose research concerns scientific literacy",
+      "the training centre has a new director whose research concerns scientific literacy incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the training centre has a new director whose research concerns scientific literacy"
+    ]
+  },
+  {
+    "id": "cae-090",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Relative Clauses",
+    "mode": "choice",
+    "source": "the council building has a new director. Her research concerns cultural heritage.",
+    "keyword": "WHOSE",
+    "answer": "the council building has a new director whose research concerns cultural heritage",
+    "tokens": [
+      "council",
+      "whose",
+      "building",
+      "research",
+      "has",
+      "concerns",
+      "a",
+      "cultural",
+      "new",
+      "heritage",
+      "the",
+      "director"
+    ],
+    "choices": [
+      "the council building did a new director whose research concerns cultural heritage",
+      "the council building has a new director whose research concerns cultural heritage",
+      "the council has building a new director whose research concerns cultural heritage",
+      "the council building has a new director whose research concerns cultural heritage incorrectly"
+    ],
+    "rule": "whose + noun",
+    "explanation": "“Whose” introduces a possessive relative clause.",
+    "commonError": "Do not alter the fixed pattern: whose + noun.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the council building has a new director whose research concerns cultural heritage"
+    ]
+  },
+  {
+    "id": "cae-091",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "build",
+    "source": "the workshop was postponed because Maya was unavailable.",
+    "keyword": "PUT",
+    "answer": "the workshop was put off because Maya was unavailable",
+    "tokens": [
+      "the",
+      "Maya",
+      "workshop",
+      "was",
+      "was",
+      "unavailable",
+      "put",
+      "off",
+      "because"
+    ],
+    "choices": [
+      "the workshop did put off because Maya was unavailable",
+      "the workshop was put off because Maya was unavailable",
+      "the workshop put was off because Maya was unavailable",
+      "the workshop was put off because Maya was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the workshop was put off because Maya was unavailable"
+    ]
+  },
+  {
+    "id": "cae-092",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "choice",
+    "source": "the ceremony was postponed because Daniel was unavailable.",
+    "keyword": "PUT",
+    "answer": "the ceremony was put off because Daniel was unavailable",
+    "tokens": [
+      "because",
+      "the",
+      "Daniel",
+      "ceremony",
+      "was",
+      "was",
+      "unavailable",
+      "put",
+      "off"
+    ],
+    "choices": [
+      "the ceremony did put off because Daniel was unavailable",
+      "the ceremony was put off because Daniel was unavailable",
+      "the ceremony put was off because Daniel was unavailable",
+      "the ceremony was put off because Daniel was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the ceremony was put off because Daniel was unavailable"
+    ]
+  },
+  {
+    "id": "cae-093",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "build",
+    "source": "the interview was postponed because Sofia was unavailable.",
+    "keyword": "PUT",
+    "answer": "the interview was put off because Sofia was unavailable",
+    "tokens": [
+      "off",
+      "because",
+      "the",
+      "Sofia",
+      "interview",
+      "was",
+      "was",
+      "unavailable",
+      "put"
+    ],
+    "choices": [
+      "the interview did put off because Sofia was unavailable",
+      "the interview was put off because Sofia was unavailable",
+      "the interview put was off because Sofia was unavailable",
+      "the interview was put off because Sofia was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the interview was put off because Sofia was unavailable"
+    ]
+  },
+  {
+    "id": "cae-094",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "choice",
+    "source": "the presentation was postponed because Leo was unavailable.",
+    "keyword": "PUT",
+    "answer": "the presentation was put off because Leo was unavailable",
+    "tokens": [
+      "off",
+      "because",
+      "the",
+      "Leo",
+      "presentation",
+      "was",
+      "was",
+      "unavailable",
+      "put"
+    ],
+    "choices": [
+      "the presentation did put off because Leo was unavailable",
+      "the presentation was put off because Leo was unavailable",
+      "the presentation put was off because Leo was unavailable",
+      "the presentation was put off because Leo was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the presentation was put off because Leo was unavailable"
+    ]
+  },
+  {
+    "id": "cae-095",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "build",
+    "source": "the inspection was postponed because Nina was unavailable.",
+    "keyword": "PUT",
+    "answer": "the inspection was put off because Nina was unavailable",
+    "tokens": [
+      "unavailable",
+      "put",
+      "off",
+      "because",
+      "the",
+      "Nina",
+      "inspection",
+      "was",
+      "was"
+    ],
+    "choices": [
+      "the inspection did put off because Nina was unavailable",
+      "the inspection was put off because Nina was unavailable",
+      "the inspection put was off because Nina was unavailable",
+      "the inspection was put off because Nina was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the inspection was put off because Nina was unavailable"
+    ]
+  },
+  {
+    "id": "cae-096",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "choice",
+    "source": "the conference was postponed because Omar was unavailable.",
+    "keyword": "PUT",
+    "answer": "the conference was put off because Omar was unavailable",
+    "tokens": [
+      "was",
+      "unavailable",
+      "put",
+      "off",
+      "because",
+      "the",
+      "Omar",
+      "conference",
+      "was"
+    ],
+    "choices": [
+      "the conference did put off because Omar was unavailable",
+      "the conference was put off because Omar was unavailable",
+      "the conference put was off because Omar was unavailable",
+      "the conference was put off because Omar was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the conference was put off because Omar was unavailable"
+    ]
+  },
+  {
+    "id": "cae-097",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "build",
+    "source": "the consultation was postponed because Chloe was unavailable.",
+    "keyword": "PUT",
+    "answer": "the consultation was put off because Chloe was unavailable",
+    "tokens": [
+      "consultation",
+      "was",
+      "was",
+      "unavailable",
+      "put",
+      "off",
+      "because",
+      "the",
+      "Chloe"
+    ],
+    "choices": [
+      "the consultation did put off because Chloe was unavailable",
+      "the consultation was put off because Chloe was unavailable",
+      "the consultation put was off because Chloe was unavailable",
+      "the consultation was put off because Chloe was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the consultation was put off because Chloe was unavailable"
+    ]
+  },
+  {
+    "id": "cae-098",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "choice",
+    "source": "the debate was postponed because Ethan was unavailable.",
+    "keyword": "PUT",
+    "answer": "the debate was put off because Ethan was unavailable",
+    "tokens": [
+      "the",
+      "Ethan",
+      "debate",
+      "was",
+      "was",
+      "unavailable",
+      "put",
+      "off",
+      "because"
+    ],
+    "choices": [
+      "the debate did put off because Ethan was unavailable",
+      "the debate was put off because Ethan was unavailable",
+      "the debate put was off because Ethan was unavailable",
+      "the debate was put off because Ethan was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the debate was put off because Ethan was unavailable"
+    ]
+  },
+  {
+    "id": "cae-099",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "build",
+    "source": "the exhibition was postponed because Priya was unavailable.",
+    "keyword": "PUT",
+    "answer": "the exhibition was put off because Priya was unavailable",
+    "tokens": [
+      "because",
+      "the",
+      "Priya",
+      "exhibition",
+      "was",
+      "was",
+      "unavailable",
+      "put",
+      "off"
+    ],
+    "choices": [
+      "the exhibition did put off because Priya was unavailable",
+      "the exhibition was put off because Priya was unavailable",
+      "the exhibition put was off because Priya was unavailable",
+      "the exhibition was put off because Priya was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the exhibition was put off because Priya was unavailable"
+    ]
+  },
+  {
+    "id": "cae-100",
+    "exam": "CAE",
+    "cefr": "C1",
+    "category": "Phrasal Verbs",
+    "mode": "choice",
+    "source": "the assessment was postponed because Lucas was unavailable.",
+    "keyword": "PUT",
+    "answer": "the assessment was put off because Lucas was unavailable",
+    "tokens": [
+      "because",
+      "the",
+      "Lucas",
+      "assessment",
+      "was",
+      "was",
+      "unavailable",
+      "put",
+      "off"
+    ],
+    "choices": [
+      "the assessment did put off because Lucas was unavailable",
+      "the assessment was put off because Lucas was unavailable",
+      "the assessment put was off because Lucas was unavailable",
+      "the assessment was put off because Lucas was unavailable incorrectly"
+    ],
+    "rule": "put off = postpone",
+    "explanation": "“Put off” means postpone.",
+    "commonError": "Do not alter the fixed pattern: put off = postpone.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the assessment was put off because Lucas was unavailable"
+    ]
+  }
+]

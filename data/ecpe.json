@@ -1,1 +1,3502 @@
-{"phase":1,"exam":"ECPE","count":4,"note":"Seed data is currently exported from js/questions.js. Full bank arrives in Phase 7."}
+[
+  {
+    "id": "ecpe-001",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "build",
+    "source": "Researchers used the research paper to evaluate attitudes to renewable energy.",
+    "keyword": "BASIS",
+    "answer": "the research paper formed the basis for evaluating attitudes to renewable energy",
+    "tokens": [
+      "the",
+      "for",
+      "research",
+      "evaluating",
+      "paper",
+      "attitudes",
+      "formed",
+      "to",
+      "the",
+      "renewable",
+      "basis",
+      "energy"
+    ],
+    "choices": [
+      "the research paper formed the basis  evaluating attitudes to renewable energy",
+      "the research paper formed the basis for evaluating attitudes to renewable energy",
+      "the research formed paper the basis for evaluating attitudes to renewable energy",
+      "the research paper formed the basis for evaluating attitudes to renewable energy incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the research paper formed the basis for evaluating attitudes to renewable energy"
+    ]
+  },
+  {
+    "id": "ecpe-002",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "choice",
+    "source": "Researchers used the funding proposal to evaluate attitudes to digital privacy.",
+    "keyword": "BASIS",
+    "answer": "the funding proposal formed the basis for evaluating attitudes to digital privacy",
+    "tokens": [
+      "basis",
+      "privacy",
+      "the",
+      "for",
+      "funding",
+      "evaluating",
+      "proposal",
+      "attitudes",
+      "formed",
+      "to",
+      "the",
+      "digital"
+    ],
+    "choices": [
+      "the funding proposal formed the basis  evaluating attitudes to digital privacy",
+      "the funding proposal formed the basis for evaluating attitudes to digital privacy",
+      "the funding formed proposal the basis for evaluating attitudes to digital privacy",
+      "the funding proposal formed the basis for evaluating attitudes to digital privacy incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the funding proposal formed the basis for evaluating attitudes to digital privacy"
+    ]
+  },
+  {
+    "id": "ecpe-003",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "build",
+    "source": "Researchers used the final report to evaluate attitudes to urban development.",
+    "keyword": "BASIS",
+    "answer": "the final report formed the basis for evaluating attitudes to urban development",
+    "tokens": [
+      "urban",
+      "basis",
+      "development",
+      "the",
+      "for",
+      "final",
+      "evaluating",
+      "report",
+      "attitudes",
+      "formed",
+      "to",
+      "the"
+    ],
+    "choices": [
+      "the final report formed the basis  evaluating attitudes to urban development",
+      "the final report formed the basis for evaluating attitudes to urban development",
+      "the final formed report the basis for evaluating attitudes to urban development",
+      "the final report formed the basis for evaluating attitudes to urban development incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the final report formed the basis for evaluating attitudes to urban development"
+    ]
+  },
+  {
+    "id": "ecpe-004",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "choice",
+    "source": "Researchers used the safety review to evaluate attitudes to public health.",
+    "keyword": "BASIS",
+    "answer": "the safety review formed the basis for evaluating attitudes to public health",
+    "tokens": [
+      "the",
+      "public",
+      "basis",
+      "health",
+      "the",
+      "for",
+      "safety",
+      "evaluating",
+      "review",
+      "attitudes",
+      "formed",
+      "to"
+    ],
+    "choices": [
+      "the safety review formed the basis  evaluating attitudes to public health",
+      "the safety review formed the basis for evaluating attitudes to public health",
+      "the safety formed review the basis for evaluating attitudes to public health",
+      "the safety review formed the basis for evaluating attitudes to public health incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the safety review formed the basis for evaluating attitudes to public health"
+    ]
+  },
+  {
+    "id": "ecpe-005",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "build",
+    "source": "Researchers used the training course to evaluate attitudes to language learning.",
+    "keyword": "BASIS",
+    "answer": "the training course formed the basis for evaluating attitudes to language learning",
+    "tokens": [
+      "formed",
+      "to",
+      "the",
+      "language",
+      "basis",
+      "learning",
+      "the",
+      "for",
+      "training",
+      "evaluating",
+      "course",
+      "attitudes"
+    ],
+    "choices": [
+      "the training course formed the basis  evaluating attitudes to language learning",
+      "the training course formed the basis for evaluating attitudes to language learning",
+      "the training formed course the basis for evaluating attitudes to language learning",
+      "the training course formed the basis for evaluating attitudes to language learning incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the training course formed the basis for evaluating attitudes to language learning"
+    ]
+  },
+  {
+    "id": "ecpe-006",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "choice",
+    "source": "Researchers used the policy document to evaluate attitudes to climate policy.",
+    "keyword": "BASIS",
+    "answer": "the policy document formed the basis for evaluating attitudes to climate policy",
+    "tokens": [
+      "document",
+      "attitudes",
+      "formed",
+      "to",
+      "the",
+      "climate",
+      "basis",
+      "policy",
+      "the",
+      "for",
+      "policy",
+      "evaluating"
+    ],
+    "choices": [
+      "the policy document formed the basis  evaluating attitudes to climate policy",
+      "the policy document formed the basis for evaluating attitudes to climate policy",
+      "the policy formed document the basis for evaluating attitudes to climate policy",
+      "the policy document formed the basis for evaluating attitudes to climate policy incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the policy document formed the basis for evaluating attitudes to climate policy"
+    ]
+  },
+  {
+    "id": "ecpe-007",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "build",
+    "source": "Researchers used the design brief to evaluate attitudes to artificial intelligence.",
+    "keyword": "BASIS",
+    "answer": "the design brief formed the basis for evaluating attitudes to artificial intelligence",
+    "tokens": [
+      "evaluating",
+      "brief",
+      "attitudes",
+      "formed",
+      "to",
+      "the",
+      "artificial",
+      "basis",
+      "intelligence",
+      "the",
+      "for",
+      "design"
+    ],
+    "choices": [
+      "the design brief formed the basis  evaluating attitudes to artificial intelligence",
+      "the design brief formed the basis for evaluating attitudes to artificial intelligence",
+      "the design formed brief the basis for evaluating attitudes to artificial intelligence",
+      "the design brief formed the basis for evaluating attitudes to artificial intelligence incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the design brief formed the basis for evaluating attitudes to artificial intelligence"
+    ]
+  },
+  {
+    "id": "ecpe-008",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "choice",
+    "source": "Researchers used the case study to evaluate attitudes to remote work.",
+    "keyword": "BASIS",
+    "answer": "the case study formed the basis for evaluating attitudes to remote work",
+    "tokens": [
+      "case",
+      "evaluating",
+      "study",
+      "attitudes",
+      "formed",
+      "to",
+      "the",
+      "remote",
+      "basis",
+      "work",
+      "the",
+      "for"
+    ],
+    "choices": [
+      "the case study formed the basis  evaluating attitudes to remote work",
+      "the case study formed the basis for evaluating attitudes to remote work",
+      "the case formed study the basis for evaluating attitudes to remote work",
+      "the case study formed the basis for evaluating attitudes to remote work incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the case study formed the basis for evaluating attitudes to remote work"
+    ]
+  },
+  {
+    "id": "ecpe-009",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "build",
+    "source": "Researchers used the conference plan to evaluate attitudes to scientific literacy.",
+    "keyword": "BASIS",
+    "answer": "the conference plan formed the basis for evaluating attitudes to scientific literacy",
+    "tokens": [
+      "literacy",
+      "the",
+      "for",
+      "conference",
+      "evaluating",
+      "plan",
+      "attitudes",
+      "formed",
+      "to",
+      "the",
+      "scientific",
+      "basis"
+    ],
+    "choices": [
+      "the conference plan formed the basis  evaluating attitudes to scientific literacy",
+      "the conference plan formed the basis for evaluating attitudes to scientific literacy",
+      "the conference formed plan the basis for evaluating attitudes to scientific literacy",
+      "the conference plan formed the basis for evaluating attitudes to scientific literacy incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the conference plan formed the basis for evaluating attitudes to scientific literacy"
+    ]
+  },
+  {
+    "id": "ecpe-010",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Academic English",
+    "mode": "choice",
+    "source": "Researchers used the budget forecast to evaluate attitudes to cultural heritage.",
+    "keyword": "BASIS",
+    "answer": "the budget forecast formed the basis for evaluating attitudes to cultural heritage",
+    "tokens": [
+      "basis",
+      "heritage",
+      "the",
+      "for",
+      "budget",
+      "evaluating",
+      "forecast",
+      "attitudes",
+      "formed",
+      "to",
+      "the",
+      "cultural"
+    ],
+    "choices": [
+      "the budget forecast formed the basis  evaluating attitudes to cultural heritage",
+      "the budget forecast formed the basis for evaluating attitudes to cultural heritage",
+      "the budget formed forecast the basis for evaluating attitudes to cultural heritage",
+      "the budget forecast formed the basis for evaluating attitudes to cultural heritage incorrectly"
+    ],
+    "rule": "form the basis for + gerund",
+    "explanation": "This academic expression states the foundation of an analysis.",
+    "commonError": "Do not alter the fixed pattern: form the basis for + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the budget forecast formed the basis for evaluating attitudes to cultural heritage"
+    ]
+  },
+  {
+    "id": "ecpe-011",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "build",
+    "source": "Maya was unwilling to discuss renewable energy publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Maya was reluctant to discuss renewable energy publicly",
+    "tokens": [
+      "discuss",
+      "renewable",
+      "Maya",
+      "energy",
+      "was",
+      "publicly",
+      "reluctant",
+      "to"
+    ],
+    "choices": [
+      "Maya was reluctant  discuss renewable energy publicly",
+      "Maya was reluctant to discuss renewable energy publicly",
+      "Maya did reluctant to discuss renewable energy publicly",
+      "Maya was to reluctant discuss renewable energy publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya was reluctant to discuss renewable energy publicly"
+    ]
+  },
+  {
+    "id": "ecpe-012",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "choice",
+    "source": "Daniel was unwilling to discuss digital privacy publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Daniel was reluctant to discuss digital privacy publicly",
+    "tokens": [
+      "to",
+      "discuss",
+      "digital",
+      "Daniel",
+      "privacy",
+      "was",
+      "publicly",
+      "reluctant"
+    ],
+    "choices": [
+      "Daniel was reluctant  discuss digital privacy publicly",
+      "Daniel was reluctant to discuss digital privacy publicly",
+      "Daniel did reluctant to discuss digital privacy publicly",
+      "Daniel was to reluctant discuss digital privacy publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel was reluctant to discuss digital privacy publicly"
+    ]
+  },
+  {
+    "id": "ecpe-013",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "build",
+    "source": "Sofia was unwilling to discuss urban development publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Sofia was reluctant to discuss urban development publicly",
+    "tokens": [
+      "to",
+      "discuss",
+      "urban",
+      "Sofia",
+      "development",
+      "was",
+      "publicly",
+      "reluctant"
+    ],
+    "choices": [
+      "Sofia was reluctant  discuss urban development publicly",
+      "Sofia was reluctant to discuss urban development publicly",
+      "Sofia did reluctant to discuss urban development publicly",
+      "Sofia was to reluctant discuss urban development publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia was reluctant to discuss urban development publicly"
+    ]
+  },
+  {
+    "id": "ecpe-014",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "choice",
+    "source": "Leo was unwilling to discuss public health publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Leo was reluctant to discuss public health publicly",
+    "tokens": [
+      "reluctant",
+      "to",
+      "discuss",
+      "public",
+      "Leo",
+      "health",
+      "was",
+      "publicly"
+    ],
+    "choices": [
+      "Leo was reluctant  discuss public health publicly",
+      "Leo was reluctant to discuss public health publicly",
+      "Leo did reluctant to discuss public health publicly",
+      "Leo was to reluctant discuss public health publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo was reluctant to discuss public health publicly"
+    ]
+  },
+  {
+    "id": "ecpe-015",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "build",
+    "source": "Nina was unwilling to discuss language learning publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Nina was reluctant to discuss language learning publicly",
+    "tokens": [
+      "was",
+      "publicly",
+      "reluctant",
+      "to",
+      "discuss",
+      "language",
+      "Nina",
+      "learning"
+    ],
+    "choices": [
+      "Nina was reluctant  discuss language learning publicly",
+      "Nina was reluctant to discuss language learning publicly",
+      "Nina did reluctant to discuss language learning publicly",
+      "Nina was to reluctant discuss language learning publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina was reluctant to discuss language learning publicly"
+    ]
+  },
+  {
+    "id": "ecpe-016",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "choice",
+    "source": "Omar was unwilling to discuss climate policy publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Omar was reluctant to discuss climate policy publicly",
+    "tokens": [
+      "Omar",
+      "policy",
+      "was",
+      "publicly",
+      "reluctant",
+      "to",
+      "discuss",
+      "climate"
+    ],
+    "choices": [
+      "Omar was reluctant  discuss climate policy publicly",
+      "Omar was reluctant to discuss climate policy publicly",
+      "Omar did reluctant to discuss climate policy publicly",
+      "Omar was to reluctant discuss climate policy publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar was reluctant to discuss climate policy publicly"
+    ]
+  },
+  {
+    "id": "ecpe-017",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "build",
+    "source": "Chloe was unwilling to discuss artificial intelligence publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Chloe was reluctant to discuss artificial intelligence publicly",
+    "tokens": [
+      "artificial",
+      "Chloe",
+      "intelligence",
+      "was",
+      "publicly",
+      "reluctant",
+      "to",
+      "discuss"
+    ],
+    "choices": [
+      "Chloe was reluctant  discuss artificial intelligence publicly",
+      "Chloe was reluctant to discuss artificial intelligence publicly",
+      "Chloe did reluctant to discuss artificial intelligence publicly",
+      "Chloe was to reluctant discuss artificial intelligence publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe was reluctant to discuss artificial intelligence publicly"
+    ]
+  },
+  {
+    "id": "ecpe-018",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "choice",
+    "source": "Ethan was unwilling to discuss remote work publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Ethan was reluctant to discuss remote work publicly",
+    "tokens": [
+      "remote",
+      "Ethan",
+      "work",
+      "was",
+      "publicly",
+      "reluctant",
+      "to",
+      "discuss"
+    ],
+    "choices": [
+      "Ethan was reluctant  discuss remote work publicly",
+      "Ethan was reluctant to discuss remote work publicly",
+      "Ethan did reluctant to discuss remote work publicly",
+      "Ethan was to reluctant discuss remote work publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan was reluctant to discuss remote work publicly"
+    ]
+  },
+  {
+    "id": "ecpe-019",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "build",
+    "source": "Priya was unwilling to discuss scientific literacy publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Priya was reluctant to discuss scientific literacy publicly",
+    "tokens": [
+      "discuss",
+      "scientific",
+      "Priya",
+      "literacy",
+      "was",
+      "publicly",
+      "reluctant",
+      "to"
+    ],
+    "choices": [
+      "Priya was reluctant  discuss scientific literacy publicly",
+      "Priya was reluctant to discuss scientific literacy publicly",
+      "Priya did reluctant to discuss scientific literacy publicly",
+      "Priya was to reluctant discuss scientific literacy publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya was reluctant to discuss scientific literacy publicly"
+    ]
+  },
+  {
+    "id": "ecpe-020",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Vocabulary Transformations",
+    "mode": "choice",
+    "source": "Lucas was unwilling to discuss cultural heritage publicly.",
+    "keyword": "RELUCTANT",
+    "answer": "Lucas was reluctant to discuss cultural heritage publicly",
+    "tokens": [
+      "to",
+      "discuss",
+      "cultural",
+      "Lucas",
+      "heritage",
+      "was",
+      "publicly",
+      "reluctant"
+    ],
+    "choices": [
+      "Lucas was reluctant  discuss cultural heritage publicly",
+      "Lucas was reluctant to discuss cultural heritage publicly",
+      "Lucas did reluctant to discuss cultural heritage publicly",
+      "Lucas was to reluctant discuss cultural heritage publicly"
+    ],
+    "rule": "be reluctant + to-infinitive",
+    "explanation": "“Reluctant” is equivalent to “unwilling”.",
+    "commonError": "Do not alter the fixed pattern: be reluctant + to-infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas was reluctant to discuss cultural heritage publicly"
+    ]
+  },
+  {
+    "id": "ecpe-021",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "build",
+    "source": "Maya prevented the team from entering the city library.",
+    "keyword": "STOPPED",
+    "answer": "Maya stopped the team from entering the city library",
+    "tokens": [
+      "the",
+      "library",
+      "team",
+      "from",
+      "entering",
+      "Maya",
+      "the",
+      "stopped",
+      "city"
+    ],
+    "choices": [
+      "Maya stopped team the from entering the city library",
+      "Maya stopped the team from entering the city library",
+      "Maya stopped the team from entering the city library incorrectly",
+      "Maya stopped the team from entering the city library incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya stopped the team from entering the city library"
+    ]
+  },
+  {
+    "id": "ecpe-022",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "choice",
+    "source": "Daniel prevented the team from entering the science museum.",
+    "keyword": "STOPPED",
+    "answer": "Daniel stopped the team from entering the science museum",
+    "tokens": [
+      "science",
+      "the",
+      "museum",
+      "team",
+      "from",
+      "entering",
+      "Daniel",
+      "the",
+      "stopped"
+    ],
+    "choices": [
+      "Daniel stopped team the from entering the science museum",
+      "Daniel stopped the team from entering the science museum",
+      "Daniel stopped the team from entering the science museum incorrectly",
+      "Daniel stopped the team from entering the science museum incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel stopped the team from entering the science museum"
+    ]
+  },
+  {
+    "id": "ecpe-023",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "build",
+    "source": "Sofia prevented the team from entering the regional office.",
+    "keyword": "STOPPED",
+    "answer": "Sofia stopped the team from entering the regional office",
+    "tokens": [
+      "the",
+      "stopped",
+      "regional",
+      "the",
+      "office",
+      "team",
+      "from",
+      "entering",
+      "Sofia"
+    ],
+    "choices": [
+      "Sofia stopped team the from entering the regional office",
+      "Sofia stopped the team from entering the regional office",
+      "Sofia stopped the team from entering the regional office incorrectly",
+      "Sofia stopped the team from entering the regional office incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia stopped the team from entering the regional office"
+    ]
+  },
+  {
+    "id": "ecpe-024",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "choice",
+    "source": "Leo prevented the team from entering the university campus.",
+    "keyword": "STOPPED",
+    "answer": "Leo stopped the team from entering the university campus",
+    "tokens": [
+      "Leo",
+      "the",
+      "stopped",
+      "university",
+      "the",
+      "campus",
+      "team",
+      "from",
+      "entering"
+    ],
+    "choices": [
+      "Leo stopped team the from entering the university campus",
+      "Leo stopped the team from entering the university campus",
+      "Leo stopped the team from entering the university campus incorrectly",
+      "Leo stopped the team from entering the university campus incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo stopped the team from entering the university campus"
+    ]
+  },
+  {
+    "id": "ecpe-025",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "build",
+    "source": "Nina prevented the team from entering the research centre.",
+    "keyword": "STOPPED",
+    "answer": "Nina stopped the team from entering the research centre",
+    "tokens": [
+      "entering",
+      "Nina",
+      "the",
+      "stopped",
+      "research",
+      "the",
+      "centre",
+      "team",
+      "from"
+    ],
+    "choices": [
+      "Nina stopped team the from entering the research centre",
+      "Nina stopped the team from entering the research centre",
+      "Nina stopped the team from entering the research centre incorrectly",
+      "Nina stopped the team from entering the research centre incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina stopped the team from entering the research centre"
+    ]
+  },
+  {
+    "id": "ecpe-026",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "choice",
+    "source": "Omar prevented the team from entering the community hall.",
+    "keyword": "STOPPED",
+    "answer": "Omar stopped the team from entering the community hall",
+    "tokens": [
+      "from",
+      "entering",
+      "Omar",
+      "the",
+      "stopped",
+      "community",
+      "the",
+      "hall",
+      "team"
+    ],
+    "choices": [
+      "Omar stopped team the from entering the community hall",
+      "Omar stopped the team from entering the community hall",
+      "Omar stopped the team from entering the community hall incorrectly",
+      "Omar stopped the team from entering the community hall incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar stopped the team from entering the community hall"
+    ]
+  },
+  {
+    "id": "ecpe-027",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "build",
+    "source": "Chloe prevented the team from entering the main laboratory.",
+    "keyword": "STOPPED",
+    "answer": "Chloe stopped the team from entering the main laboratory",
+    "tokens": [
+      "team",
+      "from",
+      "entering",
+      "Chloe",
+      "the",
+      "stopped",
+      "main",
+      "the",
+      "laboratory"
+    ],
+    "choices": [
+      "Chloe stopped team the from entering the main laboratory",
+      "Chloe stopped the team from entering the main laboratory",
+      "Chloe stopped the team from entering the main laboratory incorrectly",
+      "Chloe stopped the team from entering the main laboratory incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe stopped the team from entering the main laboratory"
+    ]
+  },
+  {
+    "id": "ecpe-028",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "choice",
+    "source": "Ethan prevented the team from entering the local archive.",
+    "keyword": "STOPPED",
+    "answer": "Ethan stopped the team from entering the local archive",
+    "tokens": [
+      "archive",
+      "team",
+      "from",
+      "entering",
+      "Ethan",
+      "the",
+      "stopped",
+      "local",
+      "the"
+    ],
+    "choices": [
+      "Ethan stopped team the from entering the local archive",
+      "Ethan stopped the team from entering the local archive",
+      "Ethan stopped the team from entering the local archive incorrectly",
+      "Ethan stopped the team from entering the local archive incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan stopped the team from entering the local archive"
+    ]
+  },
+  {
+    "id": "ecpe-029",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "build",
+    "source": "Priya prevented the team from entering the training centre.",
+    "keyword": "STOPPED",
+    "answer": "Priya stopped the team from entering the training centre",
+    "tokens": [
+      "the",
+      "centre",
+      "team",
+      "from",
+      "entering",
+      "Priya",
+      "the",
+      "stopped",
+      "training"
+    ],
+    "choices": [
+      "Priya stopped team the from entering the training centre",
+      "Priya stopped the team from entering the training centre",
+      "Priya stopped the team from entering the training centre incorrectly",
+      "Priya stopped the team from entering the training centre incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya stopped the team from entering the training centre"
+    ]
+  },
+  {
+    "id": "ecpe-030",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Verb Patterns",
+    "mode": "choice",
+    "source": "Lucas prevented the team from entering the council building.",
+    "keyword": "STOPPED",
+    "answer": "Lucas stopped the team from entering the council building",
+    "tokens": [
+      "stopped",
+      "council",
+      "the",
+      "building",
+      "team",
+      "from",
+      "entering",
+      "Lucas",
+      "the"
+    ],
+    "choices": [
+      "Lucas stopped team the from entering the council building",
+      "Lucas stopped the team from entering the council building",
+      "Lucas stopped the team from entering the council building incorrectly",
+      "Lucas stopped the team from entering the council building incorrectly"
+    ],
+    "rule": "stop someone from + gerund",
+    "explanation": "Use an object followed by “from” and an -ing form.",
+    "commonError": "Do not alter the fixed pattern: stop someone from + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas stopped the team from entering the council building"
+    ]
+  },
+  {
+    "id": "ecpe-031",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "build",
+    "source": "Maya is responsible for preparing the research paper.",
+    "keyword": "CHARGE",
+    "answer": "Maya is in charge of preparing the research paper",
+    "tokens": [
+      "Maya",
+      "the",
+      "is",
+      "research",
+      "in",
+      "paper",
+      "charge",
+      "of",
+      "preparing"
+    ],
+    "choices": [
+      "Maya is  charge of preparing the research paper",
+      "Maya is in charge of preparing the research paper",
+      "Maya did in charge of preparing the research paper",
+      "Maya is charge in of preparing the research paper"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya is in charge of preparing the research paper"
+    ]
+  },
+  {
+    "id": "ecpe-032",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "choice",
+    "source": "Daniel is responsible for preparing the funding proposal.",
+    "keyword": "CHARGE",
+    "answer": "Daniel is in charge of preparing the funding proposal",
+    "tokens": [
+      "preparing",
+      "Daniel",
+      "the",
+      "is",
+      "funding",
+      "in",
+      "proposal",
+      "charge",
+      "of"
+    ],
+    "choices": [
+      "Daniel is  charge of preparing the funding proposal",
+      "Daniel is in charge of preparing the funding proposal",
+      "Daniel did in charge of preparing the funding proposal",
+      "Daniel is charge in of preparing the funding proposal"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel is in charge of preparing the funding proposal"
+    ]
+  },
+  {
+    "id": "ecpe-033",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "build",
+    "source": "Sofia is responsible for preparing the final report.",
+    "keyword": "CHARGE",
+    "answer": "Sofia is in charge of preparing the final report",
+    "tokens": [
+      "preparing",
+      "Sofia",
+      "the",
+      "is",
+      "final",
+      "in",
+      "report",
+      "charge",
+      "of"
+    ],
+    "choices": [
+      "Sofia is  charge of preparing the final report",
+      "Sofia is in charge of preparing the final report",
+      "Sofia did in charge of preparing the final report",
+      "Sofia is charge in of preparing the final report"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia is in charge of preparing the final report"
+    ]
+  },
+  {
+    "id": "ecpe-034",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "choice",
+    "source": "Leo is responsible for preparing the safety review.",
+    "keyword": "CHARGE",
+    "answer": "Leo is in charge of preparing the safety review",
+    "tokens": [
+      "of",
+      "preparing",
+      "Leo",
+      "the",
+      "is",
+      "safety",
+      "in",
+      "review",
+      "charge"
+    ],
+    "choices": [
+      "Leo is  charge of preparing the safety review",
+      "Leo is in charge of preparing the safety review",
+      "Leo did in charge of preparing the safety review",
+      "Leo is charge in of preparing the safety review"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo is in charge of preparing the safety review"
+    ]
+  },
+  {
+    "id": "ecpe-035",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "build",
+    "source": "Nina is responsible for preparing the training course.",
+    "keyword": "CHARGE",
+    "answer": "Nina is in charge of preparing the training course",
+    "tokens": [
+      "charge",
+      "of",
+      "preparing",
+      "Nina",
+      "the",
+      "is",
+      "training",
+      "in",
+      "course"
+    ],
+    "choices": [
+      "Nina is  charge of preparing the training course",
+      "Nina is in charge of preparing the training course",
+      "Nina did in charge of preparing the training course",
+      "Nina is charge in of preparing the training course"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina is in charge of preparing the training course"
+    ]
+  },
+  {
+    "id": "ecpe-036",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "choice",
+    "source": "Omar is responsible for preparing the policy document.",
+    "keyword": "CHARGE",
+    "answer": "Omar is in charge of preparing the policy document",
+    "tokens": [
+      "in",
+      "document",
+      "charge",
+      "of",
+      "preparing",
+      "Omar",
+      "the",
+      "is",
+      "policy"
+    ],
+    "choices": [
+      "Omar is  charge of preparing the policy document",
+      "Omar is in charge of preparing the policy document",
+      "Omar did in charge of preparing the policy document",
+      "Omar is charge in of preparing the policy document"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar is in charge of preparing the policy document"
+    ]
+  },
+  {
+    "id": "ecpe-037",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "build",
+    "source": "Chloe is responsible for preparing the design brief.",
+    "keyword": "CHARGE",
+    "answer": "Chloe is in charge of preparing the design brief",
+    "tokens": [
+      "is",
+      "design",
+      "in",
+      "brief",
+      "charge",
+      "of",
+      "preparing",
+      "Chloe",
+      "the"
+    ],
+    "choices": [
+      "Chloe is  charge of preparing the design brief",
+      "Chloe is in charge of preparing the design brief",
+      "Chloe did in charge of preparing the design brief",
+      "Chloe is charge in of preparing the design brief"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe is in charge of preparing the design brief"
+    ]
+  },
+  {
+    "id": "ecpe-038",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "choice",
+    "source": "Ethan is responsible for preparing the case study.",
+    "keyword": "CHARGE",
+    "answer": "Ethan is in charge of preparing the case study",
+    "tokens": [
+      "the",
+      "is",
+      "case",
+      "in",
+      "study",
+      "charge",
+      "of",
+      "preparing",
+      "Ethan"
+    ],
+    "choices": [
+      "Ethan is  charge of preparing the case study",
+      "Ethan is in charge of preparing the case study",
+      "Ethan did in charge of preparing the case study",
+      "Ethan is charge in of preparing the case study"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan is in charge of preparing the case study"
+    ]
+  },
+  {
+    "id": "ecpe-039",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "build",
+    "source": "Priya is responsible for preparing the conference plan.",
+    "keyword": "CHARGE",
+    "answer": "Priya is in charge of preparing the conference plan",
+    "tokens": [
+      "Priya",
+      "the",
+      "is",
+      "conference",
+      "in",
+      "plan",
+      "charge",
+      "of",
+      "preparing"
+    ],
+    "choices": [
+      "Priya is  charge of preparing the conference plan",
+      "Priya is in charge of preparing the conference plan",
+      "Priya did in charge of preparing the conference plan",
+      "Priya is charge in of preparing the conference plan"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya is in charge of preparing the conference plan"
+    ]
+  },
+  {
+    "id": "ecpe-040",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Prepositions",
+    "mode": "choice",
+    "source": "Lucas is responsible for preparing the budget forecast.",
+    "keyword": "CHARGE",
+    "answer": "Lucas is in charge of preparing the budget forecast",
+    "tokens": [
+      "preparing",
+      "Lucas",
+      "the",
+      "is",
+      "budget",
+      "in",
+      "forecast",
+      "charge",
+      "of"
+    ],
+    "choices": [
+      "Lucas is  charge of preparing the budget forecast",
+      "Lucas is in charge of preparing the budget forecast",
+      "Lucas did in charge of preparing the budget forecast",
+      "Lucas is charge in of preparing the budget forecast"
+    ],
+    "rule": "in charge of + gerund",
+    "explanation": "The fixed phrase is “in charge of”.",
+    "commonError": "Do not alter the fixed pattern: in charge of + gerund.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas is in charge of preparing the budget forecast"
+    ]
+  },
+  {
+    "id": "ecpe-041",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "build",
+    "source": "It is possible that Maya misunderstood the research paper.",
+    "keyword": "MAY",
+    "answer": "Maya may have misunderstood the research paper",
+    "tokens": [
+      "the",
+      "research",
+      "Maya",
+      "paper",
+      "may",
+      "have",
+      "misunderstood"
+    ],
+    "choices": [
+      "Maya may did misunderstood the research paper",
+      "Maya may have misunderstood the research paper",
+      "Maya may misunderstood have the research paper",
+      "Maya may have misunderstood the research paper incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya may have misunderstood the research paper"
+    ]
+  },
+  {
+    "id": "ecpe-042",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "choice",
+    "source": "It is possible that Daniel misunderstood the funding proposal.",
+    "keyword": "MAY",
+    "answer": "Daniel may have misunderstood the funding proposal",
+    "tokens": [
+      "misunderstood",
+      "the",
+      "funding",
+      "Daniel",
+      "proposal",
+      "may",
+      "have"
+    ],
+    "choices": [
+      "Daniel may did misunderstood the funding proposal",
+      "Daniel may have misunderstood the funding proposal",
+      "Daniel may misunderstood have the funding proposal",
+      "Daniel may have misunderstood the funding proposal incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel may have misunderstood the funding proposal"
+    ]
+  },
+  {
+    "id": "ecpe-043",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "build",
+    "source": "It is possible that Sofia misunderstood the final report.",
+    "keyword": "MAY",
+    "answer": "Sofia may have misunderstood the final report",
+    "tokens": [
+      "misunderstood",
+      "the",
+      "final",
+      "Sofia",
+      "report",
+      "may",
+      "have"
+    ],
+    "choices": [
+      "Sofia may did misunderstood the final report",
+      "Sofia may have misunderstood the final report",
+      "Sofia may misunderstood have the final report",
+      "Sofia may have misunderstood the final report incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia may have misunderstood the final report"
+    ]
+  },
+  {
+    "id": "ecpe-044",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "choice",
+    "source": "It is possible that Leo misunderstood the safety review.",
+    "keyword": "MAY",
+    "answer": "Leo may have misunderstood the safety review",
+    "tokens": [
+      "have",
+      "misunderstood",
+      "the",
+      "safety",
+      "Leo",
+      "review",
+      "may"
+    ],
+    "choices": [
+      "Leo may did misunderstood the safety review",
+      "Leo may have misunderstood the safety review",
+      "Leo may misunderstood have the safety review",
+      "Leo may have misunderstood the safety review incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo may have misunderstood the safety review"
+    ]
+  },
+  {
+    "id": "ecpe-045",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "build",
+    "source": "It is possible that Nina misunderstood the training course.",
+    "keyword": "MAY",
+    "answer": "Nina may have misunderstood the training course",
+    "tokens": [
+      "may",
+      "have",
+      "misunderstood",
+      "the",
+      "training",
+      "Nina",
+      "course"
+    ],
+    "choices": [
+      "Nina may did misunderstood the training course",
+      "Nina may have misunderstood the training course",
+      "Nina may misunderstood have the training course",
+      "Nina may have misunderstood the training course incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina may have misunderstood the training course"
+    ]
+  },
+  {
+    "id": "ecpe-046",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "choice",
+    "source": "It is possible that Omar misunderstood the policy document.",
+    "keyword": "MAY",
+    "answer": "Omar may have misunderstood the policy document",
+    "tokens": [
+      "Omar",
+      "document",
+      "may",
+      "have",
+      "misunderstood",
+      "the",
+      "policy"
+    ],
+    "choices": [
+      "Omar may did misunderstood the policy document",
+      "Omar may have misunderstood the policy document",
+      "Omar may misunderstood have the policy document",
+      "Omar may have misunderstood the policy document incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar may have misunderstood the policy document"
+    ]
+  },
+  {
+    "id": "ecpe-047",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "build",
+    "source": "It is possible that Chloe misunderstood the design brief.",
+    "keyword": "MAY",
+    "answer": "Chloe may have misunderstood the design brief",
+    "tokens": [
+      "design",
+      "Chloe",
+      "brief",
+      "may",
+      "have",
+      "misunderstood",
+      "the"
+    ],
+    "choices": [
+      "Chloe may did misunderstood the design brief",
+      "Chloe may have misunderstood the design brief",
+      "Chloe may misunderstood have the design brief",
+      "Chloe may have misunderstood the design brief incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe may have misunderstood the design brief"
+    ]
+  },
+  {
+    "id": "ecpe-048",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "choice",
+    "source": "It is possible that Ethan misunderstood the case study.",
+    "keyword": "MAY",
+    "answer": "Ethan may have misunderstood the case study",
+    "tokens": [
+      "the",
+      "case",
+      "Ethan",
+      "study",
+      "may",
+      "have",
+      "misunderstood"
+    ],
+    "choices": [
+      "Ethan may did misunderstood the case study",
+      "Ethan may have misunderstood the case study",
+      "Ethan may misunderstood have the case study",
+      "Ethan may have misunderstood the case study incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan may have misunderstood the case study"
+    ]
+  },
+  {
+    "id": "ecpe-049",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "build",
+    "source": "It is possible that Priya misunderstood the conference plan.",
+    "keyword": "MAY",
+    "answer": "Priya may have misunderstood the conference plan",
+    "tokens": [
+      "the",
+      "conference",
+      "Priya",
+      "plan",
+      "may",
+      "have",
+      "misunderstood"
+    ],
+    "choices": [
+      "Priya may did misunderstood the conference plan",
+      "Priya may have misunderstood the conference plan",
+      "Priya may misunderstood have the conference plan",
+      "Priya may have misunderstood the conference plan incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya may have misunderstood the conference plan"
+    ]
+  },
+  {
+    "id": "ecpe-050",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Mixed Review",
+    "mode": "choice",
+    "source": "It is possible that Lucas misunderstood the budget forecast.",
+    "keyword": "MAY",
+    "answer": "Lucas may have misunderstood the budget forecast",
+    "tokens": [
+      "misunderstood",
+      "the",
+      "budget",
+      "Lucas",
+      "forecast",
+      "may",
+      "have"
+    ],
+    "choices": [
+      "Lucas may did misunderstood the budget forecast",
+      "Lucas may have misunderstood the budget forecast",
+      "Lucas may misunderstood have the budget forecast",
+      "Lucas may have misunderstood the budget forecast incorrectly"
+    ],
+    "rule": "may have + past participle",
+    "explanation": "Use a perfect modal for uncertainty about the past.",
+    "commonError": "Do not alter the fixed pattern: may have + past participle.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas may have misunderstood the budget forecast"
+    ]
+  },
+  {
+    "id": "ecpe-051",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "Experts say that the city library was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the city library is said to have been built over a century ago",
+    "tokens": [
+      "library",
+      "built",
+      "is",
+      "over",
+      "said",
+      "a",
+      "to",
+      "century",
+      "the",
+      "have",
+      "ago",
+      "city",
+      "been"
+    ],
+    "choices": [
+      "the city library is said  have been built over a century ago",
+      "the city library is said to have been built over a century ago",
+      "the city library did said to have been built over a century ago",
+      "the city is library said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the city library is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-052",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "Experts say that the science museum was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the science museum is said to have been built over a century ago",
+    "tokens": [
+      "science",
+      "been",
+      "museum",
+      "built",
+      "is",
+      "over",
+      "said",
+      "a",
+      "to",
+      "century",
+      "the",
+      "have",
+      "ago"
+    ],
+    "choices": [
+      "the science museum is said  have been built over a century ago",
+      "the science museum is said to have been built over a century ago",
+      "the science museum did said to have been built over a century ago",
+      "the science is museum said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the science museum is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-053",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "Experts say that the regional office was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the regional office is said to have been built over a century ago",
+    "tokens": [
+      "have",
+      "ago",
+      "regional",
+      "been",
+      "office",
+      "built",
+      "is",
+      "over",
+      "said",
+      "a",
+      "to",
+      "century",
+      "the"
+    ],
+    "choices": [
+      "the regional office is said  have been built over a century ago",
+      "the regional office is said to have been built over a century ago",
+      "the regional office did said to have been built over a century ago",
+      "the regional is office said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the regional office is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-054",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "Experts say that the university campus was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the university campus is said to have been built over a century ago",
+    "tokens": [
+      "century",
+      "the",
+      "have",
+      "ago",
+      "university",
+      "been",
+      "campus",
+      "built",
+      "is",
+      "over",
+      "said",
+      "a",
+      "to"
+    ],
+    "choices": [
+      "the university campus is said  have been built over a century ago",
+      "the university campus is said to have been built over a century ago",
+      "the university campus did said to have been built over a century ago",
+      "the university is campus said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the university campus is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-055",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "Experts say that the research centre was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the research centre is said to have been built over a century ago",
+    "tokens": [
+      "to",
+      "century",
+      "the",
+      "have",
+      "ago",
+      "research",
+      "been",
+      "centre",
+      "built",
+      "is",
+      "over",
+      "said",
+      "a"
+    ],
+    "choices": [
+      "the research centre is said  have been built over a century ago",
+      "the research centre is said to have been built over a century ago",
+      "the research centre did said to have been built over a century ago",
+      "the research is centre said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the research centre is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-056",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "Experts say that the community hall was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the community hall is said to have been built over a century ago",
+    "tokens": [
+      "said",
+      "a",
+      "to",
+      "century",
+      "the",
+      "have",
+      "ago",
+      "community",
+      "been",
+      "hall",
+      "built",
+      "is",
+      "over"
+    ],
+    "choices": [
+      "the community hall is said  have been built over a century ago",
+      "the community hall is said to have been built over a century ago",
+      "the community hall did said to have been built over a century ago",
+      "the community is hall said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the community hall is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-057",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "Experts say that the main laboratory was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the main laboratory is said to have been built over a century ago",
+    "tokens": [
+      "is",
+      "over",
+      "said",
+      "a",
+      "to",
+      "century",
+      "the",
+      "have",
+      "ago",
+      "main",
+      "been",
+      "laboratory",
+      "built"
+    ],
+    "choices": [
+      "the main laboratory is said  have been built over a century ago",
+      "the main laboratory is said to have been built over a century ago",
+      "the main laboratory did said to have been built over a century ago",
+      "the main is laboratory said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the main laboratory is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-058",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "Experts say that the local archive was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the local archive is said to have been built over a century ago",
+    "tokens": [
+      "built",
+      "is",
+      "over",
+      "said",
+      "a",
+      "to",
+      "century",
+      "the",
+      "have",
+      "ago",
+      "local",
+      "been",
+      "archive"
+    ],
+    "choices": [
+      "the local archive is said  have been built over a century ago",
+      "the local archive is said to have been built over a century ago",
+      "the local archive did said to have been built over a century ago",
+      "the local is archive said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the local archive is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-059",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "build",
+    "source": "Experts say that the training centre was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the training centre is said to have been built over a century ago",
+    "tokens": [
+      "been",
+      "centre",
+      "built",
+      "is",
+      "over",
+      "said",
+      "a",
+      "to",
+      "century",
+      "the",
+      "have",
+      "ago",
+      "training"
+    ],
+    "choices": [
+      "the training centre is said  have been built over a century ago",
+      "the training centre is said to have been built over a century ago",
+      "the training centre did said to have been built over a century ago",
+      "the training is centre said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the training centre is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-060",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Passive Voice",
+    "mode": "choice",
+    "source": "Experts say that the council building was built over a century ago.",
+    "keyword": "SAID",
+    "answer": "the council building is said to have been built over a century ago",
+    "tokens": [
+      "ago",
+      "council",
+      "been",
+      "building",
+      "built",
+      "is",
+      "over",
+      "said",
+      "a",
+      "to",
+      "century",
+      "the",
+      "have"
+    ],
+    "choices": [
+      "the council building is said  have been built over a century ago",
+      "the council building is said to have been built over a century ago",
+      "the council building did said to have been built over a century ago",
+      "the council is building said to have been built over a century ago"
+    ],
+    "rule": "is said + perfect passive infinitive",
+    "explanation": "The perfect infinitive refers to an earlier passive action.",
+    "commonError": "Do not alter the fixed pattern: is said + perfect passive infinitive.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the council building is said to have been built over a century ago"
+    ]
+  },
+  {
+    "id": "ecpe-061",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Maya rarely encounters such detailed work on renewable energy.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Maya encounter such detailed work on renewable energy",
+    "tokens": [
+      "Rarely",
+      "work",
+      "does",
+      "on",
+      "Maya",
+      "renewable",
+      "encounter",
+      "energy",
+      "such",
+      "detailed"
+    ],
+    "choices": [
+      "Rarely does Maya encounter such detailed work  renewable energy",
+      "Rarely does Maya encounter such detailed work on renewable energy",
+      "Rarely did Maya encounter such detailed work on renewable energy",
+      "Rarely does encounter Maya such detailed work on renewable energy"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Maya encounter such detailed work on renewable energy"
+    ]
+  },
+  {
+    "id": "ecpe-062",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Daniel rarely encounters such detailed work on digital privacy.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Daniel encounter such detailed work on digital privacy",
+    "tokens": [
+      "detailed",
+      "Rarely",
+      "work",
+      "does",
+      "on",
+      "Daniel",
+      "digital",
+      "encounter",
+      "privacy",
+      "such"
+    ],
+    "choices": [
+      "Rarely does Daniel encounter such detailed work  digital privacy",
+      "Rarely does Daniel encounter such detailed work on digital privacy",
+      "Rarely did Daniel encounter such detailed work on digital privacy",
+      "Rarely does encounter Daniel such detailed work on digital privacy"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Daniel encounter such detailed work on digital privacy"
+    ]
+  },
+  {
+    "id": "ecpe-063",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Sofia rarely encounters such detailed work on urban development.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Sofia encounter such detailed work on urban development",
+    "tokens": [
+      "such",
+      "detailed",
+      "Rarely",
+      "work",
+      "does",
+      "on",
+      "Sofia",
+      "urban",
+      "encounter",
+      "development"
+    ],
+    "choices": [
+      "Rarely does Sofia encounter such detailed work  urban development",
+      "Rarely does Sofia encounter such detailed work on urban development",
+      "Rarely did Sofia encounter such detailed work on urban development",
+      "Rarely does encounter Sofia such detailed work on urban development"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Sofia encounter such detailed work on urban development"
+    ]
+  },
+  {
+    "id": "ecpe-064",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Leo rarely encounters such detailed work on public health.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Leo encounter such detailed work on public health",
+    "tokens": [
+      "health",
+      "such",
+      "detailed",
+      "Rarely",
+      "work",
+      "does",
+      "on",
+      "Leo",
+      "public",
+      "encounter"
+    ],
+    "choices": [
+      "Rarely does Leo encounter such detailed work  public health",
+      "Rarely does Leo encounter such detailed work on public health",
+      "Rarely did Leo encounter such detailed work on public health",
+      "Rarely does encounter Leo such detailed work on public health"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Leo encounter such detailed work on public health"
+    ]
+  },
+  {
+    "id": "ecpe-065",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Nina rarely encounters such detailed work on language learning.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Nina encounter such detailed work on language learning",
+    "tokens": [
+      "encounter",
+      "learning",
+      "such",
+      "detailed",
+      "Rarely",
+      "work",
+      "does",
+      "on",
+      "Nina",
+      "language"
+    ],
+    "choices": [
+      "Rarely does Nina encounter such detailed work  language learning",
+      "Rarely does Nina encounter such detailed work on language learning",
+      "Rarely did Nina encounter such detailed work on language learning",
+      "Rarely does encounter Nina such detailed work on language learning"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Nina encounter such detailed work on language learning"
+    ]
+  },
+  {
+    "id": "ecpe-066",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Omar rarely encounters such detailed work on climate policy.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Omar encounter such detailed work on climate policy",
+    "tokens": [
+      "Omar",
+      "climate",
+      "encounter",
+      "policy",
+      "such",
+      "detailed",
+      "Rarely",
+      "work",
+      "does",
+      "on"
+    ],
+    "choices": [
+      "Rarely does Omar encounter such detailed work  climate policy",
+      "Rarely does Omar encounter such detailed work on climate policy",
+      "Rarely did Omar encounter such detailed work on climate policy",
+      "Rarely does encounter Omar such detailed work on climate policy"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Omar encounter such detailed work on climate policy"
+    ]
+  },
+  {
+    "id": "ecpe-067",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Chloe rarely encounters such detailed work on artificial intelligence.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Chloe encounter such detailed work on artificial intelligence",
+    "tokens": [
+      "does",
+      "on",
+      "Chloe",
+      "artificial",
+      "encounter",
+      "intelligence",
+      "such",
+      "detailed",
+      "Rarely",
+      "work"
+    ],
+    "choices": [
+      "Rarely does Chloe encounter such detailed work  artificial intelligence",
+      "Rarely does Chloe encounter such detailed work on artificial intelligence",
+      "Rarely did Chloe encounter such detailed work on artificial intelligence",
+      "Rarely does encounter Chloe such detailed work on artificial intelligence"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Chloe encounter such detailed work on artificial intelligence"
+    ]
+  },
+  {
+    "id": "ecpe-068",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Ethan rarely encounters such detailed work on remote work.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Ethan encounter such detailed work on remote work",
+    "tokens": [
+      "work",
+      "does",
+      "on",
+      "Ethan",
+      "remote",
+      "encounter",
+      "work",
+      "such",
+      "detailed",
+      "Rarely"
+    ],
+    "choices": [
+      "Rarely does Ethan encounter such detailed work  remote work",
+      "Rarely does Ethan encounter such detailed work on remote work",
+      "Rarely did Ethan encounter such detailed work on remote work",
+      "Rarely does encounter Ethan such detailed work on remote work"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Ethan encounter such detailed work on remote work"
+    ]
+  },
+  {
+    "id": "ecpe-069",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "build",
+    "source": "Priya rarely encounters such detailed work on scientific literacy.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Priya encounter such detailed work on scientific literacy",
+    "tokens": [
+      "Rarely",
+      "work",
+      "does",
+      "on",
+      "Priya",
+      "scientific",
+      "encounter",
+      "literacy",
+      "such",
+      "detailed"
+    ],
+    "choices": [
+      "Rarely does Priya encounter such detailed work  scientific literacy",
+      "Rarely does Priya encounter such detailed work on scientific literacy",
+      "Rarely did Priya encounter such detailed work on scientific literacy",
+      "Rarely does encounter Priya such detailed work on scientific literacy"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Priya encounter such detailed work on scientific literacy"
+    ]
+  },
+  {
+    "id": "ecpe-070",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Inversion",
+    "mode": "choice",
+    "source": "Lucas rarely encounters such detailed work on cultural heritage.",
+    "keyword": "RARELY",
+    "answer": "Rarely does Lucas encounter such detailed work on cultural heritage",
+    "tokens": [
+      "detailed",
+      "Rarely",
+      "work",
+      "does",
+      "on",
+      "Lucas",
+      "cultural",
+      "encounter",
+      "heritage",
+      "such"
+    ],
+    "choices": [
+      "Rarely does Lucas encounter such detailed work  cultural heritage",
+      "Rarely does Lucas encounter such detailed work on cultural heritage",
+      "Rarely did Lucas encounter such detailed work on cultural heritage",
+      "Rarely does encounter Lucas such detailed work on cultural heritage"
+    ],
+    "rule": "Rarely + auxiliary + subject",
+    "explanation": "Fronted “rarely” triggers inversion.",
+    "commonError": "Do not alter the fixed pattern: Rarely + auxiliary + subject.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Rarely does Lucas encounter such detailed work on cultural heritage"
+    ]
+  },
+  {
+    "id": "ecpe-071",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "Maya decided to improvise during the workshop.",
+    "keyword": "EAR",
+    "answer": "Maya decided to play it by ear during the workshop",
+    "tokens": [
+      "it",
+      "by",
+      "Maya",
+      "ear",
+      "decided",
+      "during",
+      "to",
+      "the",
+      "play",
+      "workshop"
+    ],
+    "choices": [
+      "Maya decided  play it by ear during the workshop",
+      "Maya decided to play it by ear during the workshop",
+      "Maya decided play to it by ear during the workshop",
+      "Maya decided to play it by ear during the workshop incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Maya decided to play it by ear during the workshop"
+    ]
+  },
+  {
+    "id": "ecpe-072",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "Daniel decided to improvise during the ceremony.",
+    "keyword": "EAR",
+    "answer": "Daniel decided to play it by ear during the ceremony",
+    "tokens": [
+      "play",
+      "ceremony",
+      "it",
+      "by",
+      "Daniel",
+      "ear",
+      "decided",
+      "during",
+      "to",
+      "the"
+    ],
+    "choices": [
+      "Daniel decided  play it by ear during the ceremony",
+      "Daniel decided to play it by ear during the ceremony",
+      "Daniel decided play to it by ear during the ceremony",
+      "Daniel decided to play it by ear during the ceremony incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Daniel decided to play it by ear during the ceremony"
+    ]
+  },
+  {
+    "id": "ecpe-073",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "Sofia decided to improvise during the interview.",
+    "keyword": "EAR",
+    "answer": "Sofia decided to play it by ear during the interview",
+    "tokens": [
+      "to",
+      "the",
+      "play",
+      "interview",
+      "it",
+      "by",
+      "Sofia",
+      "ear",
+      "decided",
+      "during"
+    ],
+    "choices": [
+      "Sofia decided  play it by ear during the interview",
+      "Sofia decided to play it by ear during the interview",
+      "Sofia decided play to it by ear during the interview",
+      "Sofia decided to play it by ear during the interview incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Sofia decided to play it by ear during the interview"
+    ]
+  },
+  {
+    "id": "ecpe-074",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "Leo decided to improvise during the presentation.",
+    "keyword": "EAR",
+    "answer": "Leo decided to play it by ear during the presentation",
+    "tokens": [
+      "during",
+      "to",
+      "the",
+      "play",
+      "presentation",
+      "it",
+      "by",
+      "Leo",
+      "ear",
+      "decided"
+    ],
+    "choices": [
+      "Leo decided  play it by ear during the presentation",
+      "Leo decided to play it by ear during the presentation",
+      "Leo decided play to it by ear during the presentation",
+      "Leo decided to play it by ear during the presentation incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Leo decided to play it by ear during the presentation"
+    ]
+  },
+  {
+    "id": "ecpe-075",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "Nina decided to improvise during the inspection.",
+    "keyword": "EAR",
+    "answer": "Nina decided to play it by ear during the inspection",
+    "tokens": [
+      "decided",
+      "during",
+      "to",
+      "the",
+      "play",
+      "inspection",
+      "it",
+      "by",
+      "Nina",
+      "ear"
+    ],
+    "choices": [
+      "Nina decided  play it by ear during the inspection",
+      "Nina decided to play it by ear during the inspection",
+      "Nina decided play to it by ear during the inspection",
+      "Nina decided to play it by ear during the inspection incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Nina decided to play it by ear during the inspection"
+    ]
+  },
+  {
+    "id": "ecpe-076",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "Omar decided to improvise during the conference.",
+    "keyword": "EAR",
+    "answer": "Omar decided to play it by ear during the conference",
+    "tokens": [
+      "Omar",
+      "ear",
+      "decided",
+      "during",
+      "to",
+      "the",
+      "play",
+      "conference",
+      "it",
+      "by"
+    ],
+    "choices": [
+      "Omar decided  play it by ear during the conference",
+      "Omar decided to play it by ear during the conference",
+      "Omar decided play to it by ear during the conference",
+      "Omar decided to play it by ear during the conference incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Omar decided to play it by ear during the conference"
+    ]
+  },
+  {
+    "id": "ecpe-077",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "Chloe decided to improvise during the consultation.",
+    "keyword": "EAR",
+    "answer": "Chloe decided to play it by ear during the consultation",
+    "tokens": [
+      "by",
+      "Chloe",
+      "ear",
+      "decided",
+      "during",
+      "to",
+      "the",
+      "play",
+      "consultation",
+      "it"
+    ],
+    "choices": [
+      "Chloe decided  play it by ear during the consultation",
+      "Chloe decided to play it by ear during the consultation",
+      "Chloe decided play to it by ear during the consultation",
+      "Chloe decided to play it by ear during the consultation incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Chloe decided to play it by ear during the consultation"
+    ]
+  },
+  {
+    "id": "ecpe-078",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "Ethan decided to improvise during the debate.",
+    "keyword": "EAR",
+    "answer": "Ethan decided to play it by ear during the debate",
+    "tokens": [
+      "it",
+      "by",
+      "Ethan",
+      "ear",
+      "decided",
+      "during",
+      "to",
+      "the",
+      "play",
+      "debate"
+    ],
+    "choices": [
+      "Ethan decided  play it by ear during the debate",
+      "Ethan decided to play it by ear during the debate",
+      "Ethan decided play to it by ear during the debate",
+      "Ethan decided to play it by ear during the debate incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Ethan decided to play it by ear during the debate"
+    ]
+  },
+  {
+    "id": "ecpe-079",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "build",
+    "source": "Priya decided to improvise during the exhibition.",
+    "keyword": "EAR",
+    "answer": "Priya decided to play it by ear during the exhibition",
+    "tokens": [
+      "exhibition",
+      "it",
+      "by",
+      "Priya",
+      "ear",
+      "decided",
+      "during",
+      "to",
+      "the",
+      "play"
+    ],
+    "choices": [
+      "Priya decided  play it by ear during the exhibition",
+      "Priya decided to play it by ear during the exhibition",
+      "Priya decided play to it by ear during the exhibition",
+      "Priya decided to play it by ear during the exhibition incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Priya decided to play it by ear during the exhibition"
+    ]
+  },
+  {
+    "id": "ecpe-080",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Idioms",
+    "mode": "choice",
+    "source": "Lucas decided to improvise during the assessment.",
+    "keyword": "EAR",
+    "answer": "Lucas decided to play it by ear during the assessment",
+    "tokens": [
+      "play",
+      "assessment",
+      "it",
+      "by",
+      "Lucas",
+      "ear",
+      "decided",
+      "during",
+      "to",
+      "the"
+    ],
+    "choices": [
+      "Lucas decided  play it by ear during the assessment",
+      "Lucas decided to play it by ear during the assessment",
+      "Lucas decided play to it by ear during the assessment",
+      "Lucas decided to play it by ear during the assessment incorrectly"
+    ],
+    "rule": "play it by ear",
+    "explanation": "The idiom means to act without a fixed plan.",
+    "commonError": "Do not alter the fixed pattern: play it by ear.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Lucas decided to play it by ear during the assessment"
+    ]
+  },
+  {
+    "id": "ecpe-081",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "the research paper clearly demonstrates why renewable energy matters.",
+    "keyword": "LIGHT",
+    "answer": "the research paper sheds light on why renewable energy matters",
+    "tokens": [
+      "paper",
+      "energy",
+      "sheds",
+      "matters",
+      "light",
+      "on",
+      "the",
+      "why",
+      "research",
+      "renewable"
+    ],
+    "choices": [
+      "the research paper sheds light  why renewable energy matters",
+      "the research paper sheds light on why renewable energy matters",
+      "the research sheds paper light on why renewable energy matters",
+      "the research paper sheds light on why renewable energy matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the research paper sheds light on why renewable energy matters"
+    ]
+  },
+  {
+    "id": "ecpe-082",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "the funding proposal clearly demonstrates why digital privacy matters.",
+    "keyword": "LIGHT",
+    "answer": "the funding proposal sheds light on why digital privacy matters",
+    "tokens": [
+      "funding",
+      "digital",
+      "proposal",
+      "privacy",
+      "sheds",
+      "matters",
+      "light",
+      "on",
+      "the",
+      "why"
+    ],
+    "choices": [
+      "the funding proposal sheds light  why digital privacy matters",
+      "the funding proposal sheds light on why digital privacy matters",
+      "the funding sheds proposal light on why digital privacy matters",
+      "the funding proposal sheds light on why digital privacy matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the funding proposal sheds light on why digital privacy matters"
+    ]
+  },
+  {
+    "id": "ecpe-083",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "the final report clearly demonstrates why urban development matters.",
+    "keyword": "LIGHT",
+    "answer": "the final report sheds light on why urban development matters",
+    "tokens": [
+      "why",
+      "final",
+      "urban",
+      "report",
+      "development",
+      "sheds",
+      "matters",
+      "light",
+      "on",
+      "the"
+    ],
+    "choices": [
+      "the final report sheds light  why urban development matters",
+      "the final report sheds light on why urban development matters",
+      "the final sheds report light on why urban development matters",
+      "the final report sheds light on why urban development matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the final report sheds light on why urban development matters"
+    ]
+  },
+  {
+    "id": "ecpe-084",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "the safety review clearly demonstrates why public health matters.",
+    "keyword": "LIGHT",
+    "answer": "the safety review sheds light on why public health matters",
+    "tokens": [
+      "on",
+      "the",
+      "why",
+      "safety",
+      "public",
+      "review",
+      "health",
+      "sheds",
+      "matters",
+      "light"
+    ],
+    "choices": [
+      "the safety review sheds light  why public health matters",
+      "the safety review sheds light on why public health matters",
+      "the safety sheds review light on why public health matters",
+      "the safety review sheds light on why public health matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the safety review sheds light on why public health matters"
+    ]
+  },
+  {
+    "id": "ecpe-085",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "the training course clearly demonstrates why language learning matters.",
+    "keyword": "LIGHT",
+    "answer": "the training course sheds light on why language learning matters",
+    "tokens": [
+      "on",
+      "the",
+      "why",
+      "training",
+      "language",
+      "course",
+      "learning",
+      "sheds",
+      "matters",
+      "light"
+    ],
+    "choices": [
+      "the training course sheds light  why language learning matters",
+      "the training course sheds light on why language learning matters",
+      "the training sheds course light on why language learning matters",
+      "the training course sheds light on why language learning matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the training course sheds light on why language learning matters"
+    ]
+  },
+  {
+    "id": "ecpe-086",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "the policy document clearly demonstrates why climate policy matters.",
+    "keyword": "LIGHT",
+    "answer": "the policy document sheds light on why climate policy matters",
+    "tokens": [
+      "light",
+      "on",
+      "the",
+      "why",
+      "policy",
+      "climate",
+      "document",
+      "policy",
+      "sheds",
+      "matters"
+    ],
+    "choices": [
+      "the policy document sheds light  why climate policy matters",
+      "the policy document sheds light on why climate policy matters",
+      "the policy sheds document light on why climate policy matters",
+      "the policy document sheds light on why climate policy matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the policy document sheds light on why climate policy matters"
+    ]
+  },
+  {
+    "id": "ecpe-087",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "the design brief clearly demonstrates why artificial intelligence matters.",
+    "keyword": "LIGHT",
+    "answer": "the design brief sheds light on why artificial intelligence matters",
+    "tokens": [
+      "sheds",
+      "matters",
+      "light",
+      "on",
+      "the",
+      "why",
+      "design",
+      "artificial",
+      "brief",
+      "intelligence"
+    ],
+    "choices": [
+      "the design brief sheds light  why artificial intelligence matters",
+      "the design brief sheds light on why artificial intelligence matters",
+      "the design sheds brief light on why artificial intelligence matters",
+      "the design brief sheds light on why artificial intelligence matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the design brief sheds light on why artificial intelligence matters"
+    ]
+  },
+  {
+    "id": "ecpe-088",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "the case study clearly demonstrates why remote work matters.",
+    "keyword": "LIGHT",
+    "answer": "the case study sheds light on why remote work matters",
+    "tokens": [
+      "study",
+      "work",
+      "sheds",
+      "matters",
+      "light",
+      "on",
+      "the",
+      "why",
+      "case",
+      "remote"
+    ],
+    "choices": [
+      "the case study sheds light  why remote work matters",
+      "the case study sheds light on why remote work matters",
+      "the case sheds study light on why remote work matters",
+      "the case study sheds light on why remote work matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the case study sheds light on why remote work matters"
+    ]
+  },
+  {
+    "id": "ecpe-089",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "build",
+    "source": "the conference plan clearly demonstrates why scientific literacy matters.",
+    "keyword": "LIGHT",
+    "answer": "the conference plan sheds light on why scientific literacy matters",
+    "tokens": [
+      "scientific",
+      "plan",
+      "literacy",
+      "sheds",
+      "matters",
+      "light",
+      "on",
+      "the",
+      "why",
+      "conference"
+    ],
+    "choices": [
+      "the conference plan sheds light  why scientific literacy matters",
+      "the conference plan sheds light on why scientific literacy matters",
+      "the conference sheds plan light on why scientific literacy matters",
+      "the conference plan sheds light on why scientific literacy matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the conference plan sheds light on why scientific literacy matters"
+    ]
+  },
+  {
+    "id": "ecpe-090",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Collocations",
+    "mode": "choice",
+    "source": "the budget forecast clearly demonstrates why cultural heritage matters.",
+    "keyword": "LIGHT",
+    "answer": "the budget forecast sheds light on why cultural heritage matters",
+    "tokens": [
+      "budget",
+      "cultural",
+      "forecast",
+      "heritage",
+      "sheds",
+      "matters",
+      "light",
+      "on",
+      "the",
+      "why"
+    ],
+    "choices": [
+      "the budget forecast sheds light  why cultural heritage matters",
+      "the budget forecast sheds light on why cultural heritage matters",
+      "the budget sheds forecast light on why cultural heritage matters",
+      "the budget forecast sheds light on why cultural heritage matters incorrectly"
+    ],
+    "rule": "shed light on",
+    "explanation": "This collocation means clarify or explain.",
+    "commonError": "Do not alter the fixed pattern: shed light on.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "the budget forecast sheds light on why cultural heritage matters"
+    ]
+  },
+  {
+    "id": "ecpe-091",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Without Maya’s support, the workshop would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Maya’s support the workshop would have failed",
+    "tokens": [
+      "Had",
+      "support",
+      "it",
+      "the",
+      "not",
+      "workshop",
+      "been",
+      "would",
+      "for",
+      "have",
+      "Maya’s",
+      "failed"
+    ],
+    "choices": [
+      "Had it not been  Maya’s support the workshop would have failed",
+      "Had it not been for Maya’s support the workshop would have failed",
+      "did it not been for Maya’s support the workshop would have failed",
+      "Had it  been for Maya’s support the workshop would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Maya’s support the workshop would have failed"
+    ]
+  },
+  {
+    "id": "ecpe-092",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Without Daniel’s support, the ceremony would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Daniel’s support the ceremony would have failed",
+    "tokens": [
+      "Daniel’s",
+      "failed",
+      "Had",
+      "support",
+      "it",
+      "the",
+      "not",
+      "ceremony",
+      "been",
+      "would",
+      "for",
+      "have"
+    ],
+    "choices": [
+      "Had it not been  Daniel’s support the ceremony would have failed",
+      "Had it not been for Daniel’s support the ceremony would have failed",
+      "did it not been for Daniel’s support the ceremony would have failed",
+      "Had it  been for Daniel’s support the ceremony would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Daniel’s support the ceremony would have failed"
+    ]
+  },
+  {
+    "id": "ecpe-093",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Without Sofia’s support, the interview would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Sofia’s support the interview would have failed",
+    "tokens": [
+      "for",
+      "have",
+      "Sofia’s",
+      "failed",
+      "Had",
+      "support",
+      "it",
+      "the",
+      "not",
+      "interview",
+      "been",
+      "would"
+    ],
+    "choices": [
+      "Had it not been  Sofia’s support the interview would have failed",
+      "Had it not been for Sofia’s support the interview would have failed",
+      "did it not been for Sofia’s support the interview would have failed",
+      "Had it  been for Sofia’s support the interview would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Sofia’s support the interview would have failed"
+    ]
+  },
+  {
+    "id": "ecpe-094",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Without Leo’s support, the presentation would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Leo’s support the presentation would have failed",
+    "tokens": [
+      "would",
+      "for",
+      "have",
+      "Leo’s",
+      "failed",
+      "Had",
+      "support",
+      "it",
+      "the",
+      "not",
+      "presentation",
+      "been"
+    ],
+    "choices": [
+      "Had it not been  Leo’s support the presentation would have failed",
+      "Had it not been for Leo’s support the presentation would have failed",
+      "did it not been for Leo’s support the presentation would have failed",
+      "Had it  been for Leo’s support the presentation would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Leo’s support the presentation would have failed"
+    ]
+  },
+  {
+    "id": "ecpe-095",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Without Nina’s support, the inspection would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Nina’s support the inspection would have failed",
+    "tokens": [
+      "inspection",
+      "been",
+      "would",
+      "for",
+      "have",
+      "Nina’s",
+      "failed",
+      "Had",
+      "support",
+      "it",
+      "the",
+      "not"
+    ],
+    "choices": [
+      "Had it not been  Nina’s support the inspection would have failed",
+      "Had it not been for Nina’s support the inspection would have failed",
+      "did it not been for Nina’s support the inspection would have failed",
+      "Had it  been for Nina’s support the inspection would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Nina’s support the inspection would have failed"
+    ]
+  },
+  {
+    "id": "ecpe-096",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Without Omar’s support, the conference would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Omar’s support the conference would have failed",
+    "tokens": [
+      "not",
+      "conference",
+      "been",
+      "would",
+      "for",
+      "have",
+      "Omar’s",
+      "failed",
+      "Had",
+      "support",
+      "it",
+      "the"
+    ],
+    "choices": [
+      "Had it not been  Omar’s support the conference would have failed",
+      "Had it not been for Omar’s support the conference would have failed",
+      "did it not been for Omar’s support the conference would have failed",
+      "Had it  been for Omar’s support the conference would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Omar’s support the conference would have failed"
+    ]
+  },
+  {
+    "id": "ecpe-097",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Without Chloe’s support, the consultation would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Chloe’s support the consultation would have failed",
+    "tokens": [
+      "it",
+      "the",
+      "not",
+      "consultation",
+      "been",
+      "would",
+      "for",
+      "have",
+      "Chloe’s",
+      "failed",
+      "Had",
+      "support"
+    ],
+    "choices": [
+      "Had it not been  Chloe’s support the consultation would have failed",
+      "Had it not been for Chloe’s support the consultation would have failed",
+      "did it not been for Chloe’s support the consultation would have failed",
+      "Had it  been for Chloe’s support the consultation would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Chloe’s support the consultation would have failed"
+    ]
+  },
+  {
+    "id": "ecpe-098",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Without Ethan’s support, the debate would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Ethan’s support the debate would have failed",
+    "tokens": [
+      "Had",
+      "support",
+      "it",
+      "the",
+      "not",
+      "debate",
+      "been",
+      "would",
+      "for",
+      "have",
+      "Ethan’s",
+      "failed"
+    ],
+    "choices": [
+      "Had it not been  Ethan’s support the debate would have failed",
+      "Had it not been for Ethan’s support the debate would have failed",
+      "did it not been for Ethan’s support the debate would have failed",
+      "Had it  been for Ethan’s support the debate would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Ethan’s support the debate would have failed"
+    ]
+  },
+  {
+    "id": "ecpe-099",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "build",
+    "source": "Without Priya’s support, the exhibition would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Priya’s support the exhibition would have failed",
+    "tokens": [
+      "Priya’s",
+      "failed",
+      "Had",
+      "support",
+      "it",
+      "the",
+      "not",
+      "exhibition",
+      "been",
+      "would",
+      "for",
+      "have"
+    ],
+    "choices": [
+      "Had it not been  Priya’s support the exhibition would have failed",
+      "Had it not been for Priya’s support the exhibition would have failed",
+      "did it not been for Priya’s support the exhibition would have failed",
+      "Had it  been for Priya’s support the exhibition would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Priya’s support the exhibition would have failed"
+    ]
+  },
+  {
+    "id": "ecpe-100",
+    "exam": "ECPE",
+    "cefr": "C2",
+    "category": "Conditionals",
+    "mode": "choice",
+    "source": "Without Lucas’s support, the assessment would have failed.",
+    "keyword": "BEEN",
+    "answer": "Had it not been for Lucas’s support the assessment would have failed",
+    "tokens": [
+      "have",
+      "Lucas’s",
+      "failed",
+      "Had",
+      "support",
+      "it",
+      "the",
+      "not",
+      "assessment",
+      "been",
+      "would",
+      "for"
+    ],
+    "choices": [
+      "Had it not been  Lucas’s support the assessment would have failed",
+      "Had it not been for Lucas’s support the assessment would have failed",
+      "did it not been for Lucas’s support the assessment would have failed",
+      "Had it  been for Lucas’s support the assessment would have failed"
+    ],
+    "rule": "Had it not been for",
+    "explanation": "This inverted conditional means “without” in the unreal past.",
+    "commonError": "Do not alter the fixed pattern: Had it not been for.",
+    "miniLesson": "Keep the key word unchanged and preserve the original meaning.",
+    "examples": [
+      "Had it not been for Lucas’s support the assessment would have failed"
+    ]
+  }
+]

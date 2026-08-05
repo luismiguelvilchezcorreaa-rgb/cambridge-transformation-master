@@ -45,7 +45,7 @@
           <article class="metric"><span class="metric-icon blue">✓</span><div><small>ACCURACY</small><strong id="accuracyMetric">0%</strong><em>overall performance</em></div></article>
           <article class="metric"><span class="metric-icon purple">✦</span><div><small>TOTAL XP</small><strong id="xpMetric">0</strong><em>keep building momentum</em></div></article>
           <article class="metric"><span class="metric-icon orange">◷</span><div><small>STUDY TIME</small><strong id="timeMetric">0m</strong><em>focused learning</em></div></article>
-          <article class="metric"><span class="metric-icon green">↗</span><div><small>COMPLETED</small><strong id="completedMetric">0</strong><em><span id="remainingMetric">12</span> remaining in this phase</em></div></article>
+          <article class="metric"><span class="metric-icon green">↗</span><div><small>COMPLETED</small><strong id="completedMetric">0</strong><em><span id="remainingMetric">300</span> exercises remaining</em></div></article>
         </div>
 
         <div class="dashboard-grid">
@@ -55,7 +55,13 @@
       </section>
 
       <section class="view" id="practiceView">
-        <div class="practice-toolbar"><button class="text-button" id="exitPractice">← Exit practice</button><span id="questionCounter">Question 1 of 12</span><div class="practice-progress"><span id="practiceProgress"></span></div><span class="xp-chip">+10 XP</span></div>
+        <article class="practice-filters" aria-label="Practice filters">
+          <label>Exam<select id="examFilter"><option value="ALL">All exams</option><option>CAE</option><option>CPE</option><option>ECPE</option></select></label>
+          <label>Category<select id="categoryFilter"><option value="ALL">All categories</option></select></label>
+          <label>Mode<select id="modeFilter"><option value="ALL">Mixed modes</option><option value="build">Build the Sentence</option><option value="choice">Multiple Choice</option></select></label>
+          <button class="button primary" id="applyFilters">Start selection</button>
+        </article>
+        <div class="practice-toolbar"><button class="text-button" id="exitPractice">← Exit practice</button><span id="questionCounter">Question 1 of 300</span><div class="practice-progress"><span id="practiceProgress"></span></div><span class="xp-chip">+10 XP</span></div>
         <article class="question-card">
           <div class="question-meta"><span class="exam-badge" id="examBadge">CAE</span><span id="cefrBadge">C1</span><span id="modeBadge">BUILD THE SENTENCE</span></div>
           <p class="instruction" id="instruction">Build a sentence with the same meaning.</p>
