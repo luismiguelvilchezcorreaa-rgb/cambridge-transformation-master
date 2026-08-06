@@ -16,6 +16,7 @@
       <nav class="nav" aria-label="Main navigation">
         <button class="nav-item active" data-view="dashboard"><span>⌂</span> Dashboard</button>
         <button class="nav-item" data-view="practice"><span>▶</span> Practice</button>
+        <button class="nav-item" data-view="booster"><span>◆</span> C2 Booster</button>
         <button class="nav-item" data-view="mock"><span>◷</span> Mock Exam</button>
         <button class="nav-item" data-view="statistics"><span>⌁</span> Statistics</button>
         <button class="nav-item" data-view="library"><span>▤</span> Grammar Library</button>
@@ -45,7 +46,7 @@
           <article class="metric"><span class="metric-icon blue">✓</span><div><small>ACCURACY</small><strong id="accuracyMetric">0%</strong><em>overall performance</em></div></article>
           <article class="metric"><span class="metric-icon purple">✦</span><div><small>TOTAL XP</small><strong id="xpMetric">0</strong><em>keep building momentum</em></div></article>
           <article class="metric"><span class="metric-icon orange">◷</span><div><small>STUDY TIME</small><strong id="timeMetric">0m</strong><em>focused learning</em></div></article>
-          <article class="metric"><span class="metric-icon green">↗</span><div><small>COMPLETED</small><strong id="completedMetric">0</strong><em><span id="remainingMetric">300</span> exercises remaining</em></div></article>
+          <article class="metric"><span class="metric-icon green">↗</span><div><small>COMPLETED</small><strong id="completedMetric">0</strong><em><span id="remainingMetric">571</span> exercises remaining</em></div></article>
         </div>
 
         <div class="dashboard-grid">
@@ -54,9 +55,34 @@
         </div>
       </section>
 
+      <section class="view" id="boosterView">
+        <article class="booster-hero">
+          <div><span class="pill">C2 BOOK-BASED ORIGINAL PRACTICE</span><h2>C2 Booster</h2><p>A new interactive pathway built from the linguistic syllabus of your C2 grammar and vocabulary book. Every prompt is original.</p></div>
+          <div class="booster-total"><strong>271</strong><span>Unit 01 items</span></div>
+        </article>
+        <div class="unit-heading"><div><p class="eyebrow">UNIT 01 • ACTIVE</p><h2>Tenses + Communication & Language</h2><p>Master tense control, advanced lexis, phrasal verbs, idioms, transformations and English in Use.</p></div><button class="button primary" id="startFullUnit">Start full unit →</button></div>
+        <div class="booster-tracks" id="boosterTracks"></div>
+        <div class="unit-grid" aria-label="C2 Booster units">
+          <article class="unit-card active-unit"><span>01</span><div><b>Tenses</b><small>Communication & Language</small></div><em>ACTIVE</em></article>
+          <article class="unit-card locked"><span>02</span><div><b>Modal Verbs</b><small>Work & Careers</small></div><em>COMING NEXT</em></article>
+          <article class="unit-card locked"><span>03</span><div><b>Infinitive & -ing Forms</b><small>Arts & Media</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>04</span><div><b>Passive Voice</b><small>Relationships & People</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>05</span><div><b>Reported Speech</b><small>Education & Learning</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>06</span><div><b>Adjectives & Comparisons</b><small>Money & Finance</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>07</span><div><b>Conditionals</b><small>Behaviour & Appearance</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>08</span><div><b>Wishes & Unreal Past</b><small>Body & Health</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>09</span><div><b>Relatives</b><small>Food & Drink</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>10</span><div><b>Nouns</b><small>Travel & Tourism</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>11</span><div><b>Articles & Quantifiers</b><small>Nature & Environment</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>12</span><div><b>Causative Form</b><small>Science & Technology</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>13</span><div><b>Clauses</b><small>Sport & Leisure</small></div><em>LOCKED</em></article>
+          <article class="unit-card locked"><span>14</span><div><b>Inversion & Clefts</b><small>Society & Culture</small></div><em>LOCKED</em></article>
+        </div>
+      </section>
+
       <section class="view" id="practiceView">
         <article class="practice-filters" aria-label="Practice filters">
-          <label>Exam<select id="examFilter"><option value="ALL">All exams</option><option>CAE</option><option>CPE</option><option>ECPE</option></select></label>
+          <label>Exam<select id="examFilter"><option value="ALL">All exams</option><option>CAE</option><option>CPE</option><option>ECPE</option><option value="BOOSTER">C2 Booster</option></select></label>
           <label>Category<select id="categoryFilter"><option value="ALL">All categories</option></select></label>
           <label>Mode<select id="modeFilter"><option value="ALL">Mixed modes</option><option value="build">Build the Sentence</option><option value="choice">Multiple Choice</option></select></label>
           <button class="button primary" id="applyFilters">Start selection</button>
