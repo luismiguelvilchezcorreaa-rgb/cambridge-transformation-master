@@ -69,23 +69,103 @@ const futurePatterns=[
   (i,c)=>({source:`The train ___ at 18:42, according to the timetable.`,choices:['leaves','is leaving yesterday','has left tomorrow','leave'],answer:'leaves',rule:'present simple for timetabled future'}),
   (i,c)=>({source:`Do not call at eleven; ${c.name} ___ the final presentation then.`,choices:['will be giving','gives yesterday','will have gave','has given tomorrow'],answer:'will be giving',rule:'future continuous for an expected action in progress'})
 ];
-for(let i=0;i<20;i++){const x=futurePatterns[i%futurePatterns.length](i,pick(i));unit1Questions.push(q('g5-'+String(i+1).padStart(2,'0'),'Grammar 5 - Future forms','Grammar','Tenses',x.source,x.choices,x.answer,x.rule))}
-for(let i=0;i<10;i++){const x=futurePatterns[(i+3)%futurePatterns.length](i+20,pick(i+3));unit1Questions.push(q('g6-'+String(i+1).padStart(2,'0'),'Grammar 6 - Future in context','Grammar','Tenses',x.source,x.choices,x.answer,x.rule))}
+// These five sets are deliberately hand-authored rather than recycled from a
+// small pattern pool. This keeps long full-unit sessions varied and meaningful.
+function pushGrammarSet(prefix,activity,items){items.forEach(([source,choices,answer,rule],i)=>unit1Questions.push(q(prefix+String(i+1).padStart(2,'0'),activity,'Grammar','Tenses',source,choices,answer,rule)))}
 
-const pastPatterns=[
-  (i,c)=>({source:`By the time ${c.name} arrived, the committee ___ the meeting.`,choices:['had already started','already starts','has started tomorrow','was start'],answer:'had already started',rule:'past perfect for an earlier past action'}),
-  (i,c)=>({source:`While I ___ home, I received the call.`,choices:['was walking','had walk','have walked','am walking tomorrow'],answer:'was walking',rule:'past continuous for background action'}),
-  (i,c)=>({source:`${c.name} ___ in Berlin for five years before moving to Madrid.`,choices:['had been living','is living','has lived tomorrow','was live'],answer:'had been living',rule:'past perfect continuous for duration before a past event'}),
-  (i,c)=>({source:`When we were children, we ___ by the river every summer evening.`,choices:['would play','are playing','have played tomorrow','had playing'],answer:'would play',rule:'would for repeated past habits'}),
-  (i,c)=>({source:`I ___ the document yesterday and sent it to the director.`,choices:['finished','have finished tomorrow','was finish','finish now'],answer:'finished',rule:'past simple with a finished time reference'}),
-  (i,c)=>({source:`At eight last night, the technicians ___ the server.`,choices:['were still repairing','have repaired tomorrow','repair every day','had repair'],answer:'were still repairing',rule:'past continuous at a specific past time'}),
-  (i,c)=>({source:`${c.name} ___ the error only after the client complained.`,choices:['noticed','has noticed next week','was notice','notices yesterday'],answer:'noticed',rule:'past simple for a completed past event'}),
-  (i,c)=>({source:`The roads were flooded because it ___ for hours.`,choices:['had been raining','is raining','has rained tomorrow','rains every day'],answer:'had been raining',rule:'past perfect continuous for past cause and duration'})
-];
-for(let i=0;i<10;i++){const x=pastPatterns[i%pastPatterns.length](i,pick(i));unit1Questions.push(q('g7-'+String(i+1).padStart(2,'0'),'Grammar 7 - Past forms','Grammar','Tenses',x.source,x.choices,x.answer,x.rule))}
-for(let i=0;i<16;i++){const x=pastPatterns[(i+2)%pastPatterns.length](i+10,pick(i+2));unit1Questions.push(q('g8-'+String(i+1).padStart(2,'0'),'Grammar 8 - Past tense choice','Grammar','Tenses',x.source,x.choices,x.answer,x.rule))}
-const mixed=[...presentPatterns,...futurePatterns,...pastPatterns];
-for(let i=0;i<23;i++){const x=mixed[(i*3)%mixed.length](i+40,pick(i+4));unit1Questions.push(q('g9-'+String(i+1).padStart(2,'0'),'Grammar 9 - Mixed tense challenge','Grammar','Tenses',x.source,x.choices,x.answer,x.rule))}
+pushGrammarSet('g5-','Grammar 5 - Future forms',[
+ ['By the end of the quarter, the auditors ___ every regional account.',['will have examined','will examine yesterday','have examined next year','are examining last month'],'will have examined','future perfect for completion before a future deadline'],
+ ['Careful! You ___ that glass if you keep pushing the table.',['are going to knock over','will have knocked over yesterday','knock over every day','have knocked over tomorrow'],'are going to knock over','be going to for an evidence-based prediction'],
+ ['At this hour next Saturday, the expedition ___ the northern ridge.',['will be crossing','crossed tomorrow','has crossed next week','will have cross'],'will be crossing','future continuous for an action in progress at a future time'],
+ ['The keynote address ___ at 10:15 according to the published programme.',['begins','will have begun last night','is begin','has beginning'],'begins','present simple for a scheduled future event'],
+ ['I suspect voters ___ the proposal unless its cost is explained more clearly.',['will reject','are rejecting yesterday','have rejected tomorrow','reject last week'],'will reject','will for prediction based on opinion'],
+ ['We ___ the architect on Tuesday; the appointment was confirmed this morning.',['are seeing','saw next Tuesday','have seen tomorrow','will have saw'],'are seeing','present continuous for a fixed future arrangement'],
+ ['In December, she ___ at the observatory for exactly twenty years.',['will have been working','will work yesterday','has been worked','is working last year'],'will have been working','future perfect continuous for duration up to a future point'],
+ ['The phone is ringing. I ___ it.',['will answer','am answering yesterday','answered tomorrow','have answer'],'will answer','will for a spontaneous decision'],
+ ['The final ferry ___ the island at 21:30 tonight.',['leaves','will have left yesterday','is leave','left tomorrow'],'leaves','present simple for a timetable'],
+ ['Please come after lunch; I ___ candidates all morning.',['will be interviewing','interviewed tomorrow','have interview next week','am interviewed'],'will be interviewing','future continuous for an expected future activity'],
+ ['By the time the museum reopens, conservators ___ the entire west wing.',['will have restored','restore last year','are restored tomorrow','will be restoring yesterday'],'will have restored','future perfect for a completed future result'],
+ ['Those boxes are leaning dangerously; they ___ unless we move them.',['are going to fall','have fallen tomorrow','fall yesterday','will have fallen last week'],'are going to fall','be going to for visible present evidence'],
+ ['This time next month, the research vessel ___ samples in Antarctic waters.',['will be collecting','collected next month','has collecting','will have collected yesterday'],'will be collecting','future continuous for a future activity in progress'],
+ ['The academic year ___ on 7 September, as stated in the university calendar.',['commences','is commencing yesterday','has commenced tomorrow','commence'],'commences','present simple for an official schedule'],
+ ['Do you think autonomous vehicles ___ private car ownership significantly?',['will reduce','reduced tomorrow','are reduce','have reduced next decade'],'will reduce','will for a neutral future prediction'],
+ ['I ___ dinner with the visiting professor tonight; we booked the restaurant yesterday.',['am having','have yesterday','will have had last night','had tomorrow'],'am having','present continuous for a personal future arrangement'],
+ ['By 2040, engineers ___ on the coastal barrier for more than a decade.',['will have been working','worked next year','have been work','will working'],'will have been working','future perfect continuous for accumulated future duration'],
+ ['You look freezing. I ___ the heating up for you.',['will turn','turned tomorrow','am turn','have turned next winter'],'will turn','will for an immediate offer'],
+ ['The application portal ___ automatically at midnight on 30 June.',['closes','closed next month','is close','will have closing'],'closes','present simple for a programmed future event'],
+ ['When you arrive at six, the orchestra ___ its final rehearsal.',['will be finishing','finished tomorrow','has finish','will have been finished yesterday'],'will be finishing','future continuous around a specified future time']
+]);
+
+pushGrammarSet('g6-','Grammar 6 - Future in context',[
+ ['By next spring, the laboratory ___ enough data to publish the longitudinal study.',['will have gathered','gathers yesterday','is gathered last week','will gathering'],'will have gathered','future perfect for an achieved quantity'],
+ ['Judging by the queue outside, the lecture ___ completely full.',['is going to be','was tomorrow','has been next week','will have been yesterday'],'is going to be','be going to for a prediction based on present evidence'],
+ ['At noon tomorrow, the jury ___ the final submissions from both legal teams.',['will be considering','considered next week','has considered tomorrow','is consider'],'will be considering','future continuous for an ongoing future process'],
+ ['The next solar eclipse visible here ___ on 2 August, according to the observatory.',['occurs','occurred tomorrow','is occur','has occurring'],'occurs','present simple for a calendared event'],
+ ['I am convinced the discovery ___ the way we understand early migration.',['will change','changed next decade','is changed yesterday','has changing'],'will change','will for a confident prediction'],
+ ['The dean ___ the student representatives tomorrow afternoon; it is already in her diary.',['is meeting','met tomorrow','has meet','will have met yesterday'],'is meeting','present continuous for an arranged meeting'],
+ ['By July, the satellite ___ measurements continuously for five years.',['will have been transmitting','transmitted next July','is transmit','has transmitted tomorrow'],'will have been transmitting','future perfect continuous for continuous future duration'],
+ ['I have just noticed we are out of printer paper. I ___ some on my way back.',['will buy','bought tomorrow','am bought','have buying'],'will buy','will for a decision made at the moment of speaking'],
+ ['The selection panel ___ its decision at 4 p.m. on the official livestream.',['announces','announced tomorrow','has announce','is announced yesterday'],'announces','present simple for an announced schedule'],
+ ['Do not expect an immediate reply tonight; the delegates ___ across three time zones.',['will be travelling','travelled tomorrow','have travelled next week','will have travel'],'will be travelling','future continuous for a likely future situation']
+]);
+
+pushGrammarSet('g7-','Grammar 7 - Past forms',[
+ ['The guests had already left when the fire alarm ___.',['went off','has gone off tomorrow','was going off next week','goes off yesterday'],'went off','past simple for a completed event after an earlier past action'],
+ ['I ___ through the archive when I came across the missing letter.',['was looking','have looked yesterday','had look','am looking last night'],'was looking','past continuous for background activity'],
+ ['Before the merger, the two firms ___ independently for nearly forty years.',['had been operating','are operating yesterday','have operated tomorrow','were operate'],'had been operating','past perfect continuous for duration before a past change'],
+ ['Every winter during university, we ___ a cabin near the national park.',['would rent','have rented tomorrow','are renting then','had renting'],'would rent','would for a repeated past habit'],
+ ['The committee ___ the revised code at its meeting last Thursday.',['approved','has approved last Thursday','was approve','approves yesterday'],'approved','past simple with a finished past time'],
+ ['At midnight, rescue teams ___ the hillside despite the heavy rain.',['were still searching','have searched tomorrow','search every night','had search'],'were still searching','past continuous at a particular past moment'],
+ ['Only after opening the envelope did she realise that she ___ the wrong documents.',['had brought','brings yesterday','has brought tomorrow','was bring'],'had brought','past perfect for an action before a later realisation'],
+ ['The ground was unusually dry because the region ___ very little rain for months.',['had been receiving','receives tomorrow','is receiving last year','has receive'],'had been receiving','past perfect continuous for an earlier ongoing cause'],
+ ['As the chairperson ___ the results, several reporters rushed towards the exit.',['was announcing','has announced tomorrow','announces last night','had announce'],'was announcing','past continuous interrupted by another event'],
+ ['She ___ three different posts before she eventually became department head.',['had held','holds yesterday','has held next year','was hold'],'had held','past perfect for completed experiences before a past milestone']
+]);
+
+pushGrammarSet('g8-','Grammar 8 - Past tense choice',[
+ ['By the time the ambulance reached the village, local volunteers ___ the injured climber.',['had already found','already find','have found tomorrow','were find'],'had already found','past perfect for prior completion'],
+ ['While the researchers ___ the cave, their radio signal suddenly disappeared.',['were mapping','had mapped tomorrow','map yesterday','have been mapping next week'],'were mapping','past continuous for an interrupted past action'],
+ ['She was exhausted because she ___ witness statements since dawn.',['had been taking','takes yesterday','has taken tomorrow','was take'],'had been taking','past perfect continuous for preceding duration'],
+ ['As teenagers, my cousins ___ for hours about which band was better.',['would argue','are arguing yesterday','have argued tomorrow','had arguing'],'would argue','would for characteristic repeated past behaviour'],
+ ['The gallery ___ the painting in 1998 and kept it in storage for a decade.',['acquired','has acquired in 1998','was acquire','acquires last year'],'acquired','past simple with a definite finished date'],
+ ['At the moment the power failed, surgeons ___ an emergency operation.',['were performing','have performed yesterday','perform tomorrow','had perform'],'were performing','past continuous for an activity in progress'],
+ ['I did not recognise the street because developers ___ most of the old buildings.',['had demolished','demolish tomorrow','have demolished next year','were demolish'],'had demolished','past perfect for a change preceding another past event'],
+ ['Her hands were covered in clay because she ___ pottery all afternoon.',['had been making','makes yesterday','has made tomorrow','was made'],'had been making','past perfect continuous explaining a past result'],
+ ['The witness ___ the suspect immediately when police showed her the photographs.',['identified','has identified tomorrow','was identify','identifies last night'],'identified','past simple for a single completed action'],
+ ['When we arrived at the theatre, the audience ___ quietly for the doors to open.',['was waiting','has waited tomorrow','had wait','waits yesterday'],'was waiting','past continuous for a background state in progress'],
+ ['He finally understood the reference after I ___ him the historical context.',['had explained','explain yesterday','have explained tomorrow','was explain'],'had explained','past perfect for an earlier explanation'],
+ ['The river burst its banks after it ___ continuously for almost two days.',['had been raining','rains last night','has rained tomorrow','was rain'],'had been raining','past perfect continuous for a sustained past cause'],
+ ['In those days, the local newspaper ___ an evening edition every weekday.',['used to publish','is publishing then','has published tomorrow','had publishing'],'used to publish','used to for a discontinued past routine'],
+ ['During the interview, I noticed that the candidate ___ eye contact whenever salary was mentioned.',['was avoiding','has avoided next week','avoids yesterday','had avoid'],'was avoiding','past continuous for repeated behaviour within a past scene'],
+ ['The laboratory closed temporarily after inspectors ___ several safety breaches.',['had discovered','discover tomorrow','have discovered next month','were discover'],'had discovered','past perfect for discovery preceding a past consequence'],
+ ['She ___ the final paragraph, saved the file and shut down her laptop.',['rewrote','has rewritten tomorrow','was rewrite','rewrites yesterday'],'rewrote','past simple for a sequence of completed past actions']
+]);
+
+pushGrammarSet('g9-','Grammar 9 - Mixed tense challenge',[
+ ['This semester, the department ___ a pilot mentoring scheme for first-year students.',['is running','ran tomorrow','has run next year','runs yesterday'],'is running','present continuous for a temporary current project'],
+ ['I ___ that author for years, but I have never attended one of her lectures.',['have admired','am admiring since 2020','admired tomorrow','have been admire'],'have admired','present perfect with a continuing state'],
+ ['The conference programme ___ three parallel workshops after lunch tomorrow.',['includes','is included yesterday','has included next year','include'],'includes','present simple for an official programme'],
+ ['You seem relieved. ___ for the scholarship results all morning?',['Have you been waiting','Do you wait yesterday','Did you waiting','Are you waited'],'Have you been waiting','present perfect continuous for recent duration'],
+ ['I ___ why the board is cautious; the legal risk is substantial.',['understand','am understanding','have been understood','understood tomorrow'],'understand','present simple with a stative verb'],
+ ['Recent evidence ___ that the settlement is centuries older than previously believed.',['suggests','is suggesting yesterday','has suggest','suggested tomorrow'],'suggests','present simple for reporting evidence'],
+ ['The technicians ___ the network since six this morning and have not located the fault yet.',['have been testing','tested tomorrow','are tested','test yesterday'],'have been testing','present perfect continuous for an unfinished current activity'],
+ ['We ___ five candidates so far today, with three still to come.',['have interviewed','interview tomorrow','are interviewed yesterday','had interviewing'],'have interviewed','present perfect for completed quantity in unfinished time'],
+ ['By the time you read this message, I ___ the country.',['will have left','leave yesterday','am left tomorrow','have leaving'],'will have left','future perfect for completion before a future reference point'],
+ ['See how quickly the water is rising? The footpath ___ flooded soon.',['is going to be','was tomorrow','has been yesterday','is being last week'],'is going to be','be going to based on direct evidence'],
+ ['At nine tomorrow evening, the crew ___ the final scene on location.',['will be filming','filmed tomorrow','has film','will have filmed yesterday'],'will be filming','future continuous at a specified future time'],
+ ['The awards ceremony ___ at 7:30 and doors open an hour earlier.',['starts','started tomorrow','has start','is start yesterday'],'starts','present simple for a scheduled event'],
+ ['I expect the committee ___ further evidence before changing its recommendation.',['will request','requested tomorrow','has requested next year','is request'],'will request','will for an expected future action'],
+ ['We ___ the new tenants on Friday evening; everything is already arranged.',['are meeting','met next Friday','have meeting','will have met yesterday'],'are meeting','present continuous for a future arrangement'],
+ ['When the curator unlocked the cabinet, she discovered that moisture ___ the lower shelf.',['had damaged','damages tomorrow','has damaged next month','was damage'],'had damaged','past perfect for an earlier hidden event'],
+ ['I ___ notes when the lecturer suddenly asked me a direct question.',['was taking','have taken tomorrow','had take','am taking yesterday'],'was taking','past continuous for an interrupted background action'],
+ ['Before changing careers, he ___ as a civil engineer for more than a decade.',['had been working','is working yesterday','has worked tomorrow','was work'],'had been working','past perfect continuous for duration before a past change'],
+ ['As children, we ___ the same old detective film whenever it was shown on television.',['would watch','are watching then','have watched tomorrow','had watching'],'would watch','would for a repeated past habit'],
+ ['The university ___ the archive to the public for the first time in 2012.',['opened','has opened in 2012','was open tomorrow','opens last year'],'opened','past simple for a dated completed event'],
+ ['At 3 a.m., firefighters ___ to contain the blaze on the upper floor.',['were still trying','have tried tomorrow','try next week','had try'],'were still trying','past continuous at a precise past time'],
+ ['She ___ the discrepancy only after comparing the two original datasets.',['noticed','has noticed tomorrow','was notice','notices last month'],'noticed','past simple for a completed discovery'],
+ ['The path was slippery because snow ___ throughout the previous night.',['had been falling','falls tomorrow','has fallen next week','was fall'],'had been falling','past perfect continuous for an earlier cause'],
+ ['By next October, I ___ this longitudinal study for exactly four years.',['will have been conducting','conducted next year','am conducted','have conduct tomorrow'],'will have been conducting','future perfect continuous for duration up to a future point']
+]);
 
 // VOCABULARY - Communication & Language (118 items).
 const communicationNouns=[
@@ -121,7 +201,15 @@ const kwPatterns=[
  (i,c)=>({source:`The supervisor dislikes staff leaving before the meeting ends.`,keyword:'APPROVE',answer:`The supervisor does not approve of staff leaving before the meeting ends`,rule:'approve of + gerund'}),
  (i,c)=>({source:`Visitors cannot see the archive documents before 2030.`,keyword:'ACCESS',answer:`Visitors cannot have access to the archive documents before 2030`,rule:'have access to'}),
  (i,c)=>({source:`You should consider that ${c.name} has only just joined the team.`,keyword:'ALLOWANCES',answer:`You should make allowances for the fact that ${c.name} has only just joined the team`,rule:'make allowances for'}),
- (i,c)=>({source:`Only ${c.name} found a workable solution.`,keyword:'SUCCEEDED',answer:`Only ${c.name} succeeded in finding a workable solution`,rule:'succeed in + gerund'})
+ (i,c)=>({source:`Only ${c.name} found a workable solution.`,keyword:'SUCCEEDED',answer:`Only ${c.name} succeeded in finding a workable solution`,rule:'succeed in + gerund'}),
+ (i,c)=>({source:`The spokesperson refused to reveal who had supplied the confidential figures.`,keyword:'DRAWN',answer:`The spokesperson would not be drawn on who had supplied the confidential figures`,rule:'be drawn on = be persuaded to discuss'}),
+ (i,c)=>({source:`The editor said the factual error was entirely her responsibility.`,keyword:'BLAME',answer:`The editor took the blame for the factual error`,rule:'take the blame for'}),
+ (i,c)=>({source:`I only understood the seriousness of the warning several days later.`,keyword:'DAWNED',answer:`It only dawned on me several days later how serious the warning was`,rule:'it dawns on someone that/how'}),
+ (i,c)=>({source:`The negotiators are trying to reduce the differences between the two positions.`,keyword:'BRIDGE',answer:`The negotiators are trying to bridge the gap between the two positions`,rule:'bridge the gap between'}),
+ (i,c)=>({source:`The chairperson deliberately avoided discussing the funding problem.`,keyword:'STEERED',answer:`The chairperson steered clear of discussing the funding problem`,rule:'steer clear of + gerund'}),
+ (i,c)=>({source:`Her explanation was so clear that nobody could misunderstand the central point.`,keyword:'ROOM',answer:`Her explanation left no room for misunderstanding the central point`,rule:'leave no room for'}),
+ (i,c)=>({source:`The two witnesses described the incident in completely different ways.`,keyword:'ODDS',answer:`The two witnesses were at odds over how the incident had happened`,rule:'be at odds over'}),
+ (i,c)=>({source:`The unexpected criticism did not make the researcher abandon her argument.`,keyword:'DETERRED',answer:`The researcher was not deterred from pursuing her argument by the unexpected criticism`,rule:'deter someone from + gerund'})
 ];
 for(let i=0;i<18;i++){const x=kwPatterns[i%kwPatterns.length](i,pick(i+2));unit1Questions.push(q('v8-'+String(i+1).padStart(2,'0'),'Vocabulary 8 - Key word transformations','Vocabulary','Key Word Transformations',x.source,[],x.answer,x.rule,x.keyword))}
 

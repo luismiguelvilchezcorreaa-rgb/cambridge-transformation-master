@@ -10,3 +10,7 @@
 @media(max-width:560px){.practice-filters{grid-template-columns:1fr}.practice-filters .button{grid-column:auto}}
 @media(max-width:800px){.booster-hero{padding:28px}.booster-total{display:none}.unit-heading{align-items:flex-start;flex-direction:column}.booster-tracks{grid-template-columns:1fr}.booster-track p{min-height:0}.unit-grid{grid-template-columns:1fr}}
 @media(max-width:560px){.booster-hero h2{font-size:30px}.unit-card{grid-template-columns:40px 1fr}.unit-card em{display:none}}
+
+/* Vocabulary bilingual glosses: English stays primary; Spanish is a compact aid. */
+.choice-card.has-translation{display:flex;align-items:center;justify-content:space-between;gap:24px}.choice-english{font-weight:700}.choice-translation{color:var(--muted);font-size:13px;text-align:right}.choice-translation small{display:inline-block;margin-right:7px;padding:2px 5px;border-radius:5px;background:color-mix(in srgb,var(--primary) 12%,var(--surface));color:var(--primary);font-size:9px;font-weight:900;letter-spacing:.08em}
+@media(max-width:560px){.choice-card.has-translation{align-items:flex-start;flex-direction:column;gap:5px}.choice-translation{text-align:left;font-size:12px}}
