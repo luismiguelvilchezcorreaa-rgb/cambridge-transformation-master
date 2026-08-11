@@ -49,4 +49,12 @@ Offline-first advanced English transformation trainer for CAE, CPE and ECPE.
 - Key word transformations, word formation, multiple-choice cloze and open cloze practice
 - Total C2 Booster bank: 1,017 items; total platform bank: 1,317 interactive exercises
 
+## C2 Booster - Unit 05
+
+- 250 original C2 activities: 80 Grammar, 129 Education & Learning Vocabulary and 41 English in Use
+- Reported statements, questions, commands, reference changes and advanced reporting-verb patterns
+- Education vocabulary, phrasal verbs, collocations, idioms and fixed expressions with contextual Spanish glosses
+- Deterministically balanced answer placement and plausible same-field distractors
+- Total C2 Booster bank: 1,267 items; total platform bank: 1,567 interactive exercises
+
 Open `index.html` through a local static server. On GitHub Pages, all modules and JSON question banks load automatically.
