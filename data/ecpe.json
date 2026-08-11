@@ -756,8 +756,8 @@
     "choices": [
       "Daniel stopped team the from entering the science museum",
       "Daniel stopped the team from entering the science museum",
-      "Daniel stopped the team from entering the science museum incorrectly",
-      "Daniel stopped the team from entering the science museum incorrectly"
+      "Daniel prevented the team to enter the science museum",
+      "Daniel stopped the team against entering the science museum"
     ],
     "rule": "stop someone from + gerund",
     "explanation": "Use an object followed by “from” and an -ing form.",
@@ -824,8 +824,8 @@
     "choices": [
       "Leo stopped team the from entering the university campus",
       "Leo stopped the team from entering the university campus",
-      "Leo stopped the team from entering the university campus incorrectly",
-      "Leo stopped the team from entering the university campus incorrectly"
+      "Leo prevented the team to enter the university campus",
+      "Leo stopped the team against entering the university campus"
     ],
     "rule": "stop someone from + gerund",
     "explanation": "Use an object followed by “from” and an -ing form.",
@@ -892,8 +892,8 @@
     "choices": [
       "Omar stopped team the from entering the community hall",
       "Omar stopped the team from entering the community hall",
-      "Omar stopped the team from entering the community hall incorrectly",
-      "Omar stopped the team from entering the community hall incorrectly"
+      "Omar prevented the team to enter the community hall",
+      "Omar stopped the team against entering the community hall"
     ],
     "rule": "stop someone from + gerund",
     "explanation": "Use an object followed by “from” and an -ing form.",
@@ -960,8 +960,8 @@
     "choices": [
       "Ethan stopped team the from entering the local archive",
       "Ethan stopped the team from entering the local archive",
-      "Ethan stopped the team from entering the local archive incorrectly",
-      "Ethan stopped the team from entering the local archive incorrectly"
+      "Ethan prevented the team to enter the local archive",
+      "Ethan stopped the team against entering the local archive"
     ],
     "rule": "stop someone from + gerund",
     "explanation": "Use an object followed by “from” and an -ing form.",
@@ -1028,8 +1028,8 @@
     "choices": [
       "Lucas stopped team the from entering the council building",
       "Lucas stopped the team from entering the council building",
-      "Lucas stopped the team from entering the council building incorrectly",
-      "Lucas stopped the team from entering the council building incorrectly"
+      "Lucas prevented the team to enter the council building",
+      "Lucas stopped the team against entering the council building"
     ],
     "rule": "stop someone from + gerund",
     "explanation": "Use an object followed by “from” and an -ing form.",
