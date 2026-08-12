@@ -73,4 +73,12 @@ Offline-first advanced English transformation trainer for CAE, CPE and ECPE.
 - Unique prompts, plausible distractors, balanced answer placement and strict-module validation
 - Total C2 Booster bank: 1,825 items; total platform bank: 2,125 interactive exercises
 
+## C2 Booster - Unit 08
+
+- 264 original C2 activities: 90 Grammar, 142 Body & Health Vocabulary and 32 English in Use
+- Wish, if only, would rather/sooner, it is time, suppose, imagine, as if and advanced unreal-past patterns
+- Anatomy, conditions, medical terms, phrasal verbs, collocations and health idioms with Spanish glosses
+- Unique prompts, balanced answer placement, strong distractors and strict-module validation
+- Total C2 Booster bank: 2,089 items; total platform bank: 2,389 interactive exercises
+
 Open `index.html` through a local static server. On GitHub Pages, all modules and JSON question banks load automatically.
