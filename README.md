@@ -65,4 +65,12 @@ Offline-first advanced English transformation trainer for CAE, CPE and ECPE.
 - Strict-module validation, unique prompts and deterministically balanced answer placement
 - Total C2 Booster bank: 1,567 items; total platform bank: 1,867 interactive exercises
 
+## C2 Booster - Unit 07
+
+- 258 original C2 activities: 100 Grammar, 126 Behaviour & Appearance Vocabulary and 32 English in Use
+- Real, hypothetical, mixed and inverted conditionals, plus alternatives to `if`
+- Behaviour and appearance vocabulary, phrasal verbs, prepositions, idioms and transformations with Spanish glosses
+- Unique prompts, plausible distractors, balanced answer placement and strict-module validation
+- Total C2 Booster bank: 1,825 items; total platform bank: 2,125 interactive exercises
+
 Open `index.html` through a local static server. On GitHub Pages, all modules and JSON question banks load automatically.
