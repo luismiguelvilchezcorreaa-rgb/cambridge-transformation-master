@@ -81,4 +81,11 @@ Offline-first advanced English transformation trainer for CAE, CPE and ECPE.
 - Unique prompts, balanced answer placement, strong distractors and strict-module validation
 - Total C2 Booster bank: 2,089 items; total platform bank: 2,389 interactive exercises
 
+## C2 Booster - Unit 09
+
+- 242 original C2 activities: 80 Grammar, 130 Food & Drink Vocabulary and 32 English in Use
+- Defining, non-defining, formal, quantified and reduced relative clauses
+- Culinary vocabulary, cooking verbs, phrasal verbs, collocations and idioms with Spanish glosses
+- Total C2 Booster bank: 2,331 items; total platform bank: 2,631 interactive exercises
+
 Open `index.html` through a local static server. On GitHub Pages, all modules and JSON question banks load automatically.
