@@ -4,6 +4,7 @@ import {unit2Questions,unit2Sections} from './booster-unit2.js';
 import {unit3Questions,unit3Sections} from './booster-unit3.js';
 import {unit4Questions,unit4Sections} from './booster-unit4.js';
 import {unit5Questions,unit5Sections} from './booster-unit5.js';
+import {unit6Questions,unit6Sections} from './booster-unit6.js';
 import {spanishGloss} from './translations.js';
 import {loadProgress,saveProgress,recordAnswer,resetAll} from './progress.js';
 import {renderDashboard,renderStatistics} from './statistics.js';
@@ -11,7 +12,7 @@ import {renderDashboard,renderStatistics} from './statistics.js';
 let questions=[],allQuestions=[],sessionQuestions=[],state=loadProgress(),currentIndex=0,currentSelection=[],selectedChoice='',questionStarted=Date.now(),answered=false;
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 
-async function init(){applyPreferences();bindNavigation();bindPractice();try{questions=await loadQuestions();allQuestions=[...questions,...unit1Questions,...unit2Questions,...unit3Questions,...unit4Questions,...unit5Questions];sessionQuestions=[...allQuestions];populateFilters();renderLibrary();renderBooster();renderDashboard(state,allQuestions.length);showView(location.hash.slice(1)||'dashboard');window.addEventListener('hashchange',()=>showView(location.hash.slice(1)||'dashboard'))}catch(error){document.querySelector('.main').innerHTML=`<section class="empty-view active"><h2>Question bank unavailable</h2><p>${error.message}. Make sure the data folder is published.</p></section>`}}
+async function init(){applyPreferences();bindNavigation();bindPractice();try{questions=await loadQuestions();allQuestions=[...questions,...unit1Questions,...unit2Questions,...unit3Questions,...unit4Questions,...unit5Questions,...unit6Questions];sessionQuestions=[...allQuestions];populateFilters();renderLibrary();renderBooster();renderDashboard(state,allQuestions.length);showView(location.hash.slice(1)||'dashboard');window.addEventListener('hashchange',()=>showView(location.hash.slice(1)||'dashboard'))}catch(error){document.querySelector('.main').innerHTML=`<section class="empty-view active"><h2>Question bank unavailable</h2><p>${error.message}. Make sure the data folder is published.</p></section>`}}
 function bindNavigation(){$$('.nav-item').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.view)));$$('[data-action]').forEach(b=>b.addEventListener('click',()=>{const a=b.dataset.action;navigate(a==='continue'?'practice':a)}));$('#menuButton').addEventListener('click',()=>$('#sidebar').classList.toggle('open'));$('#themeToggle').addEventListener('click',toggleTheme);$('#soundToggle').addEventListener('click',toggleSound);$('#exitPractice').addEventListener('click',()=>navigate('dashboard'));$('#resetProgress').addEventListener('click',()=>{if(confirm('Reset all locally saved progress?')){state=resetAll();renderDashboard(state,questions.length);renderStatistics(state);toast('Progress reset')}})}
 function navigate(view){location.hash=view;showView(view)}
 function showView(view){const valid=['dashboard','practice','booster','mock','statistics','library'].includes(view)?view:'dashboard';$$('.view').forEach(v=>v.classList.toggle('active',v.id===`${valid}View`));$$('.nav-item').forEach(b=>b.classList.toggle('active',b.dataset.view===valid));$('#pageTitle').textContent={dashboard:'Dashboard',practice:'Practice Session',booster:'C2 Booster',mock:'Mock Exam',statistics:'Statistics',library:'Grammar Library'}[valid];$('#sidebar').classList.remove('open');if(valid==='practice')renderQuestion();if(valid==='statistics')renderStatistics(state);if(valid==='dashboard')renderDashboard(state,allQuestions.length)}
@@ -41,17 +42,20 @@ function renderBooster(){
   $('#boosterTracks3').innerHTML=unit3Sections.map(section=>`<article class="booster-track"><span>${section.count} ITEMS</span><h3>${section.track}</h3><p>${section.description}</p><button class="button primary" data-booster3-track="${section.track}">Practise ${section.track}</button></article>`).join('');
   $('#boosterTracks4').innerHTML=unit4Sections.map(section=>`<article class="booster-track"><span>${section.count} ITEMS</span><h3>${section.track}</h3><p>${section.description}</p><button class="button primary" data-booster4-track="${section.track}">Practise ${section.track}</button></article>`).join('');
   $('#boosterTracks5').innerHTML=unit5Sections.map(section=>`<article class="booster-track"><span>${section.count} ITEMS</span><h3>${section.track}</h3><p>${section.description}</p><button class="button primary" data-booster5-track="${section.track}">Practise ${section.track}</button></article>`).join('');
+  $('#boosterTracks6').innerHTML=unit6Sections.map(section=>`<article class="booster-track"><span>${section.count} ITEMS</span><h3>${section.track}</h3><p>${section.description}</p><button class="button primary" data-booster6-track="${section.track}">Practise ${section.track}</button></article>`).join('');
   $$('[data-booster-track]').forEach(button=>button.onclick=()=>startBooster(button.dataset.boosterTrack,'01'));
   $$('[data-booster2-track]').forEach(button=>button.onclick=()=>startBooster(button.dataset.booster2Track,'02'));
   $$('[data-booster3-track]').forEach(button=>button.onclick=()=>startBooster(button.dataset.booster3Track,'03'));
   $$('[data-booster4-track]').forEach(button=>button.onclick=()=>startBooster(button.dataset.booster4Track,'04'));
   $$('[data-booster5-track]').forEach(button=>button.onclick=()=>startBooster(button.dataset.booster5Track,'05'));
+  $$('[data-booster6-track]').forEach(button=>button.onclick=()=>startBooster(button.dataset.booster6Track,'06'));
   $('#startFullUnit').onclick=()=>startBooster('ALL','01');
   $('#startFullUnit2').onclick=()=>startBooster('ALL','02');
   $('#startFullUnit3').onclick=()=>startBooster('ALL','03');
   $('#startFullUnit4').onclick=()=>startBooster('ALL','04');
   $('#startFullUnit5').onclick=()=>startBooster('ALL','05');
+  $('#startFullUnit6').onclick=()=>startBooster('ALL','06');
 }
-function startBooster(track,unit='01'){const bank={'01':unit1Questions,'02':unit2Questions,'03':unit3Questions,'04':unit4Questions,'05':unit5Questions}[unit]||unit1Questions;sessionQuestions=track==='ALL'?[...bank]:bank.filter(q=>q.track===track);currentIndex=0;navigate('practice');toast(`${sessionQuestions.length} Unit ${unit} exercises loaded`)}
+function startBooster(track,unit='01'){const bank={'01':unit1Questions,'02':unit2Questions,'03':unit3Questions,'04':unit4Questions,'05':unit5Questions,'06':unit6Questions}[unit]||unit1Questions;sessionQuestions=track==='ALL'?[...bank]:bank.filter(q=>q.track===track);currentIndex=0;navigate('practice');toast(`${sessionQuestions.length} Unit ${unit} exercises loaded`)}
 function toggleTheme(){state.theme=state.theme==='dark'?'light':'dark';applyPreferences();saveProgress(state)}function toggleSound(){state.sound=!state.sound;applyPreferences();saveProgress(state)}function applyPreferences(){document.documentElement.dataset.theme=state.theme;$('#themeToggle').innerHTML=`${state.theme==='dark'?'☀':'☾'} <span>${state.theme==='dark'?'Light':'Dark'} mode</span>`;$('#soundToggle').innerHTML=`${state.sound?'♫':'⊘'} <span>Sound ${state.sound?'on':'off'}</span>`}function playTone(correct){if(!state.sound)return;try{const c=new AudioContext(),o=c.createOscillator(),g=c.createGain();o.connect(g);g.connect(c.destination);o.frequency.value=correct?620:180;g.gain.setValueAtTime(.05,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.18);o.start();o.stop(c.currentTime+.18)}catch{}}function toast(message){const t=$('#toast');t.textContent=message;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
 init();

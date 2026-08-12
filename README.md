@@ -57,4 +57,12 @@ Offline-first advanced English transformation trainer for CAE, CPE and ECPE.
 - Deterministically balanced answer placement and plausible same-field distractors
 - Total C2 Booster bank: 1,267 items; total platform bank: 1,567 interactive exercises
 
+## C2 Booster - Unit 06
+
+- 300 original C2 activities: 156 Grammar, 113 Money & Finance Vocabulary and 31 English in Use
+- Adjective formation and order, participial and compound adjectives, adverb form and position, and advanced comparisons
+- Financial vocabulary, phrasal verbs, collocations, idioms and fixed expressions with contextual Spanish glosses
+- Strict-module validation, unique prompts and deterministically balanced answer placement
+- Total C2 Booster bank: 1,567 items; total platform bank: 1,867 interactive exercises
+
 Open `index.html` through a local static server. On GitHub Pages, all modules and JSON question banks load automatically.
