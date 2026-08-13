@@ -88,4 +88,12 @@ Offline-first advanced English transformation trainer for CAE, CPE and ECPE.
 - Culinary vocabulary, cooking verbs, phrasal verbs, collocations and idioms with Spanish glosses
 - Total C2 Booster bank: 2,331 items; total platform bank: 2,631 interactive exercises
 
+## C2 Booster - Unit 10
+
+- 240 original C2 activities: 80 Grammar, 128 Travel & Tourism Vocabulary and 32 English in Use
+- Countable and uncountable nouns, irregular plurals, agreement, collective nouns, possessives, noun phrases and nominalisation
+- Air travel, tourism, accommodation, phrasal verbs, collocations and idioms with contextual Spanish glosses
+- Unique prompts, plausible distractors, balanced answer placement and strict-module validation
+- Total C2 Booster bank: 2,571 items; total platform bank: 2,871 interactive exercises
+
 Open `index.html` through a local static server. On GitHub Pages, all modules and JSON question banks load automatically.
